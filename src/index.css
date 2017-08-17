@@ -1,0 +1,189 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+html, body, .root {
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+body, .app {
+  background: #fff;
+}
+
+.app {
+  display: flex;
+}
+
+/*#nav {
+  display: flex;
+  background: linear-gradient(160deg, #02CCBA 0%, #AA7ECD 100%);
+  height: 100%;
+  flex-flow: column;
+  align-items: stretch;
+  width: 12%;
+}*/
+
+#nav {
+  width: 20%;
+  display: flex;
+  flex-shrink: 0;
+  background: #2e3d49;
+  border-left: thin solid gainsboro;
+  flex-direction: column;
+  overflow-y: scroll;
+  justify-content: column;
+  height: 100vh;
+  order: -1;
+}
+
+#nav > ul {
+  padding: 0 10px 0 20px;
+  list-style: none;
+}
+
+#nav > ul > li {
+  border-bottom: thin solid #AA7ECD;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+#home {
+  display: flex;
+  background: #fff;
+  order: 1;
+  -ms-align-items: flex-end;
+  align-items: flex-end;
+  width: 100vw;
+  flex-flow: row;
+}
+
+#home header {
+  position: relative;
+}
+
+#stripes {
+    width: 100vw;
+    height: 100%;
+    overflow: hidden;
+    transform: skewY(-12deg);
+    transform-origin: 0;
+    background: linear-gradient(150deg,#53f 15%,#05d5ff 70%,#a6ffcb 94%);
+}
+
+#stripes, #stripes span {
+    position: absolute;
+}
+
+@media (min-width: 880px) {
+  #stripes :nth-child(1) {
+      width: 33.33333%;
+      left: -16.66666%;
+      background: #53f;
+   }
+}
+
+@media (min-width: 670px) {
+  #stripes :nth-child(1) {
+      top: 0;
+      background: #4750ff;
+  }
+}
+
+@media (min-width: 880px) {
+  #stripes :nth-child(2) {
+      width: 33.33333%;
+      top: 0;
+      left: 16.66666%;
+      right: auto;
+      background: #4553ff;
+  }
+}
+
+@media (min-width: 670px) {
+  #stripes :nth-child(2) {
+      width: 16.66667%;
+      top: 300px;
+      bottom: auto;
+      background: #0dcfff;
+  }
+}
+
+@media (min-width: 880px) {
+  #stripes :nth-child(3) {
+      width: 33.33333%;
+      left: 49.99999%;
+      bottom: auto;
+      background: #4f40ff;
+  }
+}
+
+@media (min-width: 670px) {
+  #stripes :nth-child(3) {
+      width: 33.33333%;
+      right: auto;
+      background: #11bdff;
+  }
+}
+
+@media (min-width: 880px) {
+  #stripes :nth-child(4) {
+      width: 33.33333%;
+      top: 380px;
+      right: -16.66666%;
+      background: #25ddf5;
+  }
+}
+
+@media (min-width: 880px) {
+  #stripes :nth-child(5) {
+      width: 33.33333%;
+      bottom: 0;
+      background: #1fa2ff;
+  }
+}
+
+@media (min-width: 880px) {
+  #stripes span {
+      height: 190px;
+  }
+}
+
+
+@media (min-width: 880px) {
+
+#intro {
+    height: 760px;
+  }
+}
+
+@media (min-width: 670px) {
+#intro {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 600px;
+  }
+}
+
+#intro {
+    position: relative;
+}
+
+@media (min-width: 670px) {
+#intro .container-lg {
+    margin-top: -7%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+}
