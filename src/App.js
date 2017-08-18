@@ -32,17 +32,23 @@ const routes = [
 
 const SideNav = () => (
   <Router>
-    <div style={{ display: 'flex' }}>
-      <div id="nav">
-        <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="about">About</Link></li>
-          <li><Link to="/work">Work</Link></li>
-          <li><Link to="/projects">Projects</Link></li>
-          <li><a href="mailto:wmitbrodt@gmail.com">Say Hi!</a></li>
-        </ul>
+    <div>
+      <div>
+        <div id="menuToggle">
+          <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+              <ul id="menu">
+                <Link to="/"><li>Home</li></Link>
+                <Link to="about"><li>About Me</li></Link>
+                <Link to="/work"><li>My Work</li></Link>
+                <Link to="/projects"><li>Some Projects</li></Link>
+                <a href="mailto:wmitbrodt@gmail.com"><li>Say Hi 👋🏼</li></a>
+              </ul>
+        </div>
 
-        {routes.map((route, index) => (
+        {/* {routes.map((route, index) => (
           // You can render a <Route> in as many places
           // as you want in your app. It will render along
           // with any other <Route>s that also match the URL.
@@ -56,7 +62,7 @@ const SideNav = () => (
             exact={route.exact}
             component={route.sidebar}
           />
-        ))}
+        ))} */}
       </div>
 
       <div>
