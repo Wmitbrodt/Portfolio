@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import WOW from 'wowjs';
 
 class Home extends Component {
@@ -10,56 +10,32 @@ class Home extends Component {
   render() {
     return (
       <div id="home">
-        <header>
-          <div id="stripes">
-            <span className="wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">sdf</span>
-            <span>sdf</span>
-            <span>sdf</span>
-            <span>sd</span>
-            <span>sd</span>
+        <section className="home__hero">
+          <div className="container__hero">
+            <h1>Will Mitbrodt</h1>
+            <p>
+               Bicycle rights locavore woke waistcoat meditation. Readymade yr gluten-free taiyaki cold-pressed, cray literally chambray plaid.
+               Photo booth chambray kinfolk, subway tile next level locavore taxidermy gastropub humblebrag VHS shaman +1 normcore synth.
+               Hell of occupy biodiesel godard leggings offal organic helvetica adaptogen you probably haven't heard of them yr typewriter master cleanse slow-carb.
+               Offal messenger bag VHS everyday carry food truck. Forage salvia keffiyeh fixie health goth green juice franzen four dollar toast ennui.
+               Salvia single-origin coffee hot chicken, chambray shabby chic tote bag kombucha chillwave franzen flexitarian la croix swag tousled coloring book scenester.
+               Gastropub pitchfork mlkshk, tumeric seitan shabby chic copper mug readymade narwhal freegan.
+            </p>
           </div>
+        </section>
+        <section className="home__section__2">
 
-          <section id="intro">
-            <div className="container-lg">
-                <a className="announcement" href="/blog/hong-kong">
-                  <span className="new-pill">New</span>
-                  <span className="message">
-                      Stripe in Hong Kong + Alipay and WeChat Pay globally.
-                  </span>
-                </a>
+            <h1>Will Mitbrodt</h1>
+            <p>
+               Bicycle rights locavore woke waistcoat meditation. Readymade yr gluten-free taiyaki cold-pressed, cray literally chambray plaid.
+               Photo booth chambray kinfolk, subway tile next level locavore taxidermy gastropub humblebrag VHS shaman +1 normcore synth.
+               Hell of occupy biodiesel godard leggings offal organic helvetica adaptogen you probably haven't heard of them yr typewriter master cleanse slow-carb.
+               Offal messenger bag VHS everyday carry food truck. Forage salvia keffiyeh fixie health goth green juice franzen four dollar toast ennui.
+               Salvia single-origin coffee hot chicken, chambray shabby chic tote bag kombucha chillwave franzen flexitarian la croix swag tousled coloring book scenester.
+               Gastropub pitchfork mlkshk, tumeric seitan shabby chic copper mug readymade narwhal freegan.
+            </p>
 
-              <h1>
-                The new standard in online payments
-              </h1>
-              <p className="common-BodyText">
-                Stripe is the best software platform for running an internet business. We handle billions of dollars every year for forward-thinking businesses around the world.
-              </p>
-                <ul>
-                  <li>
-                    <a
-                      href="https://dashboard.stripe.com/register"
-                      className="common-Button"
-                      data-analytics-action="create_account"
-                      data-analytics-source="header_cta"
-                    >
-                        Create account
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/contact/sales"
-                      className="common-Button"
-                      data-analytics-action="contact_sales"
-                      data-analytics-source="header_cta"
-                    >
-                      Contact Sales
-                    </a>
-                  </li>
-                </ul>
-            </div>
-          </section>
-        </header>
-
+        </section>
       </div>
 
     )
