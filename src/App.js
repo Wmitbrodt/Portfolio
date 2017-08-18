@@ -5,6 +5,7 @@ import About from './components/About'
 import Work from './components/Work'
 import Projects from './components/Projects'
 
+
 // Each logical "route" has two components, one for
 // the sidebar and one for the main area. We want to
 // render both of them in different places when the
@@ -38,6 +39,7 @@ const SideNav = () => (
           <li><Link to="about">About</Link></li>
           <li><Link to="/work">Work</Link></li>
           <li><Link to="/projects">Projects</Link></li>
+          <li><a href="mailto:wmitbrodt@gmail.com">Say Hi!</a></li>
         </ul>
 
         {routes.map((route, index) => (

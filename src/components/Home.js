@@ -1,16 +1,18 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-
+import WOW from 'wowjs';
 
 class Home extends Component {
-
+  componentDidMount() {
+      new WOW.WOW().init();
+    }
 
   render() {
     return (
       <div id="home">
         <header>
           <div id="stripes">
-            <span>sdf</span>
+            <span className="wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">sdf</span>
             <span>sdf</span>
             <span>sdf</span>
             <span>sd</span>
