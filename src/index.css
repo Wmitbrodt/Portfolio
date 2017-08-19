@@ -128,8 +128,13 @@ a {
     color: #fff; }
 
 /*
+###########################
+            Typography
+###########################
+*/
+/*
 #########################################
-            Home Component
+            Home Component 🏚 
 #########################################
 */
 .home__hero {
@@ -170,14 +175,26 @@ a {
   100% {
     background: #f44336; } }
 
+/*
+##################################################
+            I wanna be a real HERO 🤘🏻
+#################################################
+*/
 .container__hero {
-  padding: 150px 200px;
+  padding: 350px 200px;
   transform: skew(0deg, 10deg); }
 
 .container__hero h1 {
-  margin: 0;
-  padding: 20px 0;
-  font-size: 3em; }
+  display: flex;
+  justify-content: center;
+  color: teal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 teal, 0 0 10rem rgba(255, 255, 255, 0.4);
+  font-size: 5em;
+  text-shadow: 10px 10px 0px rgba(0, 0, 0, 0.17);
+  margin: -50px 0 -50px 0;
+  padding: 0; }
 
 container__hero p {
   font-size: 1em;
@@ -185,7 +202,7 @@ container__hero p {
 
 /*
 ######################
-          Particles
+          Particles ⚪️ ⚪️
 ######################
 */
 .particles {
@@ -268,4 +285,4 @@ container__hero p {
     transform: translateY(0); }
   100% {
     -webkit-transform: translateY(-1080px) rotate(630deg);
-    transform: translateY(-1080px) rotate(630deg); } }
+    transform: translateY(-780px) rotate(630deg); } }

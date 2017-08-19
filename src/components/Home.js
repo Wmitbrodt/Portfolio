@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 // import { Link } from 'react-router-dom'
 import WOW from 'wowjs';
 
+
 class Home extends Component {
   componentDidMount() {
       new WOW.WOW().init();
@@ -13,7 +14,7 @@ class Home extends Component {
         <section className="home__hero">
           <div className="container__hero">
 
-            <h1 className="wow pulse" data-wow-duration="10s"  data-wow-delay="0s">Will Mitbrodt</h1>
+            <h1 className="hero__will">Will Mitbrodt</h1>
             <p>
                Bicycle rights locavore woke waistcoat meditation. Readymade yr gluten-free taiyaki cold-pressed, cray literally chambray plaid.
                Photo booth chambray kinfolk, subway tile next level locavore taxidermy gastropub humblebrag VHS shaman +1 normcore synth.
