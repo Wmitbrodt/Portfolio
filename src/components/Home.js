@@ -12,7 +12,8 @@ class Home extends Component {
       <div id="home">
         <section className="home__hero">
           <div className="container__hero">
-            <h1>Will Mitbrodt</h1>
+
+            <h1 className="wow pulse" data-wow-duration="10s"  data-wow-delay="0s">Will Mitbrodt</h1>
             <p>
                Bicycle rights locavore woke waistcoat meditation. Readymade yr gluten-free taiyaki cold-pressed, cray literally chambray plaid.
                Photo booth chambray kinfolk, subway tile next level locavore taxidermy gastropub humblebrag VHS shaman +1 normcore synth.
@@ -22,6 +23,14 @@ class Home extends Component {
                Gastropub pitchfork mlkshk, tumeric seitan shabby chic copper mug readymade narwhal freegan.
             </p>
           </div>
+          <ul className="particles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+          <div class="element"></div>
         </section>
         <section className="home__section__2">
 
@@ -34,7 +43,6 @@ class Home extends Component {
                Salvia single-origin coffee hot chicken, chambray shabby chic tote bag kombucha chillwave franzen flexitarian la croix swag tousled coloring book scenester.
                Gastropub pitchfork mlkshk, tumeric seitan shabby chic copper mug readymade narwhal freegan.
             </p>
-
         </section>
       </div>
 

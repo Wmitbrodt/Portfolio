@@ -33,7 +33,7 @@ const routes = [
 const SideNav = () => (
   <Router>
     <div>
-      <div>
+      <div id="nav">
         <div id="menuToggle">
           <input type="checkbox" />
             <span></span>
