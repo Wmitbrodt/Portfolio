@@ -1,9 +1,11 @@
-import React from 'react'
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
-import Home from './components/Home'
-import About from './components/About'
-import Work from './components/Work'
-import Projects from './components/Projects'
+import React from 'react';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import Home from './components/Home';
+import About from './components/About';
+import Work from './components/Work';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+
 
 
 // Each logical "route" has two components, one for
@@ -27,6 +29,10 @@ const routes = [
   { path: '/projects',
     sidebar: () => <div>projects</div>,
     main: Projects
+  },
+  { path: '/contact',
+    sidebar: () => <div>contact</div>,
+    main: Contact
   }
 ]
 
@@ -44,7 +50,7 @@ const SideNav = () => (
                 <Link to="about"><li>About Me</li></Link>
                 <Link to="/work"><li>My Work</li></Link>
                 <Link to="/projects"><li>Some Projects</li></Link>
-                <a href="mailto:wmitbrodt@gmail.com"><li>Say Hi 👋🏼</li></a>
+                <Link to="/contact"><li>Say Hi 👋🏼</li></Link>
               </ul>
         </div>
 
