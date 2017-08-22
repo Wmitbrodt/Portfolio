@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import '../styles/contact.css';
 
-var Contact = React.createClass({
-  render: function() {
+class Contact extends Component {
+  render() {
     return (
       <div className="contact__container">
 
@@ -28,10 +28,9 @@ var Contact = React.createClass({
         </div>
 
       </div>
-
     );
   }
-});
+}
 
 
 
