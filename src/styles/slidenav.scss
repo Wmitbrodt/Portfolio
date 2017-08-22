@@ -1,0 +1,66 @@
+/*
+#########################################
+            Nav
+#########################################
+*/
+#logo {
+  top:0;
+  left: 205px;
+  margin-top: ;
+  font-size: 3em;
+  position: relative;
+
+}
+#menuToggle {
+  display: block;
+  top: 0;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+  position: absolute;
+  top: 20px;
+  right: 85px;
+}
+
+@media screen and (max-width: 580px) {
+  #menuToggle {
+    right: 0;
+    margin-right: 25px;
+    position: fixed;
+  }
+}
+
+
+.slide-nav__open {
+  background: transparent;
+  border: none;
+}
+
+.slide-pane__content {
+  list-style: none;
+  background: teal;
+}
+
+.slide-pane__content a {
+  color: #fff;
+}
+
+.slide-pane__header {
+  background: teal;
+  border: none;
+}
+
+.slide-pane__close {
+  margin-top: 45px;
+  color: #fff;
+}
+
+.hamburger {
+    width: 35px;
+    height: 5px;
+    background-color: teal;
+    margin: 6px 0;
+}
+button:focus {
+  outline:0;
+}

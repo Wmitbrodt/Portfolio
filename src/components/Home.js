@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import WOW from 'wowjs';
 import '../styles/home.css';
 
@@ -19,13 +19,6 @@ class Home extends Component {
             <h2> - I'm a web developer with a love of art, design &amp; psychology.</h2>
             <a href="mailto:wmitbrodt@gmail.com"><h3>Available for freelance work →</h3></a>
           </div>
-            <ul className="particles">
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul>
         </section>
         <section className="home__section__2">
 

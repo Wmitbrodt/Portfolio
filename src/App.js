@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import Work from './components/Work';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-
+import SlideNav from './components/SlideNav';
 
 
 // Each logical "route" has two components, one for
@@ -36,10 +36,11 @@ const routes = [
   }
 ]
 
+
 const SideNav = () => (
   <Router>
     <div>
-      <div id="nav">
+      {/* <div id="nav">
         <div id="menuToggle">
           <input type="checkbox" />
             <span></span>
@@ -53,23 +54,10 @@ const SideNav = () => (
                 <Link to="/contact"><li>Say Hi 👋🏼</li></Link>
               </ul>
         </div>
+      </div> */}
+      <SlideNav
 
-        {/* {routes.map((route, index) => (
-          // You can render a <Route> in as many places
-          // as you want in your app. It will render along
-          // with any other <Route>s that also match the URL.
-          // So, a sidebar or breadcrumbs or anything else
-          // that requires you to render multiple things
-          // in multiple places at the same URL is nothing
-          // more than multiple <Route>s.
-          <Route
-            key={index}
-            path={route.path}
-            exact={route.exact}
-            component={route.sidebar}
-          />
-        ))} */}
-      </div>
+      />
 
       <div>
         {routes.map((route, index) => (
