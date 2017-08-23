@@ -18,7 +18,7 @@
   flex-wrap:wrap;
   height: 100vh;
   background: #e5eeff;
-  padding: 80px 210px 0 210px;
+  padding: 10% 10% 0 10%;
 }
 
 .contact__container div {
@@ -150,14 +150,14 @@ textarea {
 
 @media screen and (max-width: 1200px) {
   .contact__container {
-    padding: 40px 140px 0 140px;
+    padding: 10% 10% 0 10%;
     background: red;
    }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 992px) {
   .contact__container {
-    padding: 30px 80px 0 80px;
+    padding: 15% 10% 0 10%;
     background: green;
    }
    .contact__container h1 {
@@ -165,10 +165,20 @@ textarea {
    }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .contact__container {
-    padding: 30px 30px 0 30px;
+    padding: 25% 10% 0 10%;
     background: orange;
+   }
+}
+
+@media screen and (max-width: 576px) {
+  .contact__container {
+    padding: 30% 5% 0 5%;
+    background: red;
+   }
+   .contact__container h1 {
+     font-size: 2.2em;
    }
 }
 

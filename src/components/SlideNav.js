@@ -18,7 +18,7 @@ class SlideNav extends Component {
         return (
           <div>
             <div id="nav">
-              <h1 id="logo">W</h1>
+              <Link id="logo" to="/">W</Link>
               <div id="menuToggle">
                 <div style={{ marginTop: '32px' }}>
                     <button className="slide-nav__open" onClick={ () => this.setState({ isPaneOpenRight: true }) }>

@@ -4,29 +4,29 @@
 #########################################
 */
 #logo {
-  top:0;
-  left: 205px;
-  margin-top: ;
+  top: 5%;
+  left: 10%;
+  // margin-top: 0;
   font-size: 3em;
-  position: relative;
-
+  position: absolute;
 }
 #menuToggle {
   display: block;
-  top: 0;
   z-index: 1;
   -webkit-user-select: none;
   user-select: none;
   position: absolute;
-  top: 20px;
-  right: 85px;
+  top: 5%;
+  right: 10%;
 }
 
 @media screen and (max-width: 580px) {
   #menuToggle {
-    right: 0;
-    margin-right: 25px;
+    right: 5%;
     position: fixed;
+  }
+  #logo {
+    left: 5%;
   }
 }
 
@@ -42,6 +42,7 @@
 }
 
 .slide-pane__content a {
+  font-size: 1.5em;
   color: #fff;
 }
 
@@ -63,4 +64,9 @@
 }
 button:focus {
   outline:0;
+}
+
+
+.ReactModal__Content--after-open {
+  width: 250px !important;
 }

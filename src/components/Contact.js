@@ -5,7 +5,6 @@ class Contact extends Component {
   render() {
     return (
       <div className="contact__container">
-
         <div>
           <h1>Talk to me.</h1>
         </div>
