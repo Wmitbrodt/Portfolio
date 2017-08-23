@@ -1,16 +1,4 @@
-@mixin transition($x) {
-  -webkit-transition: $x;
-  -moz-transition: $x;
-  -ms-transition: $x;
-  transition: $x;
-}
-
-@mixin border-radius($x) {
-  -webkit-border-radius: $x;
-  -moz-border-radius: $x;
-  -ms-border-radius: $x;
-  border-radius: $x;
-}
+@import 'variables';
 
 .contact__container {
   display:flex;
@@ -53,20 +41,23 @@
   color: #0032d2;
   font-size: 4em;
   margin-top: 0;
-  padding: 0 60px 0 0;
 }
 
-.contact__container h3, a {
+.contact__container h3 {
   color: #0032d2;
-  padding: 0 60px 0 0;
+  padding: 0 60px 40px 0;
   font-weight: normal;
   font-size: 18px;
   margin: 0;
 }
 
 .contact__container span {
+  color: #0032d2;
+  font-weight: normal;
+  font-size: 18px;
   border-bottom: 1px solid;
 }
+
 
 input, textarea {
   -webkit-appearance: none;
@@ -80,7 +71,7 @@ input, textarea {
   padding: 12px 15px;
   border: 1px solid;
   margin-bottom: -1px;
-  transition: 0.3s;
+  @include transition(all 0.3s ease-in-out);
   color: inherit;
   opacity: 0.4;
   color: rgb(0, 50, 210);
@@ -169,6 +160,9 @@ textarea {
   .contact__container {
     padding: 25% 10% 0 10%;
     background: orange;
+   }
+   .contact__container h3 {
+     padding: 0 60px 40px 0;
    }
 }
 

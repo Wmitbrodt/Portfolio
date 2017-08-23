@@ -10,9 +10,12 @@ class Contact extends Component {
         </div>
         <div>
             <h3>Get in touch and say hello. Whether you have a work enquiry or simply want to find out more, let’s talk.</h3>
-            <br/>
-            <br/>
-            <a href="mailto:wmitbrodt@gmail.com"><span>Send me an email →</span></a>
+            <div>
+              <a href="mailto:wmitbrodt@gmail.com"><span>Send me an email →</span></a>
+              <br /><br />
+            </div>
+
+
         </div>
 
 

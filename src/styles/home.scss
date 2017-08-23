@@ -4,6 +4,9 @@
 #########################################
 */
 
+@import 'variables';
+
+
 /* to get rid of flash, make last color === first color */
 @-webkit-keyframes pulseBackground {
   0% { background: #f44336 }

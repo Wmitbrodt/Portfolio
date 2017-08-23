@@ -6,6 +6,8 @@ import Work from './components/Work';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import SlideNav from './components/SlideNav';
+import ProfessorTripp from './components/work/ProfessorTripp';
+
 
 
 // Each logical "route" has two components, one for
@@ -23,6 +25,7 @@ const routes = [
     main: About
   },
   { path: '/work',
+    exact: true,
     sidebar: () => <div>work</div>,
     main: Work
   },
@@ -33,6 +36,11 @@ const routes = [
   { path: '/contact',
     sidebar: () => <div>contact</div>,
     main: Contact
+  },
+  { path: '/work/professor-tripp',
+    exact: true,
+    sidebar: () => <div>Professor Tripp</div>,
+    main: ProfessorTripp
   }
 ]
 
@@ -40,24 +48,7 @@ const routes = [
 const SideNav = () => (
   <Router>
     <div>
-      {/* <div id="nav">
-        <div id="menuToggle">
-          <input type="checkbox" />
-            <span></span>
-            <span></span>
-            <span></span>
-              <ul id="menu">
-                <Link to="/"><li>Home</li></Link>
-                <Link to="about"><li>About Me</li></Link>
-                <Link to="/work"><li>My Work</li></Link>
-                <Link to="/projects"><li>Some Projects</li></Link>
-                <Link to="/contact"><li>Say Hi 👋🏼</li></Link>
-              </ul>
-        </div>
-      </div> */}
-      <SlideNav
-
-      />
+      <SlideNav />
 
       <div>
         {routes.map((route, index) => (

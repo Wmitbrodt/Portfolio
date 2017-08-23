@@ -24,21 +24,15 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 //   padding: 25%;
 // }
 
-@mixin transition($x) {
-  -webkit-transition: $x;
-  -moz-transition: $x;
-  -ms-transition: $x;
-  transition: $x;
-}
+/*
+###########################
+            Mixins & Variables
+###########################
+*/
 
-@mixin border-radius($x) {
-  -webkit-border-radius: $x;
-  -moz-border-radius: $x;
-  -ms-border-radius: $x;
-  border-radius: $x;
-}
+@import 'variables';
 
-$side-nav: teal;
+
 
 
 html {
@@ -73,13 +67,17 @@ a {
   text-decoration: none;
   margin: 0;
   padding: 0;
+  outline: 0;
+}
+a:hover, a:active, a:focus {
+  outline: 0;
 }
 
 h1 {
   font-family: 'Megrim', cursive;
 }
 
-h2, h3, h4, h5 {
+h2, h3, h4, h5, p {
   font-family: 'Encode Sans', sans-serif;
 }
 

@@ -1,0 +1,16 @@
+@mixin transition($x) {
+  -webkit-transition: $x;
+  -moz-transition: $x;
+  -ms-transition: $x;
+  transition: $x;
+}
+
+@mixin border-radius($x) {
+  -webkit-border-radius: $x;
+  -moz-border-radius: $x;
+  -ms-border-radius: $x;
+  border-radius: $x;
+}
+
+$side-nav: teal;
+$professor-tripp: rgb(0,188,108);
