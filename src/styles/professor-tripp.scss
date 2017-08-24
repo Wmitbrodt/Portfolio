@@ -1,26 +1,6 @@
 @import 'variables';
 
-// .work {
-//   position: relative;
-//   top: -150px;
-//   padding-top: 150px;
-//   margin-bottom: -200px;
-//   background-size: cover;
-//   background-position: center center;
-//   z-index: 21;
-//   background-image: url("http://cdn.iflscience.com/images/a7f5613f-19f7-57aa-8b90-77e4435ba806/content-1503411941-gettyimages-836330180.jpg");
-// }
-
-.gant {
-  width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0) 30%, rgb(0, 188, 108));
-}
-
-.bg {
+.prof__bg__image {
   background-size: cover;
   background-position: center center;
   background: linear-gradient(rgba(0, 188, 108, 0.5) 30%, rgb(0, 188, 108)),
@@ -29,11 +9,102 @@
   height: 100vh;
 }
 
-.bg-2 {
-  background-size: cover;
-  background-position: center center;
-  background: linear-gradient(rgb(0, 188, 108) 30%, rgba(0, 188, 108, 1)),
-    url("http://d32v08bhbowe2n.cloudfront.net/assets/yuacatan-2dd361c202f90c899e9165ec06abde9119912548ed10f7bee716b118b753a5fd.jpg");
-  width: 100%;
-  height: 100vh;
+.work__show__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+
+.work__show__container h1 {
+  color: #fff;
+  font-size: 4.5em;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: -5%;
+}
+
+.work__show__container h2 {
+  color: #fff;
+  font-size: 3.8em;
+  text-align: center;
+  margin-top: 0;
+}
+/* */
+
+.prof__bg__main {
+  background: linear-gradient(rgb(0, 188, 108) 30%, rgba(0, 188, 108, 1));
+  min-height: 100vh;
+}
+
+.work__main__container {
+  padding: 0 10% 0 10%;
+  margin-top: -100px;
+  position: absolute;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  min-height: 100vh;
+}
+
+.box-1 {
+  width: 25%;
+  margin-top: 0px;
+}
+
+.box-1 h1 {
+  font-size: 2.5em;
+  text-align: left;
+}
+
+.work__main__container span {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 3px;
+}
+
+.box-1 h1, h2, li {
+  margin: 0;
+  color: #fff;
+}
+
+.box-2 {
+  width: 75%;
+}
+
+.box-2 h2 {
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .box-1, .box-2 {
+    width: 100%;
+  }
+}
+
+/* */
+
+.box-3 {
+  width: 25%;
+  text-align: center;
+  // margin: 0 0 5% 0;
+}
+.box-3 h1 {
+  margin: 0 0 5% 0;
+  color: #fff;
+}
+
+.box-4 {
+  width: 75%;
+}
+
+.box-4 h2 {
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .box-3, .box-4 {
+    width: 100%;
+  }
 }

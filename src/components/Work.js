@@ -44,12 +44,7 @@ class Work extends Component {
             </Link>
           </div>
       </div>
-
-
-        {/* <div className="module mid">
-          <h2>Skyscrapers</h2>
-        </div> */}
-      </div>
+    </div>
     );
   }
 }
