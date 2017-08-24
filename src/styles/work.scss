@@ -3,13 +3,14 @@
 #work__container {
   height: 100%;
   background: #e5eeff;
+  padding: 0 15% 5% 15%;
 }
 
 #work__container h1 {
   color: #0032d2;
   font-size: 4em;
   margin-top: 0;
-  padding: 15% 0 5% 10%;
+  padding: 25% 0 5% 0%;
 }
 
 .gallery {
@@ -22,30 +23,13 @@
   min-height: 100%;
 }
 
-@media screen and (min-width: 600px) {
-  .grid {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-  }
-  .cell {
-    width: 50%;
-  }
-}
-
-@media screen and (min-width: 1000px) {
-  .cell {
-    width: calc(100% / 3);
-  }
-}
-
 
 .cell {
   background: transparent;
   box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
   border: 1px solid rgba(0,0,0,.09);
   @include border-radius(5px);
-  margin-bottom: 20px;
+  margin-bottom: 1px;
   padding: 0px;
   @include transition(all 0.4s ease);
   &:hover {
@@ -57,6 +41,7 @@
     @include transition(all 0.3s ease-out);
     &:hover {
       transform: scale(1.0425);
+      z-index: 2;
     }
   }
 }
@@ -72,7 +57,6 @@
   background-size: cover;
   width: 100%;
   height: 400px;
-  // margin: 10px 0 0 10px;
   position: relative;
 }
 
@@ -86,7 +70,6 @@
   background-size: cover;
   width: 100%;
   height: 400px;
-  // margin: 10px 0 0 10px;
   position: relative;
 }
 
@@ -100,7 +83,6 @@
   background-size: cover;
   width: 100%;
   height: 400px;
-  // margin: 10px 0 0 10px;
   position: relative;
 }
 
@@ -114,7 +96,6 @@
   background-size: cover;
   width: 100%;
   height: 400px;
-  // margin: 10px 0 0 10px;
   position: relative;
 }
 
@@ -128,7 +109,6 @@
   background-size: cover;
   width: 100%;
   height: 400px;
-  // margin: 10px 0 0 10px;
   position: relative;
 }
 
@@ -142,7 +122,6 @@
   background-size: cover;
   width: 100%;
   height: 400px;
-  // margin: 10px 0 0 10px;
   position: relative;
 }
 
@@ -170,21 +149,43 @@
 @media screen and (max-width: 992px) {
   #work__container h1 {
      font-size: 2.8em;
-     padding: 20% 0 5% 10%;
+     padding: 30% 0 5% 0%;
+   }
+   #work__container {
+     padding: 0 10% 5% 10%;
    }
 }
 
 @media screen and (max-width: 768px) {
   #work__container h1 {
     font-size: 2.2em;
-    padding: 25% 0 5% 10%;
-
    }
 }
 
 @media screen and (max-width: 576px) {
   #work__container h1 {
      font-size: 2em;
-     padding: 35% 0 5% 5%;
+     padding: 45% 0 5% 0;
    }
+  #work__container {
+    padding: 0 5% 5% 5%;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .cell {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .cell {
+    width: calc(100% / 2);
+  }
 }

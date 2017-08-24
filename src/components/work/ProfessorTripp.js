@@ -16,19 +16,22 @@ class ProfessorTripp extends Component {
           <div className="work__main__container">
 
             <div className="box-1">
-              <h1><span>Background</span></h1>
+              <h1><span>About</span></h1>
             </div>
 
             <div className="box-2">
               <h2>
-                The HootBoard App is the place people connect with and find out the latest about the organizations they care about most.
-                This app is part of the comprehensive bulletin board platform that works seamlessly across web, mobile, interactive screens,
-                digital signage and AI generated newsletters. This is all accomplished from one easy posting process.
+                  Professor Tripp is a web application I built using Ruby on Rails. It was created for
+                  a full-time anthropology professor at Chaffey College in California. While conduction research for
+                  this project, I immediately noticed that most professor website's are dull and dry.
+                  I decided to sway from this trend, and make hers fun, interactive and most of all - different.
+                  Features include: user authentication, user authorization, emails with Send
+                  Grid, SEO, and much more.
               </h2>
             </div>
 
             <div className="box-3">
-              <h1><span>Tech Stack</span></h1>
+              <h1><span>Tech</span></h1>
             </div>
 
             <div className="box-4">
@@ -41,14 +44,14 @@ class ProfessorTripp extends Component {
                 <li>postgresql -PostgreSQL is an advanced object-relational database management system.</li>
               </ul>
             </div>
+            <div className="box-5">
+              <Link to="/work">← Back</Link>
+              <Link to="/work">Next →</Link>
+            </div>
 
           </div>
         </div>
       </div>
-
-
-
-
     );
   }
 }
