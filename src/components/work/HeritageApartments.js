@@ -1,20 +1,20 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import '../../styles/work-show.css';
-import '../../styles/professor-tripp.css';
+import '../../styles/heritage-apartments.css';
 import FontAwesome from 'react-fontawesome';
 
-class ProfessorTripp extends Component {
+class HeritageApartments extends Component {
   render() {
     return (
       <div>
-        <div className="prof__bg__image">
+        <div className="heritage__bg__image">
           <div className="work__show__container">
-            <h1>Professor Tripp:</h1>
+            <h1>Victoria Heritage Apartments:</h1>
             <h2>Ruby on Rails</h2>
           </div>
         </div>
-        <div className="prof__bg__main">
+        <div className="heritage__bg__main">
           <div className="work__main__container">
 
             <div className="box-1">
@@ -58,4 +58,4 @@ class ProfessorTripp extends Component {
   }
 }
 
-export default ProfessorTripp;
+export default HeritageApartments;

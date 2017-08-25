@@ -142,14 +142,12 @@ textarea {
 @media screen and (max-width: 1200px) {
   .contact__container {
     padding: 10% 15% 0 15%;
-    background: red;
    }
 }
 
 @media screen and (max-width: 992px) {
   .contact__container {
     padding: 15% 10% 0 10%;
-    background: green;
    }
    .contact__container h1 {
      font-size: 3em;
@@ -159,7 +157,6 @@ textarea {
 @media screen and (max-width: 768px) {
   .contact__container {
     padding: 25% 10% 0 10%;
-    background: orange;
    }
    .contact__container h3 {
      padding: 0 60px 40px 0;
@@ -169,7 +166,6 @@ textarea {
 @media screen and (max-width: 576px) {
   .contact__container {
     padding: 30% 5% 0 5%;
-    background: red;
    }
    .contact__container h1 {
      font-size: 2.2em;

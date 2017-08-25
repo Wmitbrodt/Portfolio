@@ -1,0 +1,15 @@
+@import 'variables';
+
+.deb__bg__image {
+  background-size: cover;
+  background: linear-gradient(rgba(102, 0, 153, 0.5) 30%, rgb(102, 0, 153)),
+    url("../Atlas_no.1-intercellular_1.jpg");
+  width: 100%;
+  min-height: 100vh;
+  background-position: 50% 0;
+}
+
+.deb__bg__main {
+  background: linear-gradient(rgb(102, 0, 153) 30%, rgba(102, 0, 153, 1));
+  min-height: 100vh;
+}

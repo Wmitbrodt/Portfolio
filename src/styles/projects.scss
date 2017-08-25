@@ -1,12 +1,12 @@
 @import 'variables';
 
-#work__container {
+#project__container {
   height: 100%;
   background: #e5eeff;
   padding: 0 15% 5% 15%;
 }
 
-#work__container h1 {
+#project__container h1 {
   color: #0032d2;
   font-size: 4em;
   margin-top: 0;
@@ -147,27 +147,27 @@
 }
 
 @media screen and (max-width: 992px) {
-  #work__container h1 {
+  #project__container h1 {
      font-size: 2.8em;
      padding: 30% 0 5% 0%;
    }
-   #work__container {
+   #project__container {
      padding: 0 10% 5% 10%;
    }
 }
 
 @media screen and (max-width: 768px) {
-  #work__container h1 {
+  #project__container h1 {
     font-size: 2.2em;
    }
 }
 
 @media screen and (max-width: 576px) {
-  #work__container h1 {
+  #project__container h1 {
      font-size: 2em;
      padding: 45% 0 5% 0;
    }
-  #work__container {
+  #project__container {
     padding: 0 5% 5% 5%;
   }
 }

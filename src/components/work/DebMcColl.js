@@ -1,20 +1,20 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import '../../styles/work-show.css';
-import '../../styles/professor-tripp.css';
+import '../../styles/deb-mccoll.css';
 import FontAwesome from 'react-fontawesome';
 
-class ProfessorTripp extends Component {
+class DebMcColl extends Component {
   render() {
     return (
       <div>
-        <div className="prof__bg__image">
+        <div className="deb__bg__image">
           <div className="work__show__container">
-            <h1>Professor Tripp:</h1>
-            <h2>Ruby on Rails</h2>
+            <h1>Deborah McColl</h1>
+            <h2>Visual Artist</h2>
           </div>
         </div>
-        <div className="prof__bg__main">
+        <div className="deb__bg__main">
           <div className="work__main__container">
 
             <div className="box-1">
@@ -23,12 +23,7 @@ class ProfessorTripp extends Component {
 
             <div className="box-2">
               <h2>
-                  Professor Tripp is a web application I built using Ruby on Rails. It was created for
-                  a full-time anthropology professor at Chaffey College in California. While conduction research for
-                  this project, I immediately noticed that most professor website's are dull and dry.
-                  I decided to sway from this trend, and make hers fun, interactive and most of all - different.
-                  Features include: user authentication, user authorization, emails with Send
-                  Grid, SEO, and much more.
+                  Bitters viral kogi meggings. Kinfolk live-edge everyday carry deep v vexillologist small batch. Tattooed shoreditch cray helvetica yuccie. Craft beer man bun adaptogen meditation four dollar toast listicle raclette freegan cold-pressed chambray chartreuse dreamcatcher direct trade photo booth. Pitchfork hexagon hammock vexillologist art party hot chicken flexitarian etsy jean shorts seitan.
               </h2>
             </div>
 
@@ -58,4 +53,4 @@ class ProfessorTripp extends Component {
   }
 }
 
-export default ProfessorTripp;
+export default DebMcColl;

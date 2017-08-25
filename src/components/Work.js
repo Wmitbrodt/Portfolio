@@ -12,9 +12,9 @@ class Work extends Component {
         </div>
         <div className="gallery">
           <div className="grid">
-            <Link className="cell" to="/work/professor-tripp">
+            <Link className="cell" to="/work/heritage-apartments">
               <div className="image-1 responsive-image overlay scale">
-                <h2>D. McColl</h2>
+                <h2>Heritage Apt</h2>
               </div>
             </Link>
             <Link className="cell" to="/work/professor-tripp">
@@ -22,24 +22,14 @@ class Work extends Component {
                 <h2>Tripp</h2>
               </div>
             </Link>
-            <Link className="cell" to="/work/professor-tripp">
+            <Link className="cell" to="/work/my-wardrobe">
               <div className="image-3 responsive-image overlay scale">
-                <h2>Skyscrapers</h2>
+                <h2>My Wardrobe</h2>
               </div>
             </Link>
-            <Link className="cell" to="/work/professor-tripp">
+            <Link className="cell" to="/work/deb-mccoll">
               <div className="image-4 responsive-image overlay scale">
-                <h2>Skyscrapers</h2>
-              </div>
-            </Link>
-            <Link className="cell" to="/work/professor-tripp">
-              <div className="image-5 responsive-image overlay scale">
-                <h2>Skyscrapers</h2>
-              </div>
-            </Link>
-            <Link className="cell" to="/work/professor-tripp">
-              <div className="image-6 responsive-image overlay scale">
-                <h2>Skyscrapers</h2>
+                <h2>Visual Art</h2>
               </div>
             </Link>
           </div>
