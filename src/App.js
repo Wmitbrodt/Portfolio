@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import Work from './components/Work';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import SlideNav from './components/SlideNav';
+import NoMatch from './components/NoMatch';
 import ProfessorTripp from './components/work/ProfessorTripp';
 import HeritageApartments from './components/work/HeritageApartments';
 import MyWardrobe from './components/work/MyWardrobe';
@@ -66,18 +67,22 @@ const SideNav = () => (
   <Router>
     <div>
       <SlideNav />
-
       <div>
-        {routes.map((route, index) => (
-          // Render more <Route>s with the same paths as
-          // above, but different components this time.
-          <Route
-            key={index}
-            path={route.path}
-            exact={route.exact}
-            component={route.main}
-          />
-        ))}
+        <Switch>
+          {routes.map((route, index) => (
+            // Render more <Route>s with the same paths as
+            // above, but different components this time.
+            <Route
+              key={index}
+              path={route.path}
+              exact={route.exact}
+              component={route.main}
+            />
+          ))}
+          <Route component={NoMatch}/>
+        </Switch>
+
+
       </div>
     </div>
   </Router>

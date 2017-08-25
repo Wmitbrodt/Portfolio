@@ -1,0 +1,40 @@
+#no__match {
+  background-size: cover;
+  background: linear-gradient(rgba(102, 0, 153, 0.5) 30%, rgb(102, 0, 153)),
+    url("http://i.imgur.com/iWKad22.jpg");
+  width: 100%;
+  min-height: 100vh;
+  background-position: 50% 30%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#no__match h1 {
+  color: #fff;
+  margin: 0;
+  font-size: 8em;
+  letter-spacing: 30px;
+}
+
+#no__match h2 {
+  color: #fff;
+  font-size: 3em;
+}
+
+#no__match h4 {
+  font-size: 1.2em;
+  color: #fff;
+}
+
+#no__match a {
+  margin: 0;
+  font-size: 2em;
+  color: #fff;
+}
+
+#no__match span {
+  border-bottom: 1px solid #fff;
+}
