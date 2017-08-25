@@ -11,6 +11,7 @@ import ProfessorTripp from './components/work/ProfessorTripp';
 import HeritageApartments from './components/work/HeritageApartments';
 import MyWardrobe from './components/work/MyWardrobe';
 import DebMcColl from './components/work/DebMcColl';
+import GreenEats from './components/projects/GreenEats';
 
 
 // Each logical "route" has two components, one for
@@ -24,6 +25,7 @@ const routes = [
     main: Home
   },
   { path: '/about',
+    exact: true,
     sidebar: () => <div>about</div>,
     main: About
   },
@@ -33,10 +35,12 @@ const routes = [
     main: Work
   },
   { path: '/projects',
+    exact: true,
     sidebar: () => <div>projects</div>,
     main: Projects
   },
   { path: '/contact',
+    exact: true,
     sidebar: () => <div>contact</div>,
     main: Contact
   },
@@ -59,6 +63,11 @@ const routes = [
     exact: true,
     sidebar: () => <div>Deborah McColl</div>,
     main: DebMcColl
+  },
+  { path: '/projects/green-eats',
+    exact: true,
+    sidebar: () => <div>Green Eats</div>,
+    main: GreenEats
   }
 ]
 

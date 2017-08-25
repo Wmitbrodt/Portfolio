@@ -1,6 +1,6 @@
-@import 'variables';
+@import '../variables';
 
-.work__show__container {
+.project__show__container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,7 +8,7 @@
   min-height: 100vh;
 }
 
-.work__show__container h1 {
+.project__show__container h1 {
   color: #fff;
   font-size: 4.5em;
   text-align: center;
@@ -16,7 +16,7 @@
   margin-top: -5%;
 }
 
-.work__show__container h2 {
+.project__show__container h2 {
   color: #fff;
   font-size: 3.8em;
   text-align: center;
@@ -24,7 +24,7 @@
 }
 /* */
 
-.work__main__container {
+.project__main__container {
   padding: 0 15% 0 15%;
   margin-top: -100px;
   position: absolute;
@@ -44,7 +44,7 @@
   text-align: left;
 }
 
-.work__main__container span {
+.project__main__container span {
   border-bottom: 1px solid #fff;
   padding-bottom: 3px;
 }
@@ -52,6 +52,7 @@
 .box-1 h1, h2{
   margin: 0;
   color: #fff;
+  margin-top: -8px;
 }
 
 .box-2 {
@@ -61,6 +62,8 @@
 .box-2 h2 {
   margin: 0;
   font-size: 1.2em;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  padding: 20px 20px 20px;
 }
 
 
@@ -94,7 +97,9 @@
   color: #fff;
   margin: 0;
   font-size: 1.2em;
-  padding-left: 15px;
+  // padding-left: 15px;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  padding: 20px 25px 20px;
 }
 
 .box-4 li:before {
@@ -130,7 +135,7 @@
 
 /* Media Queries */
 @media screen and (max-width: 992px) {
-  .work__main__container {
+  .project__main__container {
     padding: 0 10% 0 10%;
   }
 }
@@ -139,7 +144,7 @@
   .box-1, .box-2, .box-3, .box-4 {
     width: 100%;
   }
-  .work__show__container h1 {
+  .project__show__container h1 {
     font-size: 3.5em;
   }
   .box-1 > h1 {
@@ -154,19 +159,19 @@
   .box-4 > li {
     font-size: 1em;
   }
-  .work__show__container h2 {
+  .project__show__container h2 {
     font-size: 2.8em;
   }
-  .work__main__container {
+  .project__main__container {
     padding: 0 10% 0 10%;
   }
 }
 
 @media screen and (max-width: 576px) {
-  .work__show__container h1 {
+  .project__show__container h1 {
     font-size: 2.5em;
   }
-  .work__show__container h2 {
+  .project__show__container h2 {
     font-size: 1.8em;
   }
   .box-2 > h2 {
@@ -178,11 +183,13 @@
   .box-5 {
     padding-top: 5%;
   }
-  .work__main__container {
+  .project__main__container {
     padding: 0 5% 0 5%;
   }
   /* small screen overflow bug */
-  .work__main__container {
-    min-height: 120vh;
+  .project__main__container {
+    // min-height: 120vh;
+    // background: red;
+    min-height: 100% !important;
   }
 }

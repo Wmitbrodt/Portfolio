@@ -1,0 +1,30 @@
+@import '../variables';
+
+.green-eats__bg__image {
+  background-size: cover;
+  // background-position: center center;
+  background: linear-gradient(rgba(102, 0, 153, 0.5) 30%, rgb(102, 0, 153)),
+    url("http://www.justlivenatural.com/images/healthyveggies.jpg");
+  width: 100%;
+  min-height: 100vh;
+  background-position: 50% 95%;
+}
+
+.green-eats__bg__main {
+  background: linear-gradient(rgb(102, 0, 153) 30%, rgba(102, 0, 153, 1));
+  min-height: 100vh;
+}
+
+// @media screen and (max-width: 768px) {
+//   .green-eats__bg__main {
+//     min-height: 110vh;
+//     background: red;
+//   }
+// }
+//
+// @media screen and (max-width: 576px) {
+//   .green-eats__bg__main {
+//     background: blue;
+//     min-height: 130vh;
+//   }
+// }
