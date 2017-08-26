@@ -1,20 +1,20 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import '../../styles/projects/projects-show.css';
-import '../../styles/projects/green-eats.css';
+import '../../styles/projects/bankr.css';
 import FontAwesome from 'react-fontawesome';
 
-class GreenEats extends Component {
+class Bankr extends Component {
   render() {
     return (
       <div>
-        <div className="green-eats__bg__image">
+        <div className="bankr__bg__image">
           <div className="project__show__container">
-            <h1>Green Eats</h1>
-            <h2>Node JS</h2>
+            <h1>Bankr</h1>
+            <h2>React & Rails</h2>
           </div>
         </div>
-        <div className="green-eats__bg__main">
+        <div className="bankr__bg__main">
           <div className="project__main__container">
 
             <div className="box-1">
@@ -23,12 +23,8 @@ class GreenEats extends Component {
 
             <div className="box-2">
               <h2>
-                Green Eats is a current project I’m working on.
-                It’s being built with Node, MongoDB, Google Maps, Passport, Express, Sass, Pug, Webpack, and ES6.
-                This application has many features including: user authentication, database storage, Ajax REST API,
-                file uploads, image resizing, sending emails, geocoding addresses, password reset, user accounts and much more.
-                <br />
-                <a target="_blank" href="https://wills-green-eats.herokuapp.com/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
+                A personal bank balance application that was built with a Rails backend and a React front-end.
+                It allows users to seamlessly keep track of their personal expenses.
               </h2>
             </div>
 
@@ -46,6 +42,10 @@ class GreenEats extends Component {
                 <li>postgresql -PostgreSQL is an advanced object-relational database management system.</li>
               </ul>
             </div>
+            <div className="box-5">
+              <Link to="/projects"><FontAwesome name='long-arrow-left' /> Back</Link>
+              <Link to="/projects">Next <FontAwesome name='long-arrow-right' /></Link>
+            </div>
 
           </div>
         </div>
@@ -54,4 +54,4 @@ class GreenEats extends Component {
   }
 }
 
-export default GreenEats;
+export default Bankr;

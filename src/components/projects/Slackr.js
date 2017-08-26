@@ -1,20 +1,20 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import '../../styles/projects/projects-show.css';
-import '../../styles/projects/green-eats.css';
+import '../../styles/projects/slackr.css';
 import FontAwesome from 'react-fontawesome';
 
-class GreenEats extends Component {
+class Slackr extends Component {
   render() {
     return (
       <div>
-        <div className="green-eats__bg__image">
+        <div className="slackr__bg__image">
           <div className="project__show__container">
-            <h1>Green Eats</h1>
-            <h2>Node JS</h2>
+            <h1>Slackr</h1>
+            <h2>React JS</h2>
           </div>
         </div>
-        <div className="green-eats__bg__main">
+        <div className="slackr__bg__main">
           <div className="project__main__container">
 
             <div className="box-1">
@@ -23,12 +23,12 @@ class GreenEats extends Component {
 
             <div className="box-2">
               <h2>
-                Green Eats is a current project I’m working on.
-                It’s being built with Node, MongoDB, Google Maps, Passport, Express, Sass, Pug, Webpack, and ES6.
-                This application has many features including: user authentication, database storage, Ajax REST API,
-                file uploads, image resizing, sending emails, geocoding addresses, password reset, user accounts and much more.
+                I really wanted to challenge myself so I decided to create a slack clone that allows users to send
+                and receive messages in real time. This application opens an interactive communication session between
+                the user’s browser and the server using web sockets. Slackr was built using: Express, Node, React, Redux,
+                Socket IO and MongoDB.
                 <br />
-                <a target="_blank" href="https://wills-green-eats.herokuapp.com/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
+                <a target="_blank" href="https://github.com/Wmitbrodt/Slackr"><span>Check it out on Github</span></a> <FontAwesome name='long-arrow-right' />
               </h2>
             </div>
 
@@ -54,4 +54,4 @@ class GreenEats extends Component {
   }
 }
 
-export default GreenEats;
+export default Slackr;

@@ -18,7 +18,7 @@
 
 .project__show__container h2 {
   color: #fff;
-  font-size: 3.8em;
+  font-size: 2.8em;
   text-align: center;
   margin-top: 0;
 }
@@ -67,6 +67,16 @@
   padding: 20px 20px 20px;
 }
 
+.box-2 span {
+  display: inline-block;
+  color: #fff;
+  border-bottom: none;
+  text-decoration: underline;
+}
+
+.box-2 .fa-long-arrow-right {
+  text-decoration: none;
+}
 
 /* Box 3 & 4 */
 
@@ -81,6 +91,7 @@
 
 .box-4 {
   width: 75%;
+  margin-bottom: 40px;
 }
 
 .box-4 h2 {
@@ -116,23 +127,24 @@
 
 /* Box 5 */
 
-.box-5 {
-  width: 100%;
-}
-
-.box-5 > a {
-  text-align: left;
-  display: inline-block;
-  color: #fff;
-  float: left;
-}
-
-.box-5 > a:nth-child(2) {
-  text-align: right;
-  display: inline-block;
-  color: #fff;
-  float: right;
-}
+// .box-5 {
+//   width: 100%;
+//   margin-bottom: 40px;
+// }
+//
+// .box-5 > a {
+//   text-align: left;
+//   display: inline-block;
+//   color: #fff;
+//   float: left;
+// }
+//
+// .box-5 > a:nth-child(2) {
+//   text-align: right;
+//   display: inline-block;
+//   color: #fff;
+//   float: right;
+// }
 
 /* Media Queries */
 @media screen and (max-width: 992px) {

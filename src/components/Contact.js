@@ -6,10 +6,10 @@ class Contact extends Component {
     return (
       <div className="contact__container">
         <div>
-          <h1>Talk to me.</h1>
+          <h1>Let's chat.</h1>
         </div>
         <div>
-            <h3>Get in touch and say hello. Whether you have a work enquiry or simply want to find out more, let’s talk.</h3>
+            <h3>Please feel free to reach out and get in touch. Whether you have a work enquiry or simply want to find out more, let’s chat.</h3>
             <div>
               <a href="mailto:wmitbrodt@gmail.com"><span>Send me an email →</span></a>
               <br /><br />

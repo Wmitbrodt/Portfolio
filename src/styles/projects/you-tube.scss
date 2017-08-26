@@ -1,0 +1,107 @@
+@import '../variables';
+
+.you-tube__bg__image {
+  background-size: cover;
+  // background-position: center center;
+  background: linear-gradient(rgba(102, 0, 153, 0.5) 30%, rgb(102, 0, 153)),
+    url("http://www.justlivenatural.com/images/healthyveggies.jpg");
+  width: 100%;
+  min-height: 100vh;
+  background-position: 50% 95%;
+}
+
+.you-tube__bg__main {
+  background: linear-gradient(rgb(102, 0, 153) 30%, rgba(102, 0, 153, 1));
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 1160px) {
+  .you-tube__bg__main {
+    min-height: 110vh;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .you-tube__bg__main {
+    min-height: 110vh;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .you-tube__bg__main {
+    min-height: 110vh;
+  }
+}
+
+@media screen and (max-width: 1055px) {
+  .you-tube__bg__main {
+    min-height: 120vh;
+  }
+}
+
+@media screen and (max-width: 1015px) {
+  .you-tube__bg__main {
+    min-height: 115vh;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .you-tube__bg__main {
+    min-height: 115vh;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .you-tube__bg__main {
+    min-height: 115vh;
+  }
+}
+
+@media screen and (max-width: 825px) {
+  .you-tube__bg__main {
+    min-height: 120vh;
+  }
+}
+
+@media screen and (max-width: 788px) {
+  .you-tube__bg__main {
+    min-height: 125vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .you-tube__bg__main {
+    min-height: 120vh;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .you-tube__bg__main {
+    min-height: 120vh;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .you-tube__bg__main {
+    min-height: 115vh;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .you-tube__bg__main {
+    min-height: 125vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .you-tube__bg__main {
+    min-height: 120vh;
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+  .you-tube__bg__main {
+    min-height: 130vh;
+  }
+}

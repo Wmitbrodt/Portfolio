@@ -1,20 +1,20 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import '../../styles/projects/projects-show.css';
-import '../../styles/projects/green-eats.css';
+import '../../styles/projects/you-tube.css';
 import FontAwesome from 'react-fontawesome';
 
-class GreenEats extends Component {
+class YouTube extends Component {
   render() {
     return (
       <div>
-        <div className="green-eats__bg__image">
+        <div className="you-tube__bg__image">
           <div className="project__show__container">
-            <h1>Green Eats</h1>
-            <h2>Node JS</h2>
+            <h1>YouTube Search API</h1>
+            <h2>React JS</h2>
           </div>
         </div>
-        <div className="green-eats__bg__main">
+        <div className="you-tube__bg__main">
           <div className="project__main__container">
 
             <div className="box-1">
@@ -23,12 +23,11 @@ class GreenEats extends Component {
 
             <div className="box-2">
               <h2>
-                Green Eats is a current project I’m working on.
-                It’s being built with Node, MongoDB, Google Maps, Passport, Express, Sass, Pug, Webpack, and ES6.
-                This application has many features including: user authentication, database storage, Ajax REST API,
-                file uploads, image resizing, sending emails, geocoding addresses, password reset, user accounts and much more.
+                A mini react application that utilizes YouTube’s API to fetch videos.
+                It is able to instantly search for any video on YouTube’s vast library and instantly play them.
+                It was built using React, Node, and Bootstrap.
                 <br />
-                <a target="_blank" href="https://wills-green-eats.herokuapp.com/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
+                <a target="_blank" href="https://github.com/Wmitbrodt/youtubeSearchAPI"><span>Check it out on Github</span></a> <FontAwesome name='long-arrow-right' />
               </h2>
             </div>
 
@@ -54,4 +53,4 @@ class GreenEats extends Component {
   }
 }
 
-export default GreenEats;
+export default YouTube;

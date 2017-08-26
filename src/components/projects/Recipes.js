@@ -1,20 +1,20 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import '../../styles/projects/projects-show.css';
-import '../../styles/projects/green-eats.css';
+import '../../styles/projects/recipes.css';
 import FontAwesome from 'react-fontawesome';
 
-class GreenEats extends Component {
+class Recipes extends Component {
   render() {
     return (
       <div>
-        <div className="green-eats__bg__image">
+        <div className="recipes__bg__image">
           <div className="project__show__container">
-            <h1>Green Eats</h1>
-            <h2>Node JS</h2>
+            <h1>Recipes</h1>
+            <h2>Ruby on Rails</h2>
           </div>
         </div>
-        <div className="green-eats__bg__main">
+        <div className="recipes__bg__main">
           <div className="project__main__container">
 
             <div className="box-1">
@@ -23,12 +23,11 @@ class GreenEats extends Component {
 
             <div className="box-2">
               <h2>
-                Green Eats is a current project I’m working on.
-                It’s being built with Node, MongoDB, Google Maps, Passport, Express, Sass, Pug, Webpack, and ES6.
-                This application has many features including: user authentication, database storage, Ajax REST API,
-                file uploads, image resizing, sending emails, geocoding addresses, password reset, user accounts and much more.
+                Retro Video Game Reviews is a Ruby on Rails application that has the ability to search with Elasticsearch,
+                upload files, and create reviews with one to many associations. It also has user authentication and
+                authorization with devise.
                 <br />
-                <a target="_blank" href="https://wills-green-eats.herokuapp.com/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
+                <a target="_blank" href="https://wills-recipes.herokuapp.com/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
               </h2>
             </div>
 
@@ -54,4 +53,4 @@ class GreenEats extends Component {
   }
 }
 
-export default GreenEats;
+export default Recipes;

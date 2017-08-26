@@ -1,0 +1,107 @@
+@import '../variables';
+
+.retro-video-games__bg__image {
+  background-size: cover;
+  // background-position: center center;
+  background: linear-gradient(rgba(102, 0, 153, 0.5) 30%, rgb(102, 0, 153)),
+    url("http://whatleydude.com/wp-content/uploads/2015/09/special___wallpaper___super_mario_bros___1_1_by_thelimomon-d6npbma.jpg");
+  min-width: 100%;
+  min-height: 100vh;
+  background-position: 50% 100%;
+}
+
+.retro-video-games__bg__main {
+  background: linear-gradient(rgb(102, 0, 153) 30%, rgba(102, 0, 153, 1));
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 1160px) {
+  .retro-video-games__bg__main {
+    min-height: 110vh;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .retro-video-games__bg__main {
+    min-height: 110vh;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .retro-video-games__bg__main {
+    min-height: 110vh;
+  }
+}
+
+@media screen and (max-width: 1055px) {
+  .retro-video-games__bg__main {
+    min-height: 120vh;
+  }
+}
+
+@media screen and (max-width: 1015px) {
+  .retro-video-games__bg__main {
+    min-height: 115vh;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .retro-video-games__bg__main {
+    min-height: 115vh;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .retro-video-games__bg__main {
+    min-height: 115vh;
+  }
+}
+
+@media screen and (max-width: 825px) {
+  .retro-video-games__bg__main {
+    min-height: 120vh;
+  }
+}
+
+@media screen and (max-width: 788px) {
+  .retro-video-games__bg__main {
+    min-height: 125vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .retro-video-games__bg__main {
+    min-height: 120vh;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .retro-video-games__bg__main {
+    min-height: 120vh;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .retro-video-games__bg__main {
+    min-height: 115vh;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .retro-video-games__bg__main {
+    min-height: 125vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .retro-video-games__bg__main {
+    min-height: 120vh;
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+  .retro-video-games__bg__main {
+    min-height: 130vh;
+  }
+}

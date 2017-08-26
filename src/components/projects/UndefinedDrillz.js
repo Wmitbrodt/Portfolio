@@ -1,20 +1,20 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import '../../styles/projects/projects-show.css';
-import '../../styles/projects/green-eats.css';
+import '../../styles/projects/undefined-drillz.css';
 import FontAwesome from 'react-fontawesome';
 
-class GreenEats extends Component {
+class UndefinedDrillz extends Component {
   render() {
     return (
       <div>
-        <div className="green-eats__bg__image">
+        <div className="undefined-drillz__bg__image">
           <div className="project__show__container">
-            <h1>Green Eats</h1>
-            <h2>Node JS</h2>
+            <h1>Undefined Drillz</h1>
+            <h2>Ruby on Rails</h2>
           </div>
         </div>
-        <div className="green-eats__bg__main">
+        <div className="undefined-drillz__bg__main">
           <div className="project__main__container">
 
             <div className="box-1">
@@ -23,12 +23,12 @@ class GreenEats extends Component {
 
             <div className="box-2">
               <h2>
-                Green Eats is a current project I’m working on.
-                It’s being built with Node, MongoDB, Google Maps, Passport, Express, Sass, Pug, Webpack, and ES6.
-                This application has many features including: user authentication, database storage, Ajax REST API,
-                file uploads, image resizing, sending emails, geocoding addresses, password reset, user accounts and much more.
+                Undefined Drills is a group project, consisting of 6 members, that was built over a weekend
+                as a 'mini-hackathon' challenge. This project relied heavily on team collaboration and the use of Git/GitHub.
+                It is a web application that allows users to practice coding drills and was built with JavaScript, jQuery, AJAX,
+                Ruby on Rails, PostgreSQL, Git/GitHub, Bootstrap, and HTML5/CSS3.
                 <br />
-                <a target="_blank" href="https://wills-green-eats.herokuapp.com/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
+                <a target="_blank" href="http://undefineddrills.herokuapp.com/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
               </h2>
             </div>
 
@@ -54,4 +54,4 @@ class GreenEats extends Component {
   }
 }
 
-export default GreenEats;
+export default UndefinedDrillz;

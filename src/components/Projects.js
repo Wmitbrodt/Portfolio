@@ -16,19 +16,46 @@ class Projects extends Component {
                 <h2>Green Eats</h2>
               </div>
             </Link>
-            <Link className="cell" to="/project/professor-tripp">
+
+            <Link className="cell" to="/projects/you-tube-search-api">
               <div className="project-image-2 responsive-image overlay scale">
-                <h2>Tripp</h2>
+                <h2>Search API</h2>
               </div>
             </Link>
-            <Link className="cell" to="/project/my-wardrobe">
+
+            <Link className="cell" to="/projects/bankr">
               <div className="project-image-3 responsive-image overlay scale">
-                <h2>My Wardrobe</h2>
+                <h2>Bankr</h2>
               </div>
             </Link>
-            <Link className="cell" to="/project/deb-mccoll">
+
+            <Link className="cell" to="/projects/slackr">
               <div className="project-image-4 responsive-image overlay scale">
-                <h2>Visual Art</h2>
+                <h2>Slackr</h2>
+              </div>
+            </Link>
+
+            <Link className="cell" to="/projects/undefined-drillz">
+              <div className="project-image-5 responsive-image overlay scale">
+                <h2>Drillz</h2>
+              </div>
+            </Link>
+
+            <Link className="cell" to="/projects/retro-video-games">
+              <div className="project-image-6 responsive-image overlay scale">
+                <h2>Retro Games</h2>
+              </div>
+            </Link>
+
+            <Link className="cell" to="/projects/job-board">
+              <div className="project-image-7 responsive-image overlay scale">
+                <h2>Job Board</h2>
+              </div>
+            </Link>
+
+            <Link className="cell" to="/projects/recipes">
+              <div className="project-image-8 responsive-image overlay scale">
+                <h2>Recipes</h2>
               </div>
             </Link>
           </div>

@@ -7,11 +7,21 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import SlideNav from './components/SlideNav';
 import NoMatch from './components/NoMatch';
+/* work */
 import ProfessorTripp from './components/work/ProfessorTripp';
 import HeritageApartments from './components/work/HeritageApartments';
 import MyWardrobe from './components/work/MyWardrobe';
 import DebMcColl from './components/work/DebMcColl';
+/* projects */
 import GreenEats from './components/projects/GreenEats';
+import YouTube from './components/projects/YouTube';
+import Bankr from './components/projects/Bankr';
+import Slackr from './components/projects/Slackr';
+import UndefinedDrillz from './components/projects/UndefinedDrillz';
+import RetroVideoGames from './components/projects/RetroVideoGames';
+import JobBoard from './components/projects/JobBoard';
+import Recipes from './components/projects/Recipes';
+
 
 
 // Each logical "route" has two components, one for
@@ -68,6 +78,41 @@ const routes = [
     exact: true,
     sidebar: () => <div>Green Eats</div>,
     main: GreenEats
+  },
+  { path: '/projects/you-tube-search-api',
+    exact: true,
+    sidebar: () => <div>You Tube</div>,
+    main: YouTube
+  },
+  { path: '/projects/bankr',
+    exact: true,
+    sidebar: () => <div>Bankr</div>,
+    main: Bankr
+  },
+  { path: '/projects/slackr',
+    exact: true,
+    sidebar: () => <div>Slackr</div>,
+    main: Slackr
+  },
+  { path: '/projects/undefined-drillz',
+    exact: true,
+    sidebar: () => <div>UndefinedDrillz</div>,
+    main: UndefinedDrillz
+  },
+  { path: '/projects/retro-video-games',
+    exact: true,
+    sidebar: () => <div>RetroVideoGames</div>,
+    main: RetroVideoGames
+  },
+  { path: '/projects/job-board',
+    exact: true,
+    sidebar: () => <div>JobBoard</div>,
+    main: JobBoard
+  },
+  { path: '/projects/recipes',
+    exact: true,
+    sidebar: () => <div>Recipes</div>,
+    main: Recipes
   }
 ]
 
