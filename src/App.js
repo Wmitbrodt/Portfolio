@@ -7,6 +7,8 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import SlideNav from './components/SlideNav';
 import NoMatch from './components/NoMatch';
+import ScrollToTop from './components/ScrollToTop';
+
 /* work */
 import ProfessorTripp from './components/work/ProfessorTripp';
 import HeritageApartments from './components/work/HeritageApartments';
@@ -119,6 +121,7 @@ const routes = [
 
 const SideNav = () => (
   <Router>
+    <ScrollToTop>
     <div>
       <SlideNav />
       <div>
@@ -135,10 +138,9 @@ const SideNav = () => (
           ))}
           <Route component={NoMatch}/>
         </Switch>
-
-
       </div>
     </div>
+    </ScrollToTop>
   </Router>
 )
 
