@@ -27,6 +27,7 @@
 .project__main__container {
   padding: 0 15% 0 15%;
   margin-top: -100px;
+  /* bug on mobile */
   position: absolute;
   display:flex;
   flex-direction:row;
@@ -188,8 +189,9 @@
   }
   /* small screen overflow bug */
   .project__main__container {
-    // min-height: 120vh;
-    // background: red;
-    min-height: 100% !important;
+
+  }
+  .project__show__container {
+    // min-height: 140vh !important;
   }
 }

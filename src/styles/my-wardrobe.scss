@@ -14,3 +14,96 @@
   background: linear-gradient(rgb(102, 0, 153) 30%, rgba(102, 0, 153, 1));
   min-height: 100vh;
 }
+
+/* TODO: FIXED MOBILE OVERFLOW BUG */
+
+@media screen and (max-width: 1160px) {
+  .wardrobe__bg__main {
+    min-height: 110vh;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .wardrobe__bg__main {
+    min-height: 110vh;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .wardrobe__bg__main {
+    min-height: 110vh;
+  }
+}
+
+@media screen and (max-width: 1055px) {
+  .wardrobe__bg__main {
+    min-height: 120vh;
+  }
+}
+
+@media screen and (max-width: 1015px) {
+  .wardrobe__bg__main {
+    min-height: 115vh;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .wardrobe__bg__main {
+    min-height: 115vh;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .wardrobe__bg__main {
+    min-height: 115vh;
+  }
+}
+
+@media screen and (max-width: 825px) {
+  .wardrobe__bg__main {
+    min-height: 120vh;
+  }
+}
+
+@media screen and (max-width: 788px) {
+  .wardrobe__bg__main {
+    min-height: 125vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wardrobe__bg__main {
+    min-height: 120vh;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .wardrobe__bg__main {
+    min-height: 120vh;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .wardrobe__bg__main {
+    min-height: 115vh;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .wardrobe__bg__main {
+    min-height: 125vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .wardrobe__bg__main {
+    min-height: 120vh;
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+  .wardrobe__bg__main {
+    min-height: 130vh;
+  }
+}
