@@ -46,11 +46,7 @@ class HeritageApartments extends Component {
                 <li>postgresql -PostgreSQL is an advanced object-relational database management system.</li>
               </ul>
             </div>
-            <div className="box-5">
-              <Link to="/work"><FontAwesome name='long-arrow-left' /> Back</Link>
-              <Link to="/work">Next <FontAwesome name='long-arrow-right' /></Link>
-            </div>
-
+            
           </div>
         </div>
       </div>

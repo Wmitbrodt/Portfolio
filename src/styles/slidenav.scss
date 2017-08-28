@@ -63,23 +63,42 @@
 
 .slide-pane__content {
   list-style: none;
-  background: teal;
+  background: $side-nav;
 }
 
-.slide-pane__content a {
+.slide-pane__content li {
   font-size: 1.5em;
   color: #fff;
-  line-height: 1.5em;
+  line-height: 2.5em;
+  @include transition(all 0.3s ease-in-out);
+  &:hover {
+    color: $side-nav-link-hover;
+  }
+}
+
+.slide-pane__content .fa {
+  color: $side-nav-link-hover;
+  padding-top: 22px;
+  font-size: 2.5em;
+  letter-spacing: 22px;
+  @include transition(all 0.3s ease-in-out);
+  &:hover {
+    color: #fff;
+  }
 }
 
 .slide-pane__header {
-  background: teal;
+  background: $side-nav;
   border: none;
 }
 
 .slide-pane__close {
   margin-top: 45px;
   color: #fff;
+  @include transition(all 0.3s ease-in-out);
+  &:hover {
+    color: $side-nav-link-hover;
+  }
 }
 
 .hamburger {

@@ -8,16 +8,14 @@ class Contact extends Component {
         <div>
           <h1>Let's chat.</h1>
         </div>
+
         <div>
-            <h3>Please feel free to reach out and get in touch. Whether you have a work enquiry or simply want to find out more, let’s chat.</h3>
-            <div>
-              <a href="mailto:wmitbrodt@gmail.com"><span>Send me an email →</span></a>
-              <br /><br />
-            </div>
-
-
+          <h3>Please feel free to reach out and get in touch. Whether you have a work enquiry or simply want to find out more, let’s chat.</h3>
+          <div>
+            <a target="_blank" href="mailto:wmitbrodt@gmail.com"><span>Send me an email →</span></a>
+            <br /><br />
+          </div>
         </div>
-
 
         <div>
           <form action="https://formspree.io/wmitbrodt@gmail.com" method="POST">

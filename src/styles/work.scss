@@ -3,14 +3,14 @@
 #work__container {
   height: 100%;
   background: #e5eeff;
-  padding: 0 15% 5% 15%;
+  padding: 13% 15% 5% 15%;
 }
 
 #work__container h1 {
   color: #0032d2;
   font-size: 4em;
   margin-top: 0;
-  padding: 25% 0 5% 0%;
+  padding: 0% 0 5% 0%;
 }
 
 .gallery {
@@ -142,14 +142,13 @@
 
 /******************* MEDIA QUERIES *************/
 
-@media screen and (max-width: 1200px) {
-
-}
-
 @media screen and (max-width: 992px) {
   #work__container h1 {
      font-size: 2.8em;
      padding: 30% 0 5% 0%;
+   }
+   #work__container h1 {
+     font-size: 3em;
    }
    #work__container {
      padding: 0 10% 5% 10%;

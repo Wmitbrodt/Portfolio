@@ -4,6 +4,8 @@ import SlidingPane from 'react-sliding-pane';
 import 'react-sliding-pane/dist/react-sliding-pane.css';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import '../styles/slidenav.css';
+import FontAwesome from 'react-fontawesome';
+
 
 class SlideNav extends Component {
     constructor(props) {
@@ -37,13 +39,14 @@ class SlideNav extends Component {
                 width='200px'
                 onRequestClose={ () => this.setState({ isPaneOpenRight: false }) }>
                   <div>
-                    <Link to="/"><li>Home</li></Link>
-                    <Link to="about"><li>About Me</li></Link>
-                    <Link to="/work"><li>My Work</li></Link>
-                    <Link to="/projects"><li>Some Projects</li></Link>
-                    <Link to="/contact"><li>Say Hi 👋🏼</li></Link>
-
-
+                    <Link className="slideNav__link" to="/"><li>Home</li></Link>
+                    <Link to="/about"><li>About</li></Link>
+                    <Link to="/work"><li>Work</li></Link>
+                    <Link to="/projects"><li>Projects</li></Link>
+                    <Link to="/contact"><li>Get in touch</li></Link>
+                    <a target="_blank" href="https://github.com/Wmitbrodt"><FontAwesome name='github' /></a>
+                    <a target="_blank" href="https://twitter.com/WillMitbrodt"><FontAwesome name='twitter' /></a>
+                    <a target="_blank" href="https://twitter.com/WillMitbrodt"><FontAwesome name='linkedin' /></a>
                   </div>
               </SlidingPane>
           </div>
