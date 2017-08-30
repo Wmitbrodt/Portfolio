@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
 import '../../styles/projects/projects-show.css';
 import '../../styles/projects/retro-video-games.css';
 import FontAwesome from 'react-fontawesome';
@@ -27,7 +26,7 @@ class RetroVideoGames extends Component {
                 upload files, and create reviews with one to many associations. It also has user authentication and
                 authorization with devise.
                 <br />
-                <a target="_blank" href="https://wills-videogames.herokuapp.com/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
+                <a target="_blank" rel="noopener noreferrer" href="https://wills-videogames.herokuapp.com/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
               </h2>
             </div>
 

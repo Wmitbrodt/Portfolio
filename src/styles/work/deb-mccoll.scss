@@ -1,108 +1,108 @@
-@import 'variables';
+@import '../variables';
 
-.prof__bg__image {
+.deb__bg__image {
   background-size: cover;
-  background-position: center center;
-  background: linear-gradient(rgba(0, 188, 108, 0.5) 30%, rgb(0, 188, 108)),
-    url("../images/yuacatan_1.png");
+  background: linear-gradient(rgba(102, 0, 153, 0.5) 30%, rgb(102, 0, 153)),
+    url("https://s3-us-west-2.amazonaws.com/portfolio-will/images/Atlas_no.1-intercellular_1.jpg");
   width: 100%;
   min-height: 100vh;
+  background-position: 50% 0;
 }
 
-.prof__bg__main {
-  background: linear-gradient(rgb(0, 188, 108) 30%, rgba(0, 188, 108, 1));
+.deb__bg__main {
+  background: linear-gradient(rgb(102, 0, 153) 30%, rgba(102, 0, 153, 1));
   min-height: 100vh;
 }
 
 /* TODO: FIXED MOBILE OVERFLOW BUG */
 
 @media screen and (max-width: 1160px) {
-  .prof__bg__main {
+  .deb__bg__main {
     min-height: 110vh;
   }
 }
 
 @media screen and (max-width: 1140px) {
-  .prof__bg__main {
+  .deb__bg__main {
     min-height: 110vh;
   }
 }
 
 @media screen and (max-width: 1100px) {
-  .prof__bg__main {
+  .deb__bg__main {
     min-height: 110vh;
   }
 }
 
 @media screen and (max-width: 1055px) {
-  .prof__bg__main {
+  .deb__bg__main {
     min-height: 120vh;
   }
 }
 
 @media screen and (max-width: 1015px) {
-  .prof__bg__main {
+  .deb__bg__main {
     min-height: 115vh;
   }
 }
 
 @media screen and (max-width: 992px) {
-  .prof__bg__main {
+  .deb__bg__main {
     min-height: 115vh;
   }
 }
 
 @media screen and (max-width: 900px) {
-  .prof__bg__main {
+  .deb__bg__main {
     min-height: 115vh;
   }
 }
 
 @media screen and (max-width: 825px) {
-  .prof__bg__main {
+  .deb__bg__main {
     min-height: 120vh;
   }
 }
 
 @media screen and (max-width: 788px) {
-  .prof__bg__main {
+  .deb__bg__main {
     min-height: 125vh;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .prof__bg__main {
+  .deb__bg__main {
     min-height: 120vh;
   }
 }
 
 @media screen and (max-width: 700px) {
-  .prof__bg__main {
+  .deb__bg__main {
     min-height: 120vh;
   }
 }
 
 @media screen and (max-width: 576px) {
-  .prof__bg__main {
+  .deb__bg__main {
     min-height: 115vh;
   }
 }
 
 @media screen and (max-width: 515px) {
-  .prof__bg__main {
+  .deb__bg__main {
     min-height: 125vh;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .prof__bg__main {
+  .deb__bg__main {
     min-height: 120vh;
   }
 }
 
 
 @media screen and (max-width: 450px) {
-  .prof__bg__main {
+  .deb__bg__main {
     min-height: 130vh;
   }
 }

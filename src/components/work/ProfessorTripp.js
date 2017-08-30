@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
-import '../../styles/work-show.css';
-import '../../styles/professor-tripp.css';
+import '../../styles/work/work-show.css';
+import '../../styles/work/professor-tripp.css';
 import FontAwesome from 'react-fontawesome';
 
 class ProfessorTripp extends Component {
@@ -29,6 +28,8 @@ class ProfessorTripp extends Component {
                   I decided to sway from this trend, and make hers fun, interactive and most of all - different.
                   Features include: user authentication, user authorization, emails with Send
                   Grid, SEO, and much more.
+                  <br />
+                  <a target="_blank" rel="noopener noreferrer" href="http://www.professor-tripp.com/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
               </h2>
             </div>
 
@@ -46,7 +47,7 @@ class ProfessorTripp extends Component {
                 <li>postgresql -PostgreSQL is an advanced object-relational database management system.</li>
               </ul>
             </div>
-            
+
           </div>
         </div>
       </div>

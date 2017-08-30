@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
-import '../../styles/work-show.css';
-import '../../styles/my-wardrobe.css';
+import '../../styles/work/work-show.css';
+import '../../styles/work/my-wardrobe.css';
 import FontAwesome from 'react-fontawesome';
 
 class MyWardrobe extends Component {
@@ -10,7 +9,7 @@ class MyWardrobe extends Component {
       <div>
         <div className="wardrobe__bg__image">
           <div className="work__show__container">
-            <h1>My Wardrobe:</h1>
+            <h1>myWardrobe:</h1>
             <h2>WordPress</h2>
           </div>
         </div>
@@ -23,12 +22,21 @@ class MyWardrobe extends Component {
 
             <div className="box-2">
               <h2>
-                  Professor Tripp is a web application I built using Ruby on Rails. It was created for
-                  a full-time anthropology professor at Chaffey College in California. While conduction research for
-                  this project, I immediately noticed that most professor website's are dull and dry.
-                  I decided to sway from this trend, and make hers fun, interactive and most of all - different.
-                  Features include: user authentication, user authorization, emails with Send
-                  Grid, SEO, and much more.
+                myWardobe makes it quick and easy to trade up your closet for the styles you love. Shop and sell brand name and luxury clothing on the go.. and earn rewards while doing it
+                <br />
+                <a target="_blank" rel="noopener noreferrer" href="http://mywardrobeonline.org/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
+              </h2>
+            </div>
+
+            <div className="box-1">
+              <h1><span>My Role</span></h1>
+            </div>
+
+            <div className="box-2">
+              <h2>
+                For this project, the vast majority of my job was to transform the existing wire-frames into an interactive front-end.
+                Other contributions included setting up the server, creating the blog, and contact form.
+                <br />
               </h2>
             </div>
 
@@ -38,15 +46,12 @@ class MyWardrobe extends Component {
 
             <div className="box-4">
               <ul>
-                <li>Ruby on Rails - server-side web application framework written in Ruby under the MIT License.</li>
-                <li>Twitter Bootstrap - the most popular front-end framework.</li>
-                <li>Font Awesome - The iconic font and CSS toolkit</li>
-                <li>SendGrid - Delivering your transactional and marketing email through one reliable platform.</li>
+                <li>WordPress - 28% of the web uses WordPress, from hobby blogs to the biggest news sites online.</li>
                 <li>jQuery - javascript library.</li>
-                <li>postgresql -PostgreSQL is an advanced object-relational database management system.</li>
+                <li>MySQL - MySQL Server, the world's most popular open source database, and MySQL Cluster, a real-time, open source transactional database.</li>
               </ul>
             </div>
-            
+
           </div>
         </div>
       </div>

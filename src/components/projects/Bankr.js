@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
 import '../../styles/projects/projects-show.css';
 import '../../styles/projects/bankr.css';
 import FontAwesome from 'react-fontawesome';
@@ -25,6 +24,7 @@ class Bankr extends Component {
               <h2>
                 A personal bank balance application that was built with a Rails backend and a React front-end.
                 It allows users to seamlessly keep track of their personal expenses.
+                <a target="_blank" rel="noopener noreferrer" href="https://wills-accounts.herokuapp.com/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
               </h2>
             </div>
 
@@ -37,14 +37,9 @@ class Bankr extends Component {
                 <li>Ruby on Rails - server-side web application framework written in Ruby under the MIT License.</li>
                 <li>Twitter Bootstrap - the most popular front-end framework.</li>
                 <li>Font Awesome - The iconic font and CSS toolkit</li>
-                <li>SendGrid - Delivering your transactional and marketing email through one reliable platform.</li>
-                <li>jQuery - javascript library.</li>
+                <li>react-rails - Integrate React.js with Rails views and controllers, the asset pipeline, or webpacker.</li>
                 <li>postgresql -PostgreSQL is an advanced object-relational database management system.</li>
               </ul>
-            </div>
-            <div className="box-5">
-              <Link to="/projects"><FontAwesome name='long-arrow-left' /> Back</Link>
-              <Link to="/projects">Next <FontAwesome name='long-arrow-right' /></Link>
             </div>
 
           </div>

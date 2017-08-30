@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
 import '../../styles/projects/projects-show.css';
 import '../../styles/projects/slackr.css';
 import FontAwesome from 'react-fontawesome';
@@ -28,7 +27,7 @@ class Slackr extends Component {
                 the user’s browser and the server using web sockets. Slackr was built using: Express, Node, React, Redux,
                 Socket IO and MongoDB.
                 <br />
-                <a target="_blank" href="https://github.com/Wmitbrodt/Slackr"><span>Check it out on Github</span></a> <FontAwesome name='long-arrow-right' />
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/Wmitbrodt/Slackr"><span>Check it out on Github</span></a> <FontAwesome name='long-arrow-right' />
               </h2>
             </div>
 
@@ -38,12 +37,13 @@ class Slackr extends Component {
 
             <div className="box-4">
               <ul>
-                <li>Ruby on Rails - server-side web application framework written in Ruby under the MIT License.</li>
-                <li>Twitter Bootstrap - the most popular front-end framework.</li>
-                <li>Font Awesome - The iconic font and CSS toolkit</li>
-                <li>SendGrid - Delivering your transactional and marketing email through one reliable platform.</li>
-                <li>jQuery - javascript library.</li>
-                <li>postgresql -PostgreSQL is an advanced object-relational database management system.</li>
+                <li>React JS.</li>
+                <li>Twitter Bootstrap.</li>
+                <li>Font Awesome</li>
+                <li>Redux.</li>
+                <li>Socket.IO - enables real-time bidirectional event-based communication.</li>
+                <li>Express.</li>
+                <li>MongoDB</li>
               </ul>
             </div>
 

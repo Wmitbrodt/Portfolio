@@ -12,7 +12,7 @@ class Contact extends Component {
         <div>
           <h3>Please feel free to reach out and get in touch. Whether you have a work enquiry or simply want to find out more, let’s chat.</h3>
           <div>
-            <a target="_blank" href="mailto:wmitbrodt@gmail.com"><span>Send me an email →</span></a>
+            <a target="_blank" rel="noopener noreferrer" href="mailto:wmitbrodt@gmail.com"><span>Send me an email →</span></a>
             <br /><br />
           </div>
         </div>

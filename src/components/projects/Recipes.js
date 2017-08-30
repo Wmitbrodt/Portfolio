@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
 import '../../styles/projects/projects-show.css';
 import '../../styles/projects/recipes.css';
 import FontAwesome from 'react-fontawesome';
@@ -23,11 +22,12 @@ class Recipes extends Component {
 
             <div className="box-2">
               <h2>
-                Retro Video Game Reviews is a Ruby on Rails application that has the ability to search with Elasticsearch,
-                upload files, and create reviews with one to many associations. It also has user authentication and
-                authorization with devise.
+                My very first Ruby on Rails application.
+                I decided to implement many of the things I had learnt into a working application.
+                Users can upload files, and create recipes, and dynamically add and delete ingredients/directions.
+                It also has user authentication and authorization with devise.
                 <br />
-                <a target="_blank" href="https://wills-recipes.herokuapp.com/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
+                <a target="_blank" rel="noopener noreferrer" href="https://wills-recipes.herokuapp.com/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
               </h2>
             </div>
 
@@ -38,11 +38,11 @@ class Recipes extends Component {
             <div className="box-4">
               <ul>
                 <li>Ruby on Rails - server-side web application framework written in Ruby under the MIT License.</li>
-                <li>Twitter Bootstrap - the most popular front-end framework.</li>
-                <li>Font Awesome - The iconic font and CSS toolkit</li>
-                <li>SendGrid - Delivering your transactional and marketing email through one reliable platform.</li>
+                <li>Cocoon - Dynamic nested forms using jQuery made easy.</li>
+                <li>Devise - Flexible authentication solution for Rails with Warden.</li>
                 <li>jQuery - javascript library.</li>
-                <li>postgresql -PostgreSQL is an advanced object-relational database management system.</li>
+                <li>AWS S3 - Store data in the cloud.</li>
+                <li>Disqus - add-on tools for websites to increase engagement</li>
               </ul>
             </div>
 

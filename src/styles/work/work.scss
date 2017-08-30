@@ -1,4 +1,4 @@
-@import 'variables';
+@import '../variables';
 
 #work__container {
   height: 100%;
@@ -53,7 +53,7 @@
     rgba(0,188,108, 0.6),
     rgba(0,188,108, 0.6)
     ),
-    url("../images/811-st-charles.jpg");
+    url("https://s3-us-west-2.amazonaws.com/portfolio-will/images/811-st-charles.jpg");
   background-size: cover;
   width: 100%;
   height: 400px;
@@ -66,7 +66,7 @@
     rgba(61,29,144, 0.6),
     rgba(61,29,144, 0.6)
     ),
-    url(http://d32v08bhbowe2n.cloudfront.net/assets/yuacatan-mexico-pyramid-9325144111859897f09dbe1afdd34a29d41d1cf7e153b0bdd57967e56f91594b.jpg);
+    url("https://s3-us-west-2.amazonaws.com/portfolio-will/images/yuacatan-mexico-pyramid.jpg");
   background-size: cover;
   width: 100%;
   height: 400px;
@@ -79,7 +79,7 @@
     rgba(0,188,108, 0.6),
     rgba(0,188,108, 0.6)
     ),
-    url("../images/blue-fashion-photo.jpeg");
+    url("https://s3-us-west-2.amazonaws.com/portfolio-will/images/blue-fashion-photo.jpeg");
   background-size: cover;
   width: 100%;
   height: 400px;
@@ -92,39 +92,12 @@
     rgba(0,188,108, 0.6),
     rgba(0,188,108, 0.6)
     ),
-    url(http://www.deborah-mccoll.ca/img/drawings/Atlas_Project-Intercellular_No.4.jpg);
+    url("https://s3-us-west-2.amazonaws.com/portfolio-will/images/Atlas_Project-Intercellular_No.4.jpg");
   background-size: cover;
   width: 100%;
   height: 400px;
   position: relative;
 }
-
-.image-5 {
-  background:
-    linear-gradient(
-    rgba(0,188,108, 0.6),
-    rgba(0,188,108, 0.6)
-    ),
-    url(http://www.deborah-mccoll.ca/img/drawings/Atlas_Project-Intercellular_No.4.jpg);
-  background-size: cover;
-  width: 100%;
-  height: 400px;
-  position: relative;
-}
-
-.image-6 {
-  background:
-    linear-gradient(
-    rgba(0,188,108, 0.6),
-    rgba(0,188,108, 0.6)
-    ),
-    url(http://www.deborah-mccoll.ca/img/drawings/Atlas_Project-Intercellular_No.4.jpg);
-  background-size: cover;
-  width: 100%;
-  height: 400px;
-  position: relative;
-}
-
 
 .overlay h2 {
   font-family: 'Roboto', sans-serif;

@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
-import '../../styles/work-show.css';
-import '../../styles/deb-mccoll.css';
+import '../../styles/work/work-show.css';
+import '../../styles/work/deb-mccoll.css';
 import FontAwesome from 'react-fontawesome';
 
 class DebMcColl extends Component {
@@ -23,7 +22,11 @@ class DebMcColl extends Component {
 
             <div className="box-2">
               <h2>
-                  Bitters viral kogi meggings. Kinfolk live-edge everyday carry deep v vexillologist small batch. Tattooed shoreditch cray helvetica yuccie. Craft beer man bun adaptogen meditation four dollar toast listicle raclette freegan cold-pressed chambray chartreuse dreamcatcher direct trade photo booth. Pitchfork hexagon hammock vexillologist art party hot chicken flexitarian etsy jean shorts seitan.
+                Deborah McColl is a visual artist located in Victoria BC, Canada. Works include: Paintings, Printmaking, Drawings and Photography.
+                There's something about how gallery spaces are arranged that brings out the best in the pieces.
+                This project attempts to bring the physical gallery experience to a virtual space.
+                <br />
+                <a target="_blank" rel="noopener noreferrer" href="http://www.deborah-mccoll.ca/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
               </h2>
             </div>
 
@@ -33,15 +36,15 @@ class DebMcColl extends Component {
 
             <div className="box-4">
               <ul>
-                <li>Ruby on Rails - server-side web application framework written in Ruby under the MIT License.</li>
                 <li>Twitter Bootstrap - the most popular front-end framework.</li>
-                <li>Font Awesome - The iconic font and CSS toolkit</li>
-                <li>SendGrid - Delivering your transactional and marketing email through one reliable platform.</li>
+                <li>Photoshop - The world's leader in digital imaging</li>
+                <li>Photoshop - The world's leader in digital imaging.</li>
+                <li>CSS3 / HTML5</li>
                 <li>jQuery - javascript library.</li>
-                <li>postgresql -PostgreSQL is an advanced object-relational database management system.</li>
+                <li>Cloudflare - A Growing Global Network Built for Scale.</li>
               </ul>
             </div>
-    
+
           </div>
         </div>
       </div>

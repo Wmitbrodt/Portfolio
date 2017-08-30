@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import { render } from 'react-dom';
 import SlidingPane from 'react-sliding-pane';
 import 'react-sliding-pane/dist/react-sliding-pane.css';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 import '../styles/slidenav.css';
 import FontAwesome from 'react-fontawesome';
 
@@ -44,9 +43,9 @@ class SlideNav extends Component {
                     <Link to="/work"><li>Work</li></Link>
                     <Link to="/projects"><li>Projects</li></Link>
                     <Link to="/contact"><li>Get in touch</li></Link>
-                    <a target="_blank" href="https://github.com/Wmitbrodt"><FontAwesome name='github' /></a>
-                    <a target="_blank" href="https://twitter.com/WillMitbrodt"><FontAwesome name='twitter' /></a>
-                    <a target="_blank" href="https://twitter.com/WillMitbrodt"><FontAwesome name='linkedin' /></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/Wmitbrodt"><FontAwesome name='github' /></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/WillMitbrodt"><FontAwesome name='twitter' /></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/WillMitbrodt"><FontAwesome name='linkedin' /></a>
                   </div>
               </SlidingPane>
           </div>

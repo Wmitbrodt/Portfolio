@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
 import '../../styles/projects/projects-show.css';
 import '../../styles/projects/you-tube.css';
 import FontAwesome from 'react-fontawesome';
@@ -27,7 +26,7 @@ class YouTube extends Component {
                 It is able to instantly search for any video on YouTube’s vast library and instantly play them.
                 It was built using React, Node, and Bootstrap.
                 <br />
-                <a target="_blank" href="https://github.com/Wmitbrodt/youtubeSearchAPI"><span>Check it out on Github</span></a> <FontAwesome name='long-arrow-right' />
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/Wmitbrodt/youtubeSearchAPI"><span>Check it out on Github</span></a> <FontAwesome name='long-arrow-right' />
               </h2>
             </div>
 
@@ -37,12 +36,12 @@ class YouTube extends Component {
 
             <div className="box-4">
               <ul>
-                <li>Ruby on Rails - server-side web application framework written in Ruby under the MIT License.</li>
-                <li>Twitter Bootstrap - the most popular front-end framework.</li>
-                <li>Font Awesome - The iconic font and CSS toolkit</li>
-                <li>SendGrid - Delivering your transactional and marketing email through one reliable platform.</li>
-                <li>jQuery - javascript library.</li>
-                <li>postgresql -PostgreSQL is an advanced object-relational database management system.</li>
+                <li>React JS.</li>
+                <li>Lodash</li>
+                <li>Redux.</li>
+                <li>React Router</li>
+                <li>Youtube API Search</li>
+                <li>Twitter Bootstrap</li>
               </ul>
             </div>
 

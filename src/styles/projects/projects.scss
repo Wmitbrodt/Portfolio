@@ -1,7 +1,7 @@
 @import '../variables';
 
 #project__container {
-  min-height: 100vh;
+  min-height: 100%;
   background: #e5eeff;
   padding: 13% 15% 5% 15%;
 }
@@ -53,7 +53,7 @@
     rgba(0,188,108, 0.6),
     rgba(0,188,108, 0.6)
     ),
-    url("http://www.justlivenatural.com/images/healthyveggies.jpg");
+    url("https://s3-us-west-2.amazonaws.com/portfolio-will/images/healthyveggies.jpg");
   background-size: cover;
   width: 100%;
   height: 400px;
@@ -66,7 +66,7 @@
     rgba(61,29,144, 0.6),
     rgba(61,29,144, 0.6)
     ),
-    url(https://i.ytimg.com/vi/s5y-4EpmfRQ/maxresdefault.jpg);
+    url("https://s3-us-west-2.amazonaws.com/portfolio-will/images/youtube-small.jpg");
   background-size: cover;
   width: 100%;
   height: 400px;
@@ -79,7 +79,7 @@
     rgba(0,188,108, 0.6),
     rgba(0,188,108, 0.6)
     ),
-    url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/4O4FZUVSIU.jpg");
+    url("https://s3-us-west-2.amazonaws.com/portfolio-will/images/bankr.jpg");
   background-size: cover;
   width: 100%;
   height: 400px;
@@ -92,7 +92,7 @@
     rgba(0,188,108, 0.6),
     rgba(0,188,108, 0.6)
     ),
-    url(https://lh3.googleusercontent.com/-6kJ2uUdPg8I/WO11DNHyheI/AAAAAAAADkA/KSV5dHuHU-k2HhGZ4WHGk8OR_SudHpCFwCJoC/w1060-h662-p-rw/slackr.png);
+    url("https://s3-us-west-2.amazonaws.com/portfolio-will/images/slackr.jpg");
   background-size: cover;
   width: 100%;
   height: 400px;
@@ -131,7 +131,7 @@
     rgba(0,188,108, 0.6),
     rgba(0,188,108, 0.6)
     ),
-    url(https://geeksretreat.files.wordpress.com/2013/09/css3-message-board-with-sticky-notes.png?w=685);
+    url(https://s3-us-west-2.amazonaws.com/portfolio-will/images/job-board.png);
   background-size: cover;
   width: 100%;
   height: 400px;
