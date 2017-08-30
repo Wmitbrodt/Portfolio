@@ -8,25 +8,30 @@ class MyWardrobe extends Component {
     return (
       <div>
         <div className="wardrobe__bg__image">
-          <div className="work__show__container">
+
+          <div className="hero__header">
             <h1>myWardrobe:</h1>
             <h2>WordPress</h2>
           </div>
+
         </div>
-        <div className="wardrobe__bg__main">
-          <div className="work__main__container">
+        <div className="work__hero__container">
 
-            <div className="box-1">
-              <h1><span>About</span></h1>
-            </div>
+          <div className="box-1">
+            <h1><span>About</span></h1>
+          </div>
 
-            <div className="box-2">
-              <h2>
+          <div className="box-2">
+            <h2>
                 myWardobe makes it quick and easy to trade up your closet for the styles you love. Shop and sell brand name and luxury clothing on the go.. and earn rewards while doing it
                 <br />
                 <a target="_blank" rel="noopener noreferrer" href="http://mywardrobeonline.org/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
               </h2>
-            </div>
+          </div>
+        </div>
+
+        <div className="wardrobe__bg__main">
+          <div className="work__main__container">
 
             <div className="box-1">
               <h1><span>My Role</span></h1>
@@ -36,14 +41,13 @@ class MyWardrobe extends Component {
               <h2>
                 For this project, the vast majority of my job was to transform the existing wire-frames into an interactive front-end.
                 Other contributions included setting up the server, creating the blog, and contact form.
-                <br />
               </h2>
             </div>
 
             <div className="box-3">
               <h1><span>Tech</span></h1>
             </div>
-
+             
             <div className="box-4">
               <ul>
                 <li>WordPress - 28% of the web uses WordPress, from hobby blogs to the biggest news sites online.</li>

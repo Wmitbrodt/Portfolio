@@ -9,37 +9,34 @@ class ProfessorTripp extends Component {
       <div>
         <div className="prof__bg__image">
 
-            <div className="hero__header">
-              <h1>Professor Tripp</h1>
-              <h2>Ruby On Rails</h2>
-            </div>
-
-            <div className="work__hero__container">
-
-              <div className="box-1">
-                <h1><span>About</span></h1>
-              </div>
-
-              <div className="box-2">
-                <h2>
-                    Professor Tripp is a web application I built using Ruby on Rails. It was created for
-                    a full-time anthropology professor at Chaffey College in California. While conduction research for
-                    this project, I immediately noticed that most professor website's are dull and dry.
-                    I decided to sway from this trend, and make hers fun, interactive and most of all - different.
-                    Features include: user authentication, user authorization, emails with Send
-                    Grid, SEO, and much more.
-                    <br />
-                    <a target="_blank" rel="noopener noreferrer" href="http://www.professor-tripp.com/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
-                </h2>
-              </div>
-
-            </div>
+          <div className="hero__header">
+            <h1>Professor Tripp</h1>
+            <h2>Ruby on Rails</h2>
+          </div>
 
         </div>
+        <div className="work__hero__container">
+
+          <div className="box-1">
+            <h1><span>About</span></h1>
+          </div>
+
+          <div className="box-2">
+            <h2>
+                Professor Tripp is a web application I built using Ruby on Rails. It was created for
+                a full-time anthropology professor at Chaffey College in California. While conduction research for
+                this project, I immediately noticed that most professor website's are dull and dry.
+                I decided to sway from this trend, and make hers fun, interactive and most of all - different.
+                Features include: user authentication, user authorization, emails with Send
+                Grid, SEO, and much more.
+                <br />
+                <a target="_blank" rel="noopener noreferrer" href="http://www.professor-tripp.com/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
+            </h2>
+          </div>
+        </div>
+
         <div className="prof__bg__main">
           <div className="work__main__container">
-
-
 
             <div className="box-3">
               <h1><span>Tech</span></h1>

@@ -8,27 +8,32 @@ class DebMcColl extends Component {
     return (
       <div>
         <div className="deb__bg__image">
-          <div className="work__show__container">
+
+          <div className="hero__header">
             <h1>Deborah McColl</h1>
             <h2>Visual Artist</h2>
           </div>
+
         </div>
+        <div className="work__hero__container">
+
+          <div className="box-1">
+            <h1><span>About</span></h1>
+          </div>
+
+          <div className="box-2">
+            <h2>
+              Deborah McColl is a visual artist located in Victoria BC, Canada. Works include: Paintings, Printmaking, Drawings and Photography.
+              There's something about how gallery spaces are arranged that brings out the best in the pieces.
+              This project attempts to bring the physical gallery experience to a virtual space.
+              <br />
+              <a target="_blank" rel="noopener noreferrer" href="http://www.deborah-mccoll.ca/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
+            </h2>
+          </div>
+        </div>
+
         <div className="deb__bg__main">
           <div className="work__main__container">
-
-            <div className="box-1">
-              <h1><span>About</span></h1>
-            </div>
-
-            <div className="box-2">
-              <h2>
-                Deborah McColl is a visual artist located in Victoria BC, Canada. Works include: Paintings, Printmaking, Drawings and Photography.
-                There's something about how gallery spaces are arranged that brings out the best in the pieces.
-                This project attempts to bring the physical gallery experience to a virtual space.
-                <br />
-                <a target="_blank" rel="noopener noreferrer" href="http://www.deborah-mccoll.ca/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
-              </h2>
-            </div>
 
             <div className="box-3">
               <h1><span>Tech</span></h1>
