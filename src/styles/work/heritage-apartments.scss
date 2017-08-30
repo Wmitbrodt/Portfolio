@@ -1,5 +1,33 @@
 @import '../variables';
 
+#bg__image__test {
+  background-size: cover;
+  // min-height: 20vh;
+  width: 100%;
+  background-position: center center;
+  background-size: cover !important;
+  background: linear-gradient(rgba(102, 0, 153, 0.5) 30%, rgb(102, 0, 153)),
+    url("https://s3-us-west-2.amazonaws.com/portfolio-will/images/811-st-charles.jpg");
+}
+
+#bug__image__test h1 {
+
+}
+.some-container {
+  background: linear-gradient(rgb(102, 0, 153) 30%, rgba(102, 0, 153, 1));
+  min-height: 80vh;
+  margin-top: 0px;
+  margin: 0;
+}
+
+.some-container h1 {
+  margin: 0;
+}
+
+.box-1 {
+
+}
+
 .heritage__bg__image {
   background-size: cover;
   background: linear-gradient(rgba(102, 0, 153, 0.5) 30%, rgb(102, 0, 153)),
