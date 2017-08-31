@@ -72,12 +72,14 @@ a:hover, a:active, a:focus {
 
 h1 {
   font-family: 'Megrim', cursive;
+  text-shadow: 0 0 40px rgba(0,0,0, 0.2) !important;
 }
 
 h2, h3, h4, h5, p, li {
   font-family: 'Encode Sans', sans-serif;
   font-weight: 300;
   line-height: 1.7;
+  text-shadow: 0 0 40px rgba(0,0,0, 0.2);
 }
 
 .fa {

@@ -13,6 +13,7 @@
   font-size: 3em;
   position: absolute;
   color: #fff;
+  z-index: 3;
 }
 #menuToggle {
   display: block;
@@ -59,6 +60,7 @@
 .slide-nav__open {
   background: transparent;
   border: none;
+  z-index: 9999 !important;
 }
 
 .slide-pane__content {
@@ -116,7 +118,7 @@ button:focus {
     -webkit-transition: background-color 0.5s;
     -o-transition: background-color 0.5s;
     transition: background-color 0.5s;
-    z-index: 99;
+    z-index: 9999 !important;
 }
 
 .ReactModal__Content--after-open {

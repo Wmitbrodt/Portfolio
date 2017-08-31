@@ -8,27 +8,32 @@ class RetroVideoGames extends Component {
     return (
       <div>
         <div className="retro-video-games__bg__image">
-          <div className="project__show__container">
+
+          <div className="hero__header">
             <h1>Retro Video Games</h1>
             <h2>Ruby on Rails</h2>
           </div>
+
         </div>
-        <div className="retro-video-games__bg__main">
-          <div className="project__main__container">
+        <div className="work__hero__container">
 
-            <div className="box-1">
-              <h1><span>About</span></h1>
-            </div>
+          <div className="box-1">
+            <h1><span>About</span></h1>
+          </div>
 
-            <div className="box-2">
-              <h2>
+          <div className="box-2">
+            <h2>
                 Retro Video Game Reviews is a Ruby on Rails application that has the ability to search with Elasticsearch,
                 upload files, and create reviews with one to many associations. It also has user authentication and
                 authorization with devise.
                 <br />
                 <a target="_blank" rel="noopener noreferrer" href="https://wills-videogames.herokuapp.com/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
               </h2>
-            </div>
+          </div>
+        </div>
+
+        <div className="retro-video-games__bg__main">
+          <div className="work__main__container">
 
             <div className="box-3">
               <h1><span>Tech</span></h1>

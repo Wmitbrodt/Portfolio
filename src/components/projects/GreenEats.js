@@ -8,27 +8,32 @@ class GreenEats extends Component {
     return (
       <div>
         <div className="green-eats__bg__image">
-          <div className="project__show__container">
+
+          <div className="hero__header">
             <h1>Green Eats</h1>
             <h2>Node JS</h2>
           </div>
+
         </div>
-        <div className="green-eats__bg__main">
-          <div className="project__main__container">
+        <div className="work__hero__container">
 
-            <div className="box-1">
-              <h1><span>About</span></h1>
-            </div>
+          <div className="box-1">
+            <h1><span>About</span></h1>
+          </div>
 
-            <div className="box-2">
-              <h2>
+          <div className="box-2">
+            <h2>
                 Green Eats is a current project I’m working on. It enables users to search for the nearest farm or farmers market near them.
                 This application has many features including: user authentication, database storage, Ajax REST API,
                 file uploads, image resizing, sending emails, geocoding addresses, password reset, user accounts and much more.
                 <br />
                 <a target="_blank" rel="noopener noreferrer" href="https://wills-green-eats.herokuapp.com/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
               </h2>
-            </div>
+          </div>
+        </div>
+
+        <div className="green-eats__bg__main">
+          <div className="work__main__container">
 
             <div className="box-3">
               <h1><span>Tech</span></h1>

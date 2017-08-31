@@ -8,20 +8,21 @@ class UndefinedDrillz extends Component {
     return (
       <div>
         <div className="undefined-drillz__bg__image">
-          <div className="project__show__container">
+
+          <div className="hero__header">
             <h1>Undefined Drillz</h1>
             <h2>Ruby on Rails</h2>
           </div>
+
         </div>
-        <div className="undefined-drillz__bg__main">
-          <div className="project__main__container">
+        <div className="work__hero__container">
 
-            <div className="box-1">
-              <h1><span>About</span></h1>
-            </div>
+          <div className="box-1">
+            <h1><span>About</span></h1>
+          </div>
 
-            <div className="box-2">
-              <h2>
+          <div className="box-2">
+            <h2>
                 Undefined Drills is a group project, consisting of 6 members, that was built over a weekend
                 as a 'mini-hackathon' challenge. This project relied heavily on team collaboration and the use of Git/GitHub.
                 It is a web application that allows users to practice coding drills and was built with JavaScript, jQuery, AJAX,
@@ -29,7 +30,11 @@ class UndefinedDrillz extends Component {
                 <br />
                 <a target="_blank" rel="noopener noreferrer" href="http://undefineddrills.herokuapp.com/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
               </h2>
-            </div>
+          </div>
+        </div>
+
+        <div className="undefined-drillz__bg__main">
+          <div className="work__main__container">
 
             <div className="box-3">
               <h1><span>Tech</span></h1>

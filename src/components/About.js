@@ -36,7 +36,7 @@ class About extends Component {
           <h3>
             My design philosopy is about focusing on essentials by keeping the elements simple and clean.
             Every design element needs certain amount of room to “breath” and to balance out other elements as well.
-            Less is more: Good design is as little design as possible.
+            Less is more - Good design is as little design as possible.
           </h3>
         </div>
 
