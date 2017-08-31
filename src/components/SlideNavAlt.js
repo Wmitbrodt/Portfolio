@@ -6,7 +6,7 @@ import '../styles/slidenav.css';
 import FontAwesome from 'react-fontawesome';
 
 
-class SlideNav extends Component {
+class SlideNavAlt extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -19,13 +19,13 @@ class SlideNav extends Component {
         return (
           <div>
             <div id="nav">
-              <Link id="logo" to="/">W</Link>
+              <Link id="logo-alt" to="/">W</Link>
               <div id="menuToggle">
                 <div style={{ marginTop: '32px' }}>
                     <button className="slide-nav__open" onClick={ () => this.setState({ isPaneOpenRight: true }) }>
-                      <div className="hamburger"></div>
-                      <div className="hamburger"></div>
-                      <div className="hamburger"></div>
+                      <div className="hamburger-alt"></div>
+                      <div className="hamburger-alt"></div>
+                      <div className="hamburger-alt"></div>
                     </button>
                 </div>
               </div>
@@ -52,4 +52,4 @@ class SlideNav extends Component {
     }
 }
 
-export default SlideNav;
+export default SlideNavAlt;

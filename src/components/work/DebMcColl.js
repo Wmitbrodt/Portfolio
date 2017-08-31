@@ -2,11 +2,13 @@ import React, { Component } from 'react'
 import '../../styles/work/work-show.css';
 import '../../styles/work/deb-mccoll.css';
 import FontAwesome from 'react-fontawesome';
+import SlideNav from '../SlideNav';
 
 class DebMcColl extends Component {
   render() {
     return (
       <div>
+        <SlideNav />
         <div className="deb__bg__image">
 
           <div className="hero__header">

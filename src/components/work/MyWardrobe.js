@@ -2,11 +2,13 @@ import React, { Component } from 'react'
 import '../../styles/work/work-show.css';
 import '../../styles/work/my-wardrobe.css';
 import FontAwesome from 'react-fontawesome';
+import SlideNav from '../SlideNav';
 
 class MyWardrobe extends Component {
   render() {
     return (
       <div>
+        <SlideNav />
         <div className="wardrobe__bg__image">
 
           <div className="hero__header">
@@ -47,7 +49,7 @@ class MyWardrobe extends Component {
             <div className="box-3">
               <h1><span>Tech</span></h1>
             </div>
-             
+
             <div className="box-4">
               <ul>
                 <li>WordPress - 28% of the web uses WordPress, from hobby blogs to the biggest news sites online.</li>

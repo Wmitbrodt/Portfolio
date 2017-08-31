@@ -5,7 +5,6 @@ import About from './components/About';
 import Work from './components/Work';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-import SlideNav from './components/SlideNav';
 import NoMatch from './components/NoMatch';
 import ScrollToTop from './components/ScrollToTop';
 
@@ -33,7 +32,7 @@ import Recipes from './components/projects/Recipes';
 const routes = [
   { path: '/',
     exact: true,
-    sidebar: () => <div>home!</div>,
+    sidebar: () => <div>home</div>,
     main: Home
   },
   { path: '/about',
@@ -123,7 +122,6 @@ const SideNav = () => (
   <Router>
     <ScrollToTop>
     <div>
-      <SlideNav />
       <div>
         <Switch>
           {routes.map((route, index) => (

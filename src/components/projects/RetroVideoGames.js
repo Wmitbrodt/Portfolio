@@ -2,11 +2,13 @@ import React, { Component } from 'react'
 import '../../styles/projects/projects-show.css';
 import '../../styles/projects/retro-video-games.css';
 import FontAwesome from 'react-fontawesome';
+import SlideNav from '../SlideNav';
 
 class RetroVideoGames extends Component {
   render() {
     return (
       <div>
+        <SlideNav />
         <div className="retro-video-games__bg__image">
 
           <div className="hero__header">

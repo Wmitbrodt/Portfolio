@@ -2,11 +2,13 @@ import React, { Component } from 'react'
 import '../../styles/projects/projects-show.css';
 import '../../styles/projects/undefined-drillz.css';
 import FontAwesome from 'react-fontawesome';
+import SlideNav from '../SlideNav';
 
 class UndefinedDrillz extends Component {
   render() {
     return (
       <div>
+        <SlideNav />
         <div className="undefined-drillz__bg__image">
 
           <div className="hero__header">

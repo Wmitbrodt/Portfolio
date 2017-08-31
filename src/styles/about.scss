@@ -1,5 +1,12 @@
 @import 'variables';
 
+.hamburger {
+    width: 35px;
+    height: 5px;
+    background-color: map-get($brand_clr, about);
+    margin: 6px 0;
+}
+
 #about__container {
   background-size: cover;
   background: blue;

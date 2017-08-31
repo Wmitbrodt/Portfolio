@@ -3,11 +3,13 @@ import { Link } from 'react-router-dom'
 import '../../styles/work/work-show.css';
 import '../../styles/work/heritage-apartments.css';
 import FontAwesome from 'react-fontawesome';
+import SlideNav from '../SlideNav';
 
 class HeritageApartments extends Component {
   render() {
     return (
       <div>
+        <SlideNav />
         <div className="heritage__bg__image">
 
           <div className="hero__header">

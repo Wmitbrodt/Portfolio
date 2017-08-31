@@ -2,11 +2,13 @@ import React, { Component } from 'react'
 import '../../styles/work/work-show.css';
 import '../../styles/work/professor-tripp.css';
 import FontAwesome from 'react-fontawesome';
+import SlideNav from '../SlideNav';
 
 class ProfessorTripp extends Component {
   render() {
     return (
       <div>
+        <SlideNav />
         <div className="prof__bg__image">
 
           <div className="hero__header">

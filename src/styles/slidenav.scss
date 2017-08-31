@@ -17,7 +17,7 @@
 }
 #menuToggle {
   display: block;
-  z-index: 1;
+  z-index: 99;
   -webkit-user-select: none;
   user-select: none;
   position: absolute;
@@ -29,7 +29,7 @@
 @media screen and (max-width: 992px) {
   #menuToggle {
     right: 10%;
-    position: fixed;
+    // position: fixed;
   }
   #logo {
     left: 10%;
@@ -106,9 +106,11 @@
 .hamburger {
     width: 35px;
     height: 5px;
-    background-color: #fff;
+    background-color: #fff !important;
     margin: 6px 0;
 }
+
+
 button:focus {
   outline:0;
 }
@@ -123,4 +125,41 @@ button:focus {
 
 .ReactModal__Content--after-open {
   width: 300px !important;
+}
+
+
+/******************
+   ALT COLOURS
+******************/
+
+.hamburger-alt {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-nav__open {
+    background: $side-nav-link-hover;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .slide-nav__open {
+    background: $side-nav-link-hover;
+    border: none;
+  }
+}
+
+#logo-alt {
+  font-family: 'Megrim', cursive;
+  top: 5%;
+  left: 15%;
+  // margin-top: 0;
+  font-size: 3em;
+  position: absolute;
+  color: black;
+  z-index: 3;
 }

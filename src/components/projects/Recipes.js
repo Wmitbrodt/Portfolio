@@ -2,11 +2,13 @@ import React, { Component } from 'react'
 import '../../styles/projects/projects-show.css';
 import '../../styles/projects/recipes.css';
 import FontAwesome from 'react-fontawesome';
+import SlideNav from '../SlideNav';
 
 class Recipes extends Component {
   render() {
     return (
       <div>
+        <SlideNav />
         <div className="recipes__bg__image">
 
           <div className="hero__header">

@@ -2,11 +2,13 @@ import React, { Component } from 'react'
 import '../../styles/projects/projects-show.css';
 import '../../styles/projects/job-board.css';
 import FontAwesome from 'react-fontawesome';
+import SlideNav from '../SlideNav';
 
 class JobBoard extends Component {
   render() {
     return (
       <div>
+        <SlideNav />
         <div className="job-board__bg__image">
 
           <div className="hero__header">

@@ -1,12 +1,17 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import '../styles/work/work.css';
+import SlidingPane from 'react-sliding-pane';
+import 'react-sliding-pane/dist/react-sliding-pane.css';
+import SlideNavAlt from './SlideNavAlt';
+
 
 
 class Work extends Component {
   render() {
     return (
       <div id="work__container">
+        <SlideNavAlt />
         <div>
           <h1>My Work.</h1>
         </div>

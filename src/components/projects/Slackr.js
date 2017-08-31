@@ -2,11 +2,13 @@ import React, { Component } from 'react'
 import '../../styles/projects/projects-show.css';
 import '../../styles/projects/slackr.css';
 import FontAwesome from 'react-fontawesome';
+import SlideNav from '../SlideNav';
 
 class Slackr extends Component {
   render() {
     return (
       <div>
+        <SlideNav />
         <div className="slackr__bg__image">
 
           <div className="hero__header">
