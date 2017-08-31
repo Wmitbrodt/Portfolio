@@ -4,9 +4,9 @@
   display:flex;
   flex-direction:row;
   flex-wrap:wrap;
-  height: 100vh;
+  min-height: 100vh;
   background: #e5eeff;
-  padding: 10% 15% 0 15%;
+  padding: 0 15% 0 15%;
 }
 
 .contact__container div {
@@ -40,7 +40,7 @@
 .contact__container h1 {
   color: #0032d2;
   font-size: 4em;
-  margin-top: 0;
+  margin-top: 25vh;
 }
 
 .contact__container h3 {
@@ -141,7 +141,7 @@ textarea {
 
 @media screen and (max-width: 992px) {
   .contact__container {
-    padding: 20% 10% 0 10%;
+    padding: 0 10% 0 10%;
    }
    .contact__container h1 {
      font-size: 2.8em;
@@ -150,7 +150,7 @@ textarea {
 
 @media screen and (max-width: 768px) {
   .contact__container {
-    padding: 25% 10% 0 10%;
+    padding: 0 10% 0 10%;
    }
    .contact__container h3 {
      padding: 0 60px 40px 0;
@@ -162,7 +162,7 @@ textarea {
 
 @media screen and (max-width: 576px) {
   .contact__container {
-    padding: 40% 5% 0 5%;
+    padding: 0 5% 0 5%;
    }
    .contact__container h1 {
      font-size: 2.2em;
