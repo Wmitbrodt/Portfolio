@@ -3,6 +3,7 @@ import '../../styles/projects/projects-show.css';
 import '../../styles/projects/you-tube.css';
 import FontAwesome from 'react-fontawesome';
 import SlideNav from '../SlideNav';
+import Footer from '../Footer';
 
 class YouTube extends Component {
   render() {
@@ -51,7 +52,9 @@ class YouTube extends Component {
                 <li>Twitter Bootstrap</li>
               </ul>
             </div>
-
+          </div>
+          <div className="box-5">
+            <Footer />
           </div>
         </div>
       </div>

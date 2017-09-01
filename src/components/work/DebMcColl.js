@@ -3,6 +3,7 @@ import '../../styles/work/work-show.css';
 import '../../styles/work/deb-mccoll.css';
 import FontAwesome from 'react-fontawesome';
 import SlideNav from '../SlideNav';
+import Footer from '../Footer';
 
 class DebMcColl extends Component {
   render() {
@@ -51,7 +52,9 @@ class DebMcColl extends Component {
                 <li>Cloudflare - A Growing Global Network Built for Scale.</li>
               </ul>
             </div>
-
+          </div>
+          <div className="box-5">
+            <Footer />
           </div>
         </div>
       </div>

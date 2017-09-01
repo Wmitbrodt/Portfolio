@@ -3,6 +3,7 @@ import '../../styles/projects/projects-show.css';
 import '../../styles/projects/undefined-drillz.css';
 import FontAwesome from 'react-fontawesome';
 import SlideNav from '../SlideNav';
+import Footer from '../Footer';
 
 class UndefinedDrillz extends Component {
   render() {
@@ -52,7 +53,9 @@ class UndefinedDrillz extends Component {
                 <li>PostgreSQL - is an advanced object-relational database management system.</li>
               </ul>
             </div>
-
+          </div>
+          <div className="box-5">
+            <Footer />
           </div>
         </div>
       </div>

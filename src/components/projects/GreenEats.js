@@ -3,6 +3,8 @@ import '../../styles/projects/projects-show.css';
 import '../../styles/projects/green-eats.css';
 import FontAwesome from 'react-fontawesome';
 import SlideNav from '../SlideNav';
+import Footer from '../Footer';
+
 
 class GreenEats extends Component {
   render() {
@@ -51,7 +53,9 @@ class GreenEats extends Component {
                 <li>Pug - template engine heavily influenced by Haml and implemented with JavaScript for Node.js and browsers.</li>
               </ul>
             </div>
-
+          </div>
+          <div className="box-5">
+            <Footer />
           </div>
         </div>
       </div>

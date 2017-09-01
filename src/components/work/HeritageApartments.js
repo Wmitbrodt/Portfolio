@@ -4,6 +4,7 @@ import '../../styles/work/work-show.css';
 import '../../styles/work/heritage-apartments.css';
 import FontAwesome from 'react-fontawesome';
 import SlideNav from '../SlideNav';
+import Footer from '../Footer';
 
 class HeritageApartments extends Component {
   render() {
@@ -51,7 +52,9 @@ class HeritageApartments extends Component {
                 <li>PostgreSQL - is an advanced object-relational database management system.</li>
               </ul>
             </div>
-
+          </div>
+          <div className="box-5">
+            <Footer />
           </div>
         </div>
       </div>

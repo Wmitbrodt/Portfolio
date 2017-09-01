@@ -3,6 +3,7 @@ import '../../styles/projects/projects-show.css';
 import '../../styles/projects/recipes.css';
 import FontAwesome from 'react-fontawesome';
 import SlideNav from '../SlideNav';
+import Footer from '../Footer';
 
 class Recipes extends Component {
   render() {
@@ -52,7 +53,9 @@ class Recipes extends Component {
                 <li>Disqus - add-on tools for websites to increase engagement</li>
               </ul>
             </div>
-
+          </div>
+          <div className="box-5">
+            <Footer />
           </div>
         </div>
       </div>

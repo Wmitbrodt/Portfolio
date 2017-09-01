@@ -3,6 +3,7 @@ import '../../styles/projects/projects-show.css';
 import '../../styles/projects/job-board.css';
 import FontAwesome from 'react-fontawesome';
 import SlideNav from '../SlideNav';
+import Footer from '../Footer';
 
 class JobBoard extends Component {
   render() {
@@ -49,7 +50,9 @@ class JobBoard extends Component {
                 <li>Simple Form - Forms made easy for Rails! It's tied to a simple DSL, with no opinion on markup.</li>
               </ul>
             </div>
-
+          </div>
+          <div className="box-5">
+            <Footer />
           </div>
         </div>
       </div>

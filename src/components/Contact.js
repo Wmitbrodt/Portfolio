@@ -6,11 +6,11 @@ import Footer from './Footer';
 class Contact extends Component {
   render() {
     return (
-      <div id="about__container">
+      <div id="contact__container">
         <SlideNav />
         <h1>Let's Chat</h1>
 
-        <div className="about__hero__container">
+        <div className="contact__hero__container">
 
           <div className="col-left">
             <h3>

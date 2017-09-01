@@ -55,9 +55,12 @@ class Slackr extends Component {
                 <li>MongoDB</li>
               </ul>
             </div>
-
           </div>
-          <Footer />
+
+          <div className="box-5">
+            <Footer />
+          </div>
+
         </div>
       </div>
     );

@@ -3,6 +3,7 @@ import '../../styles/work/work-show.css';
 import '../../styles/work/my-wardrobe.css';
 import FontAwesome from 'react-fontawesome';
 import SlideNav from '../SlideNav';
+import Footer from '../Footer';
 
 class MyWardrobe extends Component {
   render() {
@@ -57,7 +58,9 @@ class MyWardrobe extends Component {
                 <li>MySQL - MySQL Server, the world's most popular open source database, and MySQL Cluster, a real-time, open source transactional database.</li>
               </ul>
             </div>
-
+          </div>
+          <div className="box-5">
+            <Footer />
           </div>
         </div>
       </div>
