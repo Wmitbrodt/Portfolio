@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import '../styles/contact.css';
 import SlideNav from './SlideNav';
 import Footer from './Footer';
+import FontAwesome from 'react-fontawesome';
+
 
 class Contact extends Component {
   render() {
@@ -19,7 +21,7 @@ class Contact extends Component {
               let’s chat.
             </h3>
 
-            <a target="_blank" rel="noopener noreferrer" href="mailto:wmitbrodt@gmail.com"><span>Send me an email →</span></a>
+            <a target="_blank" rel="noopener noreferrer" href="mailto:wmitbrodt@gmail.com"><span>Send me an email </span> <FontAwesome name='long-arrow-right' /></a>
             <br /><br /><br /><br />
           </div>
 
@@ -30,7 +32,7 @@ class Contact extends Component {
                 <input type="email" name="_replyto" placeholder="Email Address"/>
                 <textarea name="message" placeholder="Your message"></textarea>
                 <input type="hidden" name="_next" value="http://localhost:3000/" />
-                <button className="contact__button" type="submit">Send a message →</button>
+                <button className="contact__button" type="submit">Send a message <FontAwesome name='long-arrow-right' /></button>
               </form>
             </div>
           </div>

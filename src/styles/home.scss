@@ -47,13 +47,21 @@
   background-position: 50% 95%;
   -webkit-animation: pulseBackground 30s infinite;
   animation: pulseBackground 30s infinite;
+  padding: 0 15% 0 15%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   flex: 1 0 auto;
 }
 
 
+#home__hero h1 {
+  color: #fff;
+  font-size: 4em;
+  text-align: left;
+  margin-top: 25vh;
+  text-shadow: 0 0 40px rgba(0,0,0, 0.2);
+}
 
 /*
 ######################
