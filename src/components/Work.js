@@ -4,6 +4,7 @@ import '../styles/work/work.css';
 import SlidingPane from 'react-sliding-pane';
 import 'react-sliding-pane/dist/react-sliding-pane.css';
 import SlideNavAlt from './SlideNavAlt';
+import Footer from './Footer';
 
 
 
@@ -39,6 +40,7 @@ class Work extends Component {
             </Link>
           </div>
       </div>
+      <Footer />
     </div>
     );
   }

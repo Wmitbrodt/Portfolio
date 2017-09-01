@@ -47,6 +47,10 @@
   background-position: 50% 95%;
   -webkit-animation: pulseBackground 30s infinite;
   animation: pulseBackground 30s infinite;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1 0 auto;
 }
 
 

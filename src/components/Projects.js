@@ -2,13 +2,14 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import '../styles/projects/projects.css';
 import SlideNavAlt from './SlideNavAlt';
+import Footer from './Footer';
 
 class Projects extends Component {
   render() {
     return (
       <div id="project__container">
         <SlideNavAlt />
-        
+
         <div>
           <h1>Projects.</h1>
         </div>
@@ -63,6 +64,7 @@ class Projects extends Component {
             </Link>
           </div>
       </div>
+     <Footer />
     </div>
     );
   }

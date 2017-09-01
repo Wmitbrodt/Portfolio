@@ -3,6 +3,8 @@ import '../../styles/projects/projects-show.css';
 import '../../styles/projects/slackr.css';
 import FontAwesome from 'react-fontawesome';
 import SlideNav from '../SlideNav';
+import Footer from '../Footer';
+
 
 class Slackr extends Component {
   render() {
@@ -55,6 +57,7 @@ class Slackr extends Component {
             </div>
 
           </div>
+          <Footer />
         </div>
       </div>
     );
