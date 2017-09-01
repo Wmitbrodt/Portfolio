@@ -32,12 +32,12 @@
 
 /*
 ##################################################
-            I wanna be a real HERO 🤘🏻
+            I wanna be a real container 🤘🏻
 #################################################
 */
 
 
-#home__hero {
+#home__container {
   // background: linear-gradient(rgba(102, 0, 153, 0.5) 30%, rgb(102, 0, 153)),
   //   url("http://www.justlivenatural.com/images/healthyveggies.jpg");
   background-size: cover;
@@ -54,111 +54,152 @@
   flex: 1 0 auto;
 }
 
-
+#home__hero {
+  padding: 0 0 10% 0;
+}
 #home__hero h1 {
   color: #fff;
   font-size: 4em;
   text-align: left;
   margin-top: 25vh;
-  text-shadow: 0 0 40px rgba(0,0,0, 0.2);
 }
 
-/*
-######################
-          Particles ⚪️ ⚪️
-######################
-*/
+#home__hero h2 {
+  color: #fff;
+  font-size: 1.8em;
+  text-align: left;
+  padding-bottom: 12px;
+}
 
-// .particles {
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     width:100%;
-//     height:100%;
-//     z-index: 0;
-//     -webkit-transform: translateZ(0);
-//     transform: translateZ(0);
-//     transform: skew(0deg, 10deg) translateY(140px);
-// }
-//
-// .particles li {
-//     position: absolute;
-//     list-style: none;
-//     display: block;
-//     background-color: rgba(255, 255, 255, 0.15);
-//     bottom: -100px;
-//     -webkit-animation: circle 20s infinite;
-//     animation: circle 20s infinite;
-//     -webkit-transition-timing-function: linear;
-//     transition-timing-function: linear;
-//     border-radius: 50%;
-//     transform: skew(0deg, 10deg) translateY(140px);
-//     transform-origin: 0;
-// }
-//
-// .particles li:nth-child(1) {
-//     width: 40px;
-//     height: 40px;
-//     left: 20%;
-// }
-// .particles li:nth-child(2) {
-//     width: 60px;
-//     height: 60px;
-//     left: 40%;
-//     -webkit-animation-delay: 2s;
-//     animation-delay: 2s;
-//     -webkit-animation-duration: 17s;
-//     animation-duration: 17s;
-// }
-//
-// .particles li:nth-child(3) {
-//     width: 10px;
-//     height: 10px;
-//     left: 60%;
-//     -webkit-animation-delay: 4s;
-//     animation-delay: 4s;
-//     -webkit-animation-duration: 13s;
-//     animation-duration: 13s;
-// }
-//
-// .particles li:nth-child(4) {
-//     width: 80px;
-//     height: 80px;
-//     left: 80%;
-//     -webkit-animation-delay: 1s;
-//     animation-delay: 1s;
-//     -webkit-animation-duration: 22s;
-//     animation-duration: 22s;
-// }
-//
-// .particles li:nth-child(5) {
-//     width: 50px;
-//     height: 50px;
-//     left: 50%;
-//     -webkit-animation-delay: 7s;
-//     animation-delay: 7s;
-//     -webkit-animation-duration: 12s;
-//     animation-duration: 12s;
-// }
-//
-// @-webkit-keyframes circle {
-//     0% {
-//         -webkit-transform: translateY(0);
-//         transform: translateY(0);
-//     }
-//     100% {
-//         -webkit-transform: translateY(-1080px) rotate(630deg);
-//         transform: translateY(-1080px) rotate(630deg);
-//     }
-// }
-//
-// @keyframes circle {
-//     0% {
-//         -webkit-transform: translateY(0);
-//         transform: translateY(0);
-//     }
-//     100% {
-//         -webkit-transform: translateY(-780px) rotate(630deg);
-//         transform: translateY(-580px) rotate(630deg);
-//     }
-// }
+.span__underline {
+  color: #fff;
+  font-weight: normal;
+  font-size: 18px;
+  border-bottom: 1px solid;
+}
+
+/****************** HOME MAIN *******************/
+
+#home__main {
+  display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  border-top: 2px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+  padding: 5% 0 5% 0;
+  justify-content: space-between;
+}
+
+#home__main > div:first-child {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+#home__main > div:first-child h3 {
+  color: #fff;
+}
+/***************
+    BOXES
+***************/
+
+.col-left__home, .col-center__home, .col-right__home {
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  padding: 60px 30px 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.fa {
+  color: #fff;
+}
+
+
+/***************
+    ICONS inside the boxes
+***************/
+
+
+
+#home__main .fa {
+  font-size: 5em;
+  margin-bottom: 12px;
+}
+
+/*****************
+    HOME WORK/PROJECTS
+*****************/
+
+#home__work {
+  padding: 5% 0 5% 0;
+  /* patch FontAwesome glitch bug */
+  z-index: 99;
+}
+
+#home__work > div {
+  text-align: left;
+  width: 100%;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+#home__work h2 {
+  font-size: 1.5em;
+  margin-bottom: 22px;
+}
+
+#home__work h3 {
+  font-size: 1.5em;
+  margin-bottom: -12px;
+}
+
+#home__work p {
+
+}
+
+
+
+
+
+
+
+/******************* MEDIA QUERIES *************/
+@media screen and (max-width: 992px) {
+   #home__container h1 {
+     font-size: 3em;
+   }
+   #home__hero h2 {
+     font-size: 1.4em;
+   }
+   #home__container {
+     padding: 0 10% 5% 10%;
+   }
+}
+
+@media screen and (min-width: 800px) {
+  .col-left__home, .col-center__home, .col-right__home {
+    width: calc(33% - 5px) !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #home__container h1 {
+     font-size: 2.2em;
+   }
+   .col-left, .col-right {
+     width: 100%;
+   }
+   .col-left__home, .col-center__home, .col-right__home {
+     width: 100%;
+     margin-bottom: 12px;
+   }
+}
+
+@media screen and (max-width: 576px) {
+  #home__container h1 {
+     font-size: 2em;
+   }
+  #home__container {
+    padding: 0 5% 5% 5%;
+  }
+}

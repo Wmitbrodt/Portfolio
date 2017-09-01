@@ -3,13 +3,13 @@
 #about__container {
   display: flex;
   flex-direction: column;
-  background: #036cdb;
+  background: $main-about-color;
   min-height: 100vh;
   padding: 0 15% 0 15%;
 }
 
 #about__container h1 {
-  color: #fff;
+  color: $about-text-color;
   font-size: 4em;
   text-align: left;
   margin-top: 25vh;
@@ -23,14 +23,14 @@
 }
 
 .about__hero__container span {
-  color: #fff;
+  color: $about-text-color;
   font-weight: normal;
   font-size: 18px;
   border-bottom: 1px solid;
 }
 
 .about__hero__container h3 {
-  color: #fff;
+  color: $about-text-color;
   padding: 0 20px 20px 0;
   font-weight: normal;
   font-size: 18px;

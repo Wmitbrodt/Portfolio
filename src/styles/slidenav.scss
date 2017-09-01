@@ -12,7 +12,7 @@
   // margin-top: 0;
   font-size: 3em;
   position: absolute;
-  color: #fff;
+  color: $slide-nav-text-color;
   z-index: 3;
 }
 #menuToggle {
@@ -70,7 +70,7 @@
 
 .slide-pane__content li {
   font-size: 1.5em;
-  color: #fff;
+  color: $slide-nav-text-color;
   line-height: 2.5em;
   @include transition(all 0.3s ease-in-out);
   &:hover {
@@ -85,7 +85,7 @@
   letter-spacing: 22px;
   @include transition(all 0.3s ease-in-out);
   &:hover {
-    color: #fff;
+    color: $slide-nav-text-color;
   }
 }
 
@@ -96,7 +96,7 @@
 
 .slide-pane__close {
   margin-top: 45px;
-  color: #fff;
+  color: $slide-nav-text-color;
   @include transition(all 0.3s ease-in-out);
   &:hover {
     color: $side-nav-link-hover;
@@ -106,7 +106,7 @@
 .hamburger {
     width: 35px;
     height: 5px;
-    background-color: #fff !important;
+    background-color: $slide-nav-text-color !important;
     margin: 6px 0;
 }
 
@@ -135,7 +135,7 @@ button:focus {
 .hamburger-alt {
     width: 35px;
     height: 5px;
-    background-color: black;
+    background-color: $slide-nav-alt-color;
     margin: 6px 0;
 }
 
@@ -160,6 +160,6 @@ button:focus {
   // margin-top: 0;
   font-size: 3em;
   position: absolute;
-  color: black;
+  color: $slide-nav-alt-color;
   z-index: 3;
 }

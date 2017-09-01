@@ -29,7 +29,7 @@ class ProfessorTripp extends Component {
                 Professor Tripp is a web application I built using Ruby on Rails. It was created for
                 a full-time anthropology professor at Chaffey College in California. While conduction research for
                 this project, I immediately noticed that most professor website's are dull and dry.
-                I decided to sway from this trend, and make hers fun, interactive and most of all - different.
+                I decided to sway from this trend, and make this app fun, interactive and most of all - different.
                 Features include: user authentication, user authorization, emails with Send
                 Grid, SEO, and much more.
                 <br />

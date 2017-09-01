@@ -1,3 +1,5 @@
+@import 'variables';
+
 .footer__container {
   justify-content: space-between;
   align-items: center;
@@ -9,7 +11,7 @@
 .footer__container > p {
   text-align: left;
   display: inline-block;
-  color: #fff;
+  color: $main-footer-color;
   float: left;
   margin: 0;
   padding-top: 10px;
@@ -18,7 +20,7 @@
 .footer__container > a {
   text-align: right;
   display: inline-block;
-  color: #fff;
+  color: $main-footer-color;
   font-size: 2em;
   padding-left: 18px;
   float: right;
