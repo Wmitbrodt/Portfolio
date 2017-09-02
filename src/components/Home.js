@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import WOW from 'wowjs';
 import '../styles/home.css';
 import SlideNav from './SlideNav';
 import Footer from './Footer';
@@ -8,10 +7,6 @@ import { Link } from 'react-router-dom'
 
 
 class Home extends Component {
-  componentDidMount() {
-      new WOW.WOW().init();
-    }
-
   render() {
     return (
       <div id="home__container">

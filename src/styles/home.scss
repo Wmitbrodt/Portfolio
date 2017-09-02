@@ -112,6 +112,7 @@
 
 .fa {
   color: #fff;
+  z-index: 99;
 }
 
 
@@ -153,9 +154,6 @@
   margin-bottom: -12px;
 }
 
-#home__work p {
-
-}
 
 
 
@@ -201,5 +199,5 @@
    }
   #home__container {
     padding: 0 5% 5% 5%;
-  }
+   }
 }
