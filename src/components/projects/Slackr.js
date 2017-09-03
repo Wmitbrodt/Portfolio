@@ -57,7 +57,7 @@ class Slackr extends Component {
             </div>
           </div>
 
-          <div className="box-5">
+          <div id="footer__section">
             <Footer />
           </div>
 

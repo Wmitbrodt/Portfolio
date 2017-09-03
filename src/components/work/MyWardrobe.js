@@ -59,7 +59,7 @@ class MyWardrobe extends Component {
               </ul>
             </div>
           </div>
-          <div className="box-5">
+          <div id="footer__section">
             <Footer />
           </div>
         </div>

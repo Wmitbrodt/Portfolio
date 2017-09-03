@@ -3,6 +3,7 @@ import '../styles/contact.css';
 import SlideNav from './SlideNav';
 import Footer from './Footer';
 import FontAwesome from 'react-fontawesome';
+import { Link } from 'react-router-dom'
 
 
 class Contact extends Component {
@@ -21,8 +22,11 @@ class Contact extends Component {
               let’s chat.
             </h3>
 
-            <a target="_blank" rel="noopener noreferrer" href="mailto:wmitbrodt@gmail.com"><span>Send me an email </span> <FontAwesome name='long-arrow-right' /></a>
-            <br /><br /><br /><br />
+            <Link className="hover" target="_blank" to="mailto:wmitbrodt@gmail.com">
+                <span className="span__underline hover">Send me an email</span> <span className="arrow-right">→</span>
+            </Link>
+           <br /><br /><br /><br />
+
           </div>
 
           <div className="col-right">

@@ -123,10 +123,7 @@
 
 /* Box 5 */
 
-.box-5 {
-  width: 100%;
-  padding: 0 15% 0 15%;
-}
+
 
 
 /* Media Queries */
@@ -141,7 +138,7 @@
   .hero__header h1 {
     font-size: 4em;
   }
-  .box-5 {
+  #footer__section {
     width: 100%;
     padding: 0 10% 0 10%;
   }
@@ -181,7 +178,7 @@
   .hero__header h1 {
     font-size: 4em;
   }
-  .box-5 {
+  #footer__section {
     width: 100%;
     padding: 0 10% 0 10%;
   }
@@ -204,7 +201,7 @@
   .box-4 li {
     font-size: 1em;
   }
-  .box-5 {
+  #footer__section {
     padding-top: 5%;
   }
   .work__main__container {

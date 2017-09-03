@@ -132,14 +132,17 @@ class Home extends Component {
   } }/>
 
             <div id="hero__content">
-              <h1>Hi, I'm Will.</h1>
+              <h1>
+                Hi, I'm Will.
+              </h1>
+
                 <h2>
                   A web developer with a love of art, design &amp; psychology.
                 </h2>
-                  <a target="_blank" rel="noopener noreferrer"
-                     href="mailto:wmitbrodt@gmail.com">
-                     <span className="span__underline">Available for freelance work </span> <FontAwesome name='long-arrow-right' />
-                  </a>
+
+                <Link className="hover" to="/contact">
+                    <span className="span__underline hover">Available for freelance work</span> <span className="arrow-right">→</span>
+                </Link>
             </div>
 
         </div>
@@ -210,11 +213,10 @@ class Home extends Component {
               <h2>
                 Recent Work/Projects
               </h2>
-              <h3>
-                <Link to="/projects/green-eats">
-                    <span className="span__underline">Green Eats</span>
-                </Link>
-              </h3>
+
+              <Link className="hover" to="/projects/green-eats">
+                  <span className="span__underline hover">Green Eats</span> <span className="arrow-right">→</span>
+              </Link>
 
               <p>
                 App that enables users to search for the nearest farm or farmers market near them.
@@ -222,11 +224,9 @@ class Home extends Component {
             </div>
 
             <div>
-              <h3>
-                <Link to="/work/heritage-apartments">
-                    <span className="span__underline">Victoria Heritage Apartments</span>
-                </Link>
-              </h3>
+              <Link className="hover" to="/work/heritage-apartments">
+                  <span className="span__underline hover">Victoria Heritage Apartments</span> <span className="arrow-right">→</span>
+              </Link>
 
               <p>
                 App created for a 24-unit, 3 building real estate company located in Victoria, British Columbia.
@@ -234,23 +234,19 @@ class Home extends Component {
             </div>
 
             <div>
-              <h3>
-                <Link to="/work/professor-tripp">
-                    <span className="span__underline">Professor Tripp</span>
-                </Link>
-              </h3>
-
+              <Link className="hover" to="/work/professor-tripp">
+                  <span className="span__underline hover">Professor Tripp</span> <span className="arrow-right">→</span>
+              </Link>
               <p>
                 App built using Ruby on Rails. Created for
                 a full-time anthropology professor at Chaffey College in California.
               </p>
             </div>
 
-
-
-          <Footer />
           </div>
-
+          <div id="footer__section">
+            <Footer />
+          </div>
       </div>
 
     )

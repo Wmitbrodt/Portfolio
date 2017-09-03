@@ -82,6 +82,7 @@ canvas {
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none;
+  position: relative;
 }
 #hero__content h1 {
   color: #fff;
@@ -106,6 +107,7 @@ canvas {
   font-size: 18px;
   border-bottom: 1px solid;
   text-shadow: 3px 3px 0 rgba(0,0,0,0.15) !important;
+  z-index: 99;
 }
 
 /****************** HOME MAIN *******************/
@@ -128,6 +130,15 @@ canvas {
 
 #home__main > div:first-child h3 {
   color: #fff;
+}
+
+#home__main h2, h3 {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 /***************
     BOXES
@@ -162,7 +173,7 @@ canvas {
 *****************/
 
 #home__work {
-  padding: 5% 15% 5% 15%;
+  padding: 0 15% 5% 15%;
   /* patch FontAwesome glitch bug */
   z-index: 99;
 }
@@ -176,19 +187,21 @@ canvas {
 
 #home__work h2 {
   font-size: 1.5em;
+  margin-top: 36px;
   margin-bottom: 22px;
 }
 
-#home__work h3 {
-  font-size: 1.5em;
-  margin-bottom: -12px;
+#home__work a {
+  font-size: 2em;
 }
 
+#home__work p {
+  margin-top: -2px;
+}
 
-
-
-
-
+#home__work .fa {
+  font-size: .5em;
+}
 
 
 /******************* MEDIA QUERIES *************/

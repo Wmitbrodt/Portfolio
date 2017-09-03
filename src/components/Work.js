@@ -14,7 +14,7 @@ class Work extends Component {
       <div id="work__container">
         <SlideNavAlt />
         <div>
-          <h1>My Work.</h1>
+          <h1>My Work</h1>
         </div>
         <div className="gallery">
           <div className="grid">

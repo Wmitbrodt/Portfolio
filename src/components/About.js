@@ -18,8 +18,10 @@ class About extends Component {
           <div className="col-left">
             <h3>I love tackling new problems in different ways, by combining my passion for art, code, psychology and technology.</h3>
 
-            <a target="_blank" href="https://s3-us-west-2.amazonaws.com/portfolio-will/documents/will_mitbrodt_cv.pdf" rel="noopener noreferrer"><span>Download CV →</span></a>
-            <br /><br /><br /><br />
+            <Link className="hover" target="_blank" to="https://s3-us-west-2.amazonaws.com/portfolio-will/documents/will_mitbrodt_cv.pdf">
+                <span className="span__underline hover">Download CV</span> <span className="arrow-right">→</span>
+            </Link>
+           <br /><br /><br /><br />
           </div>
 
           <div className="col-right">

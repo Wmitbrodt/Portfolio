@@ -26,13 +26,11 @@
 
 .contact__hero__container span {
   color: $contact-text-color;
-  font-weight: normal;
-  font-size: 18px;
-  border-bottom: 1px solid;
+  text-shadow: none !important;
 }
 
 .contact__hero__container a {
-  padding-bottom: 22%;
+  color: $contact-text-color;
 }
 
 .contact__hero__container h3 {
