@@ -50,7 +50,7 @@ class About extends Component {
             </h3>
           </div>
         </div>
-      <Footer />
+        <Footer />
     </div>
 
     );

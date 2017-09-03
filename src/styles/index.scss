@@ -38,6 +38,7 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
 html, body, .root {
   height: 100%;
 }
@@ -72,7 +73,8 @@ a:hover, a:active, a:focus {
 
 h1 {
   font-family: 'Megrim', cursive;
-  text-shadow: 0 0 40px rgba(0,0,0, 0.2) !important;
+  // text-shadow: 0 0 40px rgba(0,0,0, 0.2) !important;
+  text-shadow: 3px 3px 0 rgba(0,0,0,0.15) !important;
 }
 
 h2, h3, h4, h5, p, li {

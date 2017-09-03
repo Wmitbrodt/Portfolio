@@ -38,37 +38,66 @@
 
 
 #home__container {
-  // background: linear-gradient(rgba(102, 0, 153, 0.5) 30%, rgb(102, 0, 153)),
-  //   url("http://www.justlivenatural.com/images/healthyveggies.jpg");
   background-size: cover;
   background-position: center center;
   width: 100%;
   min-height: 100vh;
-  background-position: 50% 95%;
+  // background-position: 50% 95%;
   -webkit-animation: pulseBackground 30s infinite;
   animation: pulseBackground 30s infinite;
-  padding: 0 15% 0 15%;
+  // padding: 0 15% 0 15%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   flex: 1 0 auto;
 }
 
-#home__hero {
-  padding: 0 0 10% 0;
+.section-hero {
+  overflow: hidden;
 }
-#home__hero h1 {
+
+.section {
+  position: relative;
+}
+
+#hero {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+  padding-bottom: 15%;
+  position: relative;
+
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+#hero__content {
+  padding: 0 15% 0 15%;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+#hero__content h1 {
   color: #fff;
   font-size: 4em;
   text-align: left;
-  margin-top: 25vh;
+  margin-top: 30vh;
+  text-shadow: 3px 3px 0 rgba(0,0,0,0.15) !important;
+
 }
 
-#home__hero h2 {
+#hero__content h2 {
   color: #fff;
   font-size: 1.8em;
   text-align: left;
   padding-bottom: 12px;
+  text-shadow: 3px 3px 0 rgba(0,0,0,0.15) !important;
 }
 
 .span__underline {
@@ -76,6 +105,7 @@
   font-weight: normal;
   font-size: 18px;
   border-bottom: 1px solid;
+  text-shadow: 3px 3px 0 rgba(0,0,0,0.15) !important;
 }
 
 /****************** HOME MAIN *******************/
@@ -84,9 +114,9 @@
   display: flex;
   flex-direction:row;
   flex-wrap:wrap;
-  border-top: 2px solid rgba(255, 255, 255, 0.15);
+  // border-top: 2px solid rgba(255, 255, 255, 0.15);
   border-bottom: 2px solid rgba(255, 255, 255, 0.15);
-  padding: 5% 0 5% 0;
+  padding: 5% 15% 7.5% 15%;
   justify-content: space-between;
 }
 
@@ -132,7 +162,7 @@
 *****************/
 
 #home__work {
-  padding: 5% 0 5% 0;
+  padding: 5% 15% 5% 15%;
   /* patch FontAwesome glitch bug */
   z-index: 99;
 }
@@ -166,10 +196,10 @@
    #home__container h1 {
      font-size: 3em;
    }
-   #home__hero h2 {
+   #hero__content h2 {
      font-size: 1.4em;
    }
-   #home__container {
+   #hero__content, #home__main, #home__work {
      padding: 0 10% 5% 10%;
    }
 }
@@ -197,7 +227,7 @@
   #home__container h1 {
      font-size: 2em;
    }
-  #home__container {
+  #hero__content, #home__main, #home__work {
     padding: 0 5% 5% 5%;
    }
 }
