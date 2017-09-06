@@ -1,6 +1,10 @@
 {
   "name": "portfolio-site",
+  "homepage" : "https://wills-build.herokuapp.com/",
   "version": "0.1.0",
+  "engines": {
+    "node": "7.7.2"
+  },
   "private": true,
   "dependencies": {
     "node-sass-chokidar": "^0.0.3",
