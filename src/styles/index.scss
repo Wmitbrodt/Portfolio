@@ -87,14 +87,12 @@ a {
   font-weight: normal;
   font-size: 18px;
   border-bottom: 1px solid;
-  text-shadow: 3px 3px 0 rgba(0,0,0,0.15) !important;
+  // text-shadow: 3px 3px 0 rgba(0,0,0,0.15) !important;
   z-index: 99;
 }
 
 h1 {
   font-family: 'Megrim', cursive;
-  // text-shadow: 0 0 40px rgba(0,0,0, 0.2) !important;
-  text-shadow: 3px 3px 0 rgba(0,0,0,0.15);
 }
 
 h2, h3, h4, h5, p, li {

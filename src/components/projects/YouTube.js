@@ -3,7 +3,7 @@ import '../../styles/projects/projects-show.css';
 import '../../styles/projects/you-tube.css';
 import FontAwesome from 'react-fontawesome';
 import SlideNav from '../SlideNav';
-import Footer from '../Footer';
+import FooterAlt from '../FooterAlt';
 
 class YouTube extends Component {
   render() {
@@ -18,20 +18,21 @@ class YouTube extends Component {
           </div>
 
         </div>
-        <div className="work__hero__container">
+        <div className="you-tube__hero__container">
+          <div className="project_hero__container">
+            <div className="box-1">
+              <h1><span>About</span></h1>
+            </div>
 
-          <div className="box-1">
-            <h1><span>About</span></h1>
-          </div>
-
-          <div className="box-2">
-            <h2>
-                A mini react application that utilizes YouTube’s API to fetch videos.
-                It is able to instantly search for any video on YouTube’s vast library and instantly play them.
-                It was built using React, Node, and Bootstrap.
-                <br />
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/Wmitbrodt/youtubeSearchAPI"><span>Check it out on Github</span></a> <FontAwesome name='long-arrow-right' />
-              </h2>
+            <div className="box-2">
+              <h2>
+                  A mini react application that utilizes YouTube’s API to fetch videos.
+                  It is able to instantly search for any video on YouTube’s vast library and instantly play them.
+                  It was built using React, Node, and Bootstrap.
+                  <br />
+                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/Wmitbrodt/youtubeSearchAPI"><span>Check it out on Github</span></a> <FontAwesome name='long-arrow-right' />
+                </h2>
+            </div>
           </div>
         </div>
 
@@ -39,7 +40,9 @@ class YouTube extends Component {
           <div className="work__main__container">
 
             <div className="box-3">
-              <h1><span>Tech</span></h1>
+              <h1>
+                Tech
+              </h1>
             </div>
 
             <div className="box-4">
@@ -53,8 +56,8 @@ class YouTube extends Component {
               </ul>
             </div>
           </div>
-          <div id="footer__section">
-            <Footer />
+          <div id="footer__section--alt">
+            <FooterAlt />
           </div>
         </div>
       </div>

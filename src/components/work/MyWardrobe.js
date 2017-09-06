@@ -3,7 +3,7 @@ import '../../styles/work/work-show.css';
 import '../../styles/work/my-wardrobe.css';
 import FontAwesome from 'react-fontawesome';
 import SlideNav from '../SlideNav';
-import Footer from '../Footer';
+import FooterAlt from '../FooterAlt';
 
 class MyWardrobe extends Component {
   render() {
@@ -60,8 +60,8 @@ class MyWardrobe extends Component {
               </ul>
             </div>
           </div>
-          <div id="footer__section">
-            <Footer />
+          <div id="footer__section--alt">
+            <FooterAlt />
           </div>
         </div>
       </div>

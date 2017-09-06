@@ -9,10 +9,9 @@
   font-family: 'Megrim', cursive;
   top: 5%;
   left: 15%;
-  // margin-top: 0;
   font-size: 3em;
   position: absolute;
-  color: $slide-nav-text-color;
+  color: #fff;
   z-index: 3;
 }
 #menuToggle {
@@ -63,30 +62,105 @@
   z-index: 9999 !important;
 }
 
+/************
+ NAV CONTENT
+*************/
 .slide-pane__content {
   list-style: none;
   background: $side-nav;
+  padding: 0;
+  text-align: left;
+  margin-top: 28px;
 }
 
 .slide-pane__content li {
-  font-size: 1.5em;
-  color: $slide-nav-text-color;
+  font-size: 1.7em;
   line-height: 2.5em;
-  @include transition(all 0.3s ease-in-out);
-  &:hover {
-    color: $side-nav-link-hover;
-  }
+  padding-left: 40px;
 }
 
+.nav__icons {
+  padding-left: 40px;
+}
+
+/*********************
+ li colors
+***********************/
+
+/*********
+  1st child
+*************/
+.slide-pane__content .nav__item:nth-child(1) li {
+  color: $main-color;
+}
+
+.slide-pane__content .nav__item:nth-child(1) li:hover {
+  @include transition(all 0.2s);
+  background: $main-color-tint !important;
+}
+
+/*********
+  2nd child
+*************/
+.slide-pane__content .nav__item:nth-child(2) li {
+  color: $third-color;
+}
+
+.slide-pane__content .nav__item:nth-child(2) li:hover {
+  @include transition(all 0.2s);
+  background: $third-color-tint;
+}
+
+/*********
+  3rd child
+*************/
+.slide-pane__content .nav__item:nth-child(3) li {
+  color: $secondary-color;
+}
+
+.slide-pane__content .nav__item:nth-child(3) li:hover {
+  @include transition(all 0.2s);
+  background: $secondary-color-tint;
+}
+
+/*********
+  4th child
+*************/
+.slide-pane__content .nav__item:nth-child(4) li {
+  color: rgb(119,100,173);
+}
+
+.slide-pane__content .nav__item:nth-child(4) li:hover {
+  @include transition(all 0.2s);
+  background: rgb(243,241,248);
+}
+
+/*********
+  5th child
+*************/
+.slide-pane__content .nav__item:nth-child(5) li {
+  color: $fourth-color;
+}
+
+.slide-pane__content .nav__item:nth-child(5) li:hover {
+  @include transition(all 0.2s);
+  background: $fourth-color-tint;
+}
+
+
 .slide-pane__content .fa {
-  color: $side-nav-link-hover;
+  color: $slide-nav-text-color;
   padding-top: 32px;
   font-size: 2.5em;
   letter-spacing: 22px;
   @include transition(all 0.3s ease-in-out);
   &:hover {
-    color: $slide-nav-text-color;
-  }
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+ }
 }
 
 .slide-pane__header {
@@ -99,14 +173,18 @@
   color: $slide-nav-text-color;
   @include transition(all 0.3s ease-in-out);
   &:hover {
-    color: $side-nav-link-hover;
-  }
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+ }
 }
 
 .hamburger {
     width: 35px;
     height: 5px;
-    background-color: $slide-nav-text-color !important;
+    background-color: #fff !important;
     margin: 6px 0;
 }
 
@@ -141,14 +219,14 @@ button:focus {
 
 @media screen and (max-width: 768px) {
   .slide-nav__open {
-    background: $side-nav-link-hover;
+    background: $main-color;
     border: none;
   }
 }
 
 @media screen and (max-width: 576px) {
   .slide-nav__open {
-    background: $side-nav-link-hover;
+    background: $main-color;
     border: none;
   }
 }

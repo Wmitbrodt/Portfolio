@@ -64,7 +64,8 @@ class Projects extends Component {
             </Link>
           </div>
       </div>
-     <Footer />
+      <br /><br />
+      <Footer />
     </div>
     );
   }

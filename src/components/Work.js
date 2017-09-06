@@ -34,11 +34,12 @@ class Work extends Component {
             </Link>
             <Link className="cell" to="/work/deb-mccoll">
               <div className="image-4 responsive-image overlay scale">
-                <h2>Visual Art</h2>
+                <h2>D. McColl</h2>
               </div>
             </Link>
           </div>
       </div>
+      <br /><br />
       <Footer />
     </div>
     );

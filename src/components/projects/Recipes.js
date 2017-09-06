@@ -3,7 +3,7 @@ import '../../styles/projects/projects-show.css';
 import '../../styles/projects/recipes.css';
 import FontAwesome from 'react-fontawesome';
 import SlideNav from '../SlideNav';
-import Footer from '../Footer';
+import FooterAlt from '../FooterAlt';
 
 class Recipes extends Component {
   render() {
@@ -41,7 +41,9 @@ class Recipes extends Component {
           <div className="work__main__container">
 
             <div className="box-3">
-              <h1><span>Tech</span></h1>
+              <h1>
+                Tech
+              </h1>
             </div>
 
             <div className="box-4">
@@ -55,8 +57,8 @@ class Recipes extends Component {
               </ul>
             </div>
           </div>
-          <div id="footer__section">
-            <Footer />
+          <div id="footer__section--alt">
+            <FooterAlt />
           </div>
         </div>
       </div>

@@ -19,10 +19,10 @@
 }
 
 /* NAVIGATION */
-$side-nav: #372e42;
-$side-nav-link-hover: #52b2a6;
-$slide-nav-text-color: #fff;
-$slide-nav-alt-color: black;
+$side-nav: #fff;
+$side-nav-link-hover: #fff;
+$slide-nav-text-color: rgb(32,185,160);
+$slide-nav-alt-color: #5c5c5c;
 
 
 /* HOME */
@@ -35,19 +35,22 @@ $secondary-color-tint: rgb(255,232,238);
 $third-color: rgb(65,132,243);
 $third-color-tint: #e7f7ff;
 
+$fourth-color: rgb(255,153,16);
+$fourth-color-tint: rgb(255,245,232);
+
 $header-text-dark-color: #5c5c5c;
 $supporting-text-dark-color: #787f8c;
 
 /* ABOUT */
-$main-about-color: #036cdb;
+$main-about-color: rgb(65,132,243);
 $about-text-color: #fff;
 /* WORK */
 $main-work-color: #fff;
-$work-text-color: #036cdb;
+$work-text-color: rgb(32,185,160);
 
 /* PROJECTS */
 $main-project-color: #fff;
-$project-text-color: #036cdb;
+$project-text-color: rgb(65,132,243);
 
 /* CONTACT */
 $main-contact-color: rgb(32,185,160);

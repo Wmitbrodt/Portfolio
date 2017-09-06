@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import '../styles/about.css';
 import SlideNav from './SlideNav';
-import Footer from './Footer';
+import FooterAlt from './FooterAlt';
 import { Link } from 'react-router-dom'
 
 
@@ -51,7 +51,7 @@ class About extends Component {
             </h3>
           </div>
         </div>
-        <Footer />
+        <FooterAlt />
     </div>
 
     );

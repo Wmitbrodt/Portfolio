@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/contact.css';
 import SlideNav from './SlideNav';
-import Footer from './Footer';
+import FooterAlt from './FooterAlt';
 import FontAwesome from 'react-fontawesome';
 import { Link } from 'react-router-dom'
 
@@ -41,7 +41,7 @@ class Contact extends Component {
             </div>
           </div>
         </div>
-      <Footer />
+      <FooterAlt />
     </div>
     );
   }

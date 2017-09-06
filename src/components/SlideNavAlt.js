@@ -31,22 +31,24 @@ class SlideNavAlt extends Component {
               </div>
             </div>
 
-              <SlidingPane
-                isOpen={ this.state.isPaneOpenRight }
-                from='right'
-                width='200px'
-                onRequestClose={ () => this.setState({ isPaneOpenRight: false }) }>
-                  <div>
-                    <Link className="slideNav__link" to="/"><li>Home</li></Link>
-                    <Link to="/about"><li>About</li></Link>
-                    <Link to="/work"><li>Work</li></Link>
-                    <Link to="/projects"><li>Projects</li></Link>
-                    <Link to="/contact"><li>Get in touch</li></Link>
+            <SlidingPane
+              isOpen={ this.state.isPaneOpenRight }
+              from='right'
+              width='200px'
+              onRequestClose={ () => this.setState({ isPaneOpenRight: false }) }>
+                <div>
+                  <Link className="nav__item" to="/"><li>Home</li></Link>
+                  <Link className="nav__item" to="/about"><li>About</li></Link>
+                  <Link className="nav__item" to="/work"><li>Work</li></Link>
+                  <Link className="nav__item" to="/projects"><li>Projects</li></Link>
+                  <Link className="nav__item" to="/contact"><li>Get in touch</li></Link>
+                  <div className="nav__icons">
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/Wmitbrodt"><FontAwesome name='github' /></a>
                     <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/WillMitbrodt"><FontAwesome name='twitter' /></a>
                     <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/WillMitbrodt"><FontAwesome name='linkedin' /></a>
                   </div>
-              </SlidingPane>
+                </div>
+            </SlidingPane>
           </div>
         )
     }

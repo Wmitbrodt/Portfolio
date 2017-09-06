@@ -6,13 +6,18 @@
   padding-top: 150px;
   margin-bottom: -200px;
   background-size: cover;
+  height: 100vh;
   background-position: center center;
   background: linear-gradient(rgba(102, 0, 153, 0.5) 30%, rgb(102, 0, 153)),
-    url("https://s3-us-west-2.amazonaws.com/portfolio-will/images/Atlas_no.1-intercellular_1.jpg");
-  height: 100vh;
+    url("http://www.deborah-mccoll.ca/img/paintings2/The_Air_Shimmers.jpg");
+  background-position: 55% 25%;
 }
 
 .deb__bg__main {
+  background: linear-gradient(rgb(102, 0, 153) 30%, rgba(102, 0, 153, 1));
+}
+
+.deb__hero__container {
   background: linear-gradient(rgb(102, 0, 153) 30%, rgba(102, 0, 153, 1));
 }
 
