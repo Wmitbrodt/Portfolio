@@ -6,14 +6,17 @@
   margin-top: 20px;
   padding-top: 10px;
   padding-bottom: 100px;
-  border-top: 2px solid rgba(255, 255, 255, 0.15);
+  border-top: 2px solid rgba(0, 0, 0, 0.15);
 }
 
+#footer__section {
+  background: #fff;
+}
 
 .footer__container > p {
   text-align: left;
   display: inline-block;
-  color: $main-footer-color;
+  color: $supporting-text-dark-color;
   float: left;
   margin: 0;
   padding-top: 10px;
@@ -22,7 +25,6 @@
 .footer__container > a {
   text-align: right;
   display: inline-block;
-  color: $main-footer-color;
   font-size: 2em;
   padding-left: 18px;
   float: right;
@@ -36,4 +38,8 @@
   -ms-transform: scale(1.2);
   transform: scale(1.2);
  }
+}
+
+.footer__container .fa {
+  color: $header-text-dark-color;
 }

@@ -13,137 +13,152 @@ class Home extends Component {
       <div id="home__container">
         <SlideNav />
         <div id="hero">
+          <div id="hero__content">
+            <h1 className="banner banner--large">
+              <span className="🐙">W</span>
+              <span className="🐒">e</span>
+              <span className="🏋🏿">b</span>
+              <span className="😉">&nbsp;</span>
+              <span className="🖍">D</span>
+              <span className="🏄🏾">e</span>
+              <span className="🗿">v</span>
+              <span className="🎯">e</span>
+              <span className="🏔">l</span>
+              <span className="🐝">o</span>
+              <span className="🍄">p</span>
+              <span className="🌞">e</span>
+              <span className="☄️">r</span>
+
+              {/* Web Developer */}
+            </h1>
+
+              <h2>
+                ...with a love of art, design &amp; psychology.
+              </h2>
+
+              <Link to="/contact">
+                  <span className="button">Available for freelance work →</span>
+              </Link>
+          </div>
 
           <Particles params={{
             particles: {
-      number: {
-        value: 150,
-        density: {
-          enable: true,
-          value_area: 800
-        }
-      },
-      color: {
-        value: '#fff'
-      },
-      shape: {
-        type: 'circle',
-        stroke: {
-          width: 0,
-          color: '#fff'
-        },
-        polygon: {
-          nb_sides: 5
-        },
-        image: {
-          src: '',
-          width: 100,
-          height: 100
-        }
-      },
-      opacity: {
-        value: 1,
-        random: false,
-        anim: {
-          enable: false,
-          speed: 2,
-          opacity_min: 0,
-          sync: false
-        }
-      },
-      size: {
-        value: 1,
-        random: false,
-        anim: {
-          enable: false,
-          speed: 20,
-          size_min: 0,
-          sync: false
-        }
-      },
-      line_linked: {
-        enable: true,
-        distance: 100,
-        color: '#fff',
-        opacity: 1,
-        width: 1
-      },
-      move: {
-        enable: true,
-        speed: 2,
-        direction: 'none',
-        random: false,
-        straight: false,
-        out_mode: 'out',
-        bounce: false,
-        attract: {
-          enable: false,
-          rotateX: 3000,
-          rotateY: 3000
-        }
-      },
-      array: []
-    },
-    interactivity: {
-      detect_on: 'canvas',
-      events: {
-        onhover: {
-          enable: false,
-          mode: 'grab'
-        },
-        onclick: {
-          enable: true,
-          mode: 'push'
-        },
-        resize: true
-      },
-      modes: {
-        grab:{
-          distance: 100,
-          line_linked:{
-            opacity: 1
-          }
-        },
-        bubble:{
-          distance: 200,
-          size: 80,
-          duration: 0.4
-        },
-        repulse:{
-          distance: 200,
-          duration: 0.4
-        },
-        push:{
-          particles_nb: 4
-        },
-        remove:{
-          particles_nb: 2
-        }
-      },
-      mouse:{}
-    },
-    retina_detect: false,
-    fn: {
-      interact: {},
-      modes: {},
-      vendors:{}
-    },
-    tmp: {}
-  } }/>
+              number: {
+                value: 150,
+                density: {
+                  enable: true,
+                  value_area: 800
+                }
+              },
+              color: {
+                value: '#fff'
+              },
+              shape: {
+                type: 'circle',
+                stroke: {
+                  width: 0,
+                  color: '#fff'
+                },
+                polygon: {
+                  nb_sides: 5
+                },
+                image: {
+                  src: '',
+                  width: 100,
+                  height: 100
+                }
+              },
+              opacity: {
+                value: 1,
+                random: false,
+                anim: {
+                  enable: false,
+                  speed: 2,
+                  opacity_min: 0,
+                  sync: false
+                }
+              },
+              size: {
+                value: 1,
+                random: false,
+                anim: {
+                  enable: false,
+                  speed: 20,
+                  size_min: 0,
+                  sync: false
+                }
+              },
+              line_linked: {
+                enable: true,
+                distance: 100,
+                color: '#fff',
+                opacity: 1,
+                width: 1
+              },
+              move: {
+                enable: true,
+                speed: 2,
+                direction: 'none',
+                random: false,
+                straight: false,
+                out_mode: 'out',
+                bounce: false,
+                attract: {
+                  enable: false,
+                  rotateX: 3000,
+                  rotateY: 3000
+                }
+              },
+              array: []
+            },
+            interactivity: {
+              detect_on: 'canvas',
+              events: {
+                onhover: {
+                  enable: false,
+                  mode: 'grab'
+                },
+                onclick: {
+                  enable: true,
+                  mode: 'push'
+                },
+                resize: true
+              },
+              modes: {
+                grab:{
+                  distance: 100,
+                  line_linked:{
+                    opacity: 1
+                  }
+                },
+                bubble:{
+                  distance: 200,
+                  size: 80,
+                  duration: 0.4
+                },
+                repulse:{
+                  distance: 200,
+                  duration: 0.4
+                },
+                push:{
+                  particles_nb: 4
+                },
+                remove:{
+                  particles_nb: 2
+                }
+              },
+              mouse:{}
+            },
+            retina_detect: false,
+            fn: {
+              interact: {},
+              modes: {},
+              vendors:{}
+            },
+            tmp: {}
+          } }/>
 
-            <div id="hero__content">
-              <h1>
-                Hi, I'm Will.
-              </h1>
 
-                <h2>
-                  A web developer with a love of art, design &amp; psychology.
-                </h2>
-
-                <Link className="hover" to="/contact">
-                    <span className="span__underline hover">Available for freelance work</span> <span className="arrow-right">→</span>
-                </Link>
-            </div>
 
         </div>
         <div id="home-section__main">
@@ -213,35 +228,70 @@ class Home extends Component {
               <h2>
                 Recent Work/Projects
               </h2>
-
-              <Link className="hover" to="/projects/green-eats">
-                  <span className="span__underline hover">Green Eats</span> <span className="arrow-right">→</span>
-              </Link>
-
-              <p>
-                App that enables users to search for the nearest farm or farmers market near them.
-              </p>
             </div>
 
-            <div>
-              <Link className="hover" to="/work/heritage-apartments">
-                  <span className="span__underline hover">Victoria Heritage Apartments</span> <span className="arrow-right">→</span>
-              </Link>
 
-              <p>
-                App created for a 24-unit, 3 building real estate company located in Victoria, British Columbia.
-              </p>
-            </div>
+            {/* <Link to="/projects/green-eats">
+              <div className="work__item green-eats__hover">
+                 <h3>Green Eats →</h3>
+                 <p>
+                   App that enables users to search for the nearest farm or farmers market near them.
+                 </p>
+              </div>
+            </Link>
 
-            <div>
-              <Link className="hover" to="/work/professor-tripp">
-                  <span className="span__underline hover">Professor Tripp</span> <span className="arrow-right">→</span>
-              </Link>
-              <p>
-                App built using Ruby on Rails. Created for
-                a full-time anthropology professor at Chaffey College in California.
-              </p>
-            </div>
+            <Link to="/work/heritage-apartments">
+              <div className="work__item">
+                <h3>Victoria Heritage Apartments →</h3>
+                <p>
+                  App created for a 24-unit, 3 building real estate company located in Victoria, British Columbia.
+                </p>
+              </div>
+            </Link>
+
+            <Link to="/work/professor-tripp">
+              <div className="work__item">
+                <h3>Professor Tripp →</h3>
+                <p>
+                  App built using Ruby on Rails. Created for
+                  a full-time anthropology professor at Chaffey College in California.
+                </p>
+              </div>
+          </Link> */}
+
+          <ol className='blog-list'>
+          <li className='work__item'>
+            <Link to="/projects/green-eats">
+              <div className="work__item--content">
+                 <h3>Green Eats →</h3>
+                 <p>
+                   App that enables users to search for the nearest farm or farmers market near them.
+                 </p>
+              </div>
+            </Link>
+          </li>
+          <li className='work__item'>
+            <Link to="/work/heritage-apartments">
+              <div className="work__item--content">
+                <h3>Victoria Heritage Apartments →</h3>
+                <p>
+                  App created for a 24-unit, 3 building real estate company located in Victoria, British Columbia.
+                </p>
+              </div>
+            </Link>
+          </li>
+          <li className='work__item'>
+            <Link to="/work/professor-tripp">
+              <div className="work__item--content">
+                <h3>Professor Tripp →</h3>
+                <p>
+                  App built using Ruby on Rails. Created for
+                  a full-time anthropology professor at Chaffey College in California.
+                </p>
+              </div>
+            </Link>
+          </li>
+        </ol>
 
           </div>
           <div id="footer__section">
