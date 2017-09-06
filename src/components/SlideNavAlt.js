@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import SlidingPane from 'react-sliding-pane';
 import 'react-sliding-pane/dist/react-sliding-pane.css';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 import '../styles/slidenav.css';
 import FontAwesome from 'react-fontawesome';
 

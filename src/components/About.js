@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import '../styles/about.css';
 import SlideNav from './SlideNav';
-import FontAwesome from 'react-fontawesome';
 import Footer from './Footer';
 import { Link } from 'react-router-dom'
 

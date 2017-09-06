@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
 import '../../styles/work/work-show.css';
 import '../../styles/work/heritage-apartments.css';
 import FontAwesome from 'react-fontawesome';
