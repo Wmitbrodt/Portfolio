@@ -9,13 +9,17 @@
   background-position: center center;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(rgba(102, 0, 153, 0.5) 30%, rgb(102, 0, 153)),
+  background: linear-gradient(rgba(65,132,243, 0.5) 30%, rgb(65,132,243)),
     url("https://s3-us-west-2.amazonaws.com/portfolio-will/images/811-st-charles.jpg");
   background-position: 40% 0;
 }
 
 .heritage__bg__main {
-  background: linear-gradient(rgb(102, 0, 153) 30%, rgba(102, 0, 153, 1));
+  background: linear-gradient(rgb(65,132,243) 30%, rgba(65,132,243, 1));
+}
+
+.heritage__hero__container {
+  background: linear-gradient(rgb(65,132,243) 30%, rgba(65,132,243, 1));
 }
 
 @media screen and (max-width: 576px) {

@@ -14,24 +14,25 @@ class HeritageApartments extends Component {
         <div className="heritage__bg__image">
 
           <div className="hero__header">
-            <h1>Victoria Heritage Apartments:</h1>
+            <h1>Victoria Heritage Apartments</h1>
             <h2>Ruby on Rails</h2>
           </div>
 
         </div>
-        <div className="work__hero__container">
+        <div className="heritage__hero__container">
+          <div className="work__hero__container">
+            <div className="box-1">
+              <h1><span>About</span></h1>
+            </div>
 
-          <div className="box-1">
-            <h1><span>About</span></h1>
-          </div>
-
-          <div className="box-2">
-            <h2>
-              Victoria Heritage Apartments is a 24-unit, 3 building real estate company located in Victoria, British Columbia. This application has many features
-              including: user authentication, user authorization, S3 file uploads, Google Maps and much more.
-                <br />
-                <a target="_blank" rel="noopener noreferrer" href="http://www.heritageapartments.ca/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
-            </h2>
+            <div className="box-2">
+              <h2>
+                Victoria Heritage Apartments is a 24-unit, 3 building real estate company located in Victoria, British Columbia. This application has many features
+                including: user authentication, user authorization, S3 file uploads, Google Maps and much more.
+                  <br />
+                  <a target="_blank" rel="noopener noreferrer" href="http://www.heritageapartments.ca/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
+              </h2>
+            </div>
           </div>
         </div>
 

@@ -18,21 +18,22 @@ class UndefinedDrillz extends Component {
           </div>
 
         </div>
-        <div className="work__hero__container">
+        <div className="undefined-drillz__hero__container">
+          <div className="project_hero__container">
+            <div className="box-1">
+              <h1><span>About</span></h1>
+            </div>
 
-          <div className="box-1">
-            <h1><span>About</span></h1>
-          </div>
-
-          <div className="box-2">
-            <h2>
-                Undefined Drills is a group project, consisting of 6 members, that was built over a weekend
-                as a 'mini-hackathon' challenge. This project relied heavily on team collaboration and the use of Git/GitHub.
-                It is a web application that allows users to practice coding drills and was built with JavaScript, jQuery, AJAX,
-                Ruby on Rails, PostgreSQL, Git/GitHub, Bootstrap, and HTML5/CSS3.
-                <br />
-                <a target="_blank" rel="noopener noreferrer" href="http://undefineddrills.herokuapp.com/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
-              </h2>
+            <div className="box-2">
+              <h2>
+                  Undefined Drills is a group project, consisting of 6 members, that was built over a weekend
+                  as a 'mini-hackathon' challenge. This project relied heavily on team collaboration and the use of Git/GitHub.
+                  It is a web application that allows users to practice coding drills and was built with JavaScript, jQuery, AJAX,
+                  Ruby on Rails, PostgreSQL, Git/GitHub, Bootstrap, and HTML5/CSS3.
+                  <br />
+                  <a target="_blank" rel="noopener noreferrer" href="http://undefineddrills.herokuapp.com/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
+                </h2>
+            </div>
           </div>
         </div>
 

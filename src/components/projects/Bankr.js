@@ -18,18 +18,19 @@ class Bankr extends Component {
           </div>
 
         </div>
-        <div className="work__hero__container">
+        <div className="bankr__hero__container">
+          <div className="project_hero__container">
+            <div className="box-1">
+              <h1><span>About</span></h1>
+            </div>
 
-          <div className="box-1">
-            <h1><span>About</span></h1>
-          </div>
-
-          <div className="box-2">
-            <h2>
-                A personal bank balance application that was built with a Rails backend and a React front-end.
-                It allows users to seamlessly keep track of their personal expenses.
-                <a target="_blank" rel="noopener noreferrer" href="https://wills-accounts.herokuapp.com/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
-              </h2>
+            <div className="box-2">
+              <h2>
+                  A personal bank balance application that was built with a Rails backend and a React front-end.
+                  It allows users to seamlessly keep track of their personal expenses.
+                  <a target="_blank" rel="noopener noreferrer" href="https://wills-accounts.herokuapp.com/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
+                </h2>
+            </div>
           </div>
         </div>
 

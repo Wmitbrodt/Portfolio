@@ -8,13 +8,17 @@
   background-size: cover;
   background-position: center center;
   height: 100vh;
-  background: linear-gradient(rgba(102, 0, 153, 0.5) 30%, rgb(102, 0, 153)),
+  background: linear-gradient(rgba(119,100,173, 0.5) 30%, rgb(119,100,173)),
     url("https://s3-us-west-2.amazonaws.com/portfolio-will/images/blue-fashion-photo.jpeg");
   background-position: 50% 95%;
 }
 
 .wardrobe__bg__main {
-  background: linear-gradient(rgb(102, 0, 153) 30%, rgba(102, 0, 153, 1));
+  background: linear-gradient(rgb(119,100,173) 30%, rgba(119,100,173, 1));
+}
+
+.wardrobe__hero__container {
+  background: linear-gradient(rgb(119,100,173) 30%, rgba(119,100,173, 1));
 }
 
 @media screen and (max-width: 576px) {

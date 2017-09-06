@@ -82,14 +82,7 @@ canvas {
 
 #hero__content {
   padding: 0 15% 0 15%;
-  // -webkit-touch-callout: none; /* iOS Safari */
-  // -webkit-user-select: none; /* Safari */
-  // -khtml-user-select: none; /* Konqueror HTML */
-  // -moz-user-select: none; /* Firefox */
-  // -ms-user-select: none; /* Internet Explorer/Edge */
-  // user-select: none;
   z-index: 90;
-  // position: relative;
 }
 #hero__content h1 {
   color: #fff;
@@ -101,10 +94,6 @@ canvas {
   font-weight: 800;
   text-transform: uppercase;
 }
-
-// .banner--large {
-//   font-size: 4em;
-// }
 
 .banner {
   letter-spacing: -1px;
@@ -146,8 +135,6 @@ canvas {
   display: inline-block;
   font-size: 1.2em;
   text-decoration: none;
-  // color: #fff;
-  // position: relative;
   color: #fff;
   font-family: 'settledown';
   line-height: 1;
@@ -207,7 +194,7 @@ canvas {
 /****************** HOME MAIN *******************/
 
 #home-section__main {
-  padding: 5% 15% 7.5% 15%;
+  padding: 1% 15% 7.5% 15%;
   overflow: hidden;
   background: #fff;
 }
@@ -243,8 +230,13 @@ canvas {
   color: $header-text-dark-color;
 }
 
-#home__main h2 {
+#home__main h2:nth-child(1) {
+  padding-top: 5%;
   font-size: 2.2em;
+}
+
+#home__main h2 {
+  font-size: 2em;
 }
 
 
@@ -291,13 +283,12 @@ canvas {
 *****************/
 
 #home__work {
-  z-index: 99;
   background: #fff;
   border-top: 2px solid rgba(0, 0, 0, 0.15);
   padding: 2% 0 0 0;
 }
 
-#home__work > div {
+#home__work h2 {
   text-align: left;
   width: 100%;
   margin-bottom: 20px;
@@ -348,12 +339,21 @@ canvas {
   background: $secondary-color-tint;
 }
 
+
 /* last child */
-#home__work .work__item:nth-child(3) .work__item--content {
+#home__work .work__item:nth-child(4) .work__item--content {
   padding-bottom: .75em;
 }
 
+/* fourth work/project item */
+#home__work .work__item:nth-child(4) h3 {
+  color: rgb(119,100,173);
+}
 
+#home__work .work__item:nth-child(4):hover {
+  @include transition(all 0.2s);
+  background: rgb(243,241,248);
+}
 
 .work__item--content > h3 {
   margin-top: 0;
@@ -372,7 +372,7 @@ canvas {
 }
 
 .work__item--content p {
-  margin-top: -2px;
+  margin-top: -1.4rem;
   color: $supporting-text-dark-color;
   padding: 0 15% 0 15%;
 }
@@ -385,27 +385,39 @@ canvas {
 
 
 /******************* MEDIA QUERIES *************/
+@media screen and (max-width: 1200px) {
+   #hero__content h1 {
+     font-size: 5em;
+   }
+   .col-left__home, .col-center__home, .col-right__home {
+     padding: 60px 10px 10px;
+   }
+}
 @media screen and (max-width: 992px) {
-   #home__container h1 {
-     font-size: 3em;
+   #hero__content h1 {
+     font-size: 4em;
    }
    #hero__content h2 {
      font-size: 1.4em;
    }
-   #hero__content, #home__main, #home__work {
-     padding: 0 10% 5% 10%;
-   }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 895px) {
   .col-left__home, .col-center__home, .col-right__home {
     width: calc(33% - 5px) !important;
   }
 }
 
+@media screen and (max-width: 894px) {
+  .col-left__home, .col-center__home, .col-right__home {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+}
+
 @media screen and (max-width: 768px) {
-  #home__container h1 {
-     font-size: 2.2em;
+  #hero__content h1 {
+     font-size: 3.2em;
    }
    .col-left, .col-right {
      width: 100%;
@@ -414,13 +426,54 @@ canvas {
      width: 100%;
      margin-bottom: 12px;
    }
+   #hero__content, #home-section__main {
+     padding: 0 10% 5% 10%;
+   }
+   #home__main h2 {
+     font-size: 1.5em;
+   }
+   #home__work h2 {
+     font-size: 1.7em;
+     text-align: left;
+     padding: 0 10% 0 10%;
+   }
+   .work__item--content > h3 {
+     padding: 0 10% 0 10%;
+   }
+   .work__item--content > p {
+     padding: 0 10% 0 10%;
+   }
+   #home__main h2:nth-child(1) {
+     font-size: 1.7em;
+   }
 }
 
 @media screen and (max-width: 576px) {
-  #home__container h1 {
-     font-size: 2em;
+  #hero__content h1 {
+     font-size: 2.4em;
    }
-  #hero__content, #home__main, #home__work {
+   .button {
+     font-size: 1em;
+   }
+   #hero__content h2 {
+      font-size: 1.2em;
+    }
+    .col-left__home, .col-center__home, .col-right__home {
+      width: 100%;
+      margin-bottom: 12px;
+    }
+  #hero__content, #home-section__main {
     padding: 0 5% 5% 5%;
+   }
+   .work__item--content > h3 {
+     padding: 0 5% 5% 5%;
+   }
+   .work__item--content > p {
+     padding: 0 5% 5% 5%;
+     margin-top: -2.6rem;
+   }
+   .home__work > h2 {
+     padding: 0 5% 5% 5%;
+     background: blue;
    }
 }

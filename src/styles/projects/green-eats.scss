@@ -8,11 +8,21 @@
   background-size: cover;
   background-position: center center;
   height: 100vh;
-  background: linear-gradient(rgba(102, 0, 153, 0.5) 30%, rgb(102, 0, 153)),
+  background: linear-gradient(rgba(32, 185, 160, 0.5) 30%, rgb(32, 185, 160)),
     url("https://s3-us-west-2.amazonaws.com/portfolio-will/images/green-eats-large.jpg");
   background-position: 50% 95%;
 }
 
 .green-eats__bg__main {
-  background: linear-gradient(rgb(102, 0, 153) 30%, rgba(102, 0, 153, 1));
+  background: linear-gradient(rgb(32, 185, 160) 30%, rgba(32, 185, 160, 1));
+}
+
+.green-eats__hero__container {
+  background: linear-gradient(rgb(32, 185, 160) 30%, rgba(32, 185, 160, 1));
+}
+
+@media screen and (max-width: 576px) {
+  .green-eats__bg__image {
+    height: 80vh !important;
+  }
 }

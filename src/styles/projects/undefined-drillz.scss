@@ -9,13 +9,17 @@
   background-position: center center;
   height: 100vh;
   width: 100%;
-  background: linear-gradient(rgba(102, 0, 153, 0.5) 30%, rgb(102, 0, 153)),
+  background: linear-gradient(rgba(62, 218, 26, 0.5) 30%, rgb(62, 218, 26)),
     url("https://s3-us-west-2.amazonaws.com/portfolio-will/images/drillz.jpg");
   background-position: 50% 95%;
 }
 
 .undefined-drillz__bg__main {
-  background: linear-gradient(rgb(102, 0, 153) 30%, rgba(102, 0, 153, 1));
+  background: linear-gradient(rgb(62, 218, 26) 30%, rgba(62, 218, 26, 1));
+}
+
+.undefined-drillz__hero__container {
+  background: linear-gradient(rgb(62, 218, 26) 30%, rgba(62, 218, 26, 1));
 }
 
 @media screen and (max-width: 576px) {

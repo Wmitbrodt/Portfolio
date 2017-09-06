@@ -8,13 +8,17 @@
   background-size: cover;
   background-position: center center;
   height: 100vh;
-  background: linear-gradient(rgba(102, 0, 153, 0.5) 30%, rgb(102, 0, 153)),
+  background: linear-gradient(rgba(26, 158, 218, 0.5) 30%, rgb(26, 158, 218)),
     url("https://s3-us-west-2.amazonaws.com/portfolio-will/images/job-board-large.jpg");
   background-position: 50% 95%;
 }
 
 .job-board__bg__main {
-  background: linear-gradient(rgb(102, 0, 153) 30%, rgba(102, 0, 153, 1));
+  background: linear-gradient(rgb(26, 158, 218) 30%, rgba(26, 158, 218, 1));
+}
+
+.job-board__hero__container {
+  background: linear-gradient(rgb(26, 158, 218) 30%, rgba(26, 158, 218, 1));
 }
 
 @media screen and (max-width: 576px) {

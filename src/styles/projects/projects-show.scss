@@ -25,14 +25,19 @@
 /* */
 
 .project__main__container {
-  padding: 0 15% 0 15%;
-  margin-top: -100px;
-  /* bug on mobile */
-  position: absolute;
+  padding: 2.5% 15% 0 15%;
+  margin-top: 0px;
   display:flex;
   flex-direction:row;
   flex-wrap:wrap;
-  min-height: 100vh;
+  flex: 1 0 auto;
+}
+
+.project_hero__container {
+  padding: 0 15% 0 15%;
+  display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
 }
 
 .box-1 {
@@ -151,6 +156,9 @@
   .project__main__container {
     padding: 0 10% 0 10%;
   }
+  .project_hero__container {
+    padding: 0 10% 0 10%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -199,11 +207,8 @@
   .project__main__container {
     padding: 0 5% 0 5%;
   }
-  /* small screen overflow bug */
-  .project__main__container {
+  .project_hero__container {
+    padding: 0 5% 0 5%;
+  }
 
-  }
-  .project__show__container {
-    // min-height: 140vh !important;
-  }
 }

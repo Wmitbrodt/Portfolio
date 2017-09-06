@@ -7,14 +7,18 @@
   margin-bottom: -200px;
   background-size: cover;
   background-position: center center;
-  background: linear-gradient(rgba(102, 0, 153, 0.5) 30%, rgb(102, 0, 153)),
+  background: linear-gradient(rgba(253,77,122, 0.5) 30%, rgb(253,77,122)),
     url("https://s3-us-west-2.amazonaws.com/portfolio-will/images/yuacatan_1.png");
   height: 100vh;
 }
 
 
 .prof__bg__main {
-  background: linear-gradient(rgb(102, 0, 153) 30%, rgba(102, 0, 153, 1));
+  background: linear-gradient(rgb(253,77,122) 30%, rgba(253,77,122, 1));
+}
+
+.prof__hero__container {
+  background: linear-gradient(rgb(253,77,122) 30%, rgba(253,77,122, 1));
 }
 
 @media screen and (max-width: 576px) {

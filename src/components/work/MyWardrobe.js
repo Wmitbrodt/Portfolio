@@ -18,18 +18,19 @@ class MyWardrobe extends Component {
           </div>
 
         </div>
-        <div className="work__hero__container">
+        <div className="wardrobe__hero__container">
+          <div className="project_hero__container">
+            <div className="box-1">
+              <h1><span>About</span></h1>
+            </div>
 
-          <div className="box-1">
-            <h1><span>About</span></h1>
-          </div>
-
-          <div className="box-2">
-            <h2>
-                myWardobe makes it quick and easy to trade up your closet for the styles you love. Shop and sell brand name and luxury clothing on the go.. and earn rewards while doing it
-                <br />
-                <a target="_blank" rel="noopener noreferrer" href="http://mywardrobeonline.org/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
-              </h2>
+            <div className="box-2">
+              <h2>
+                  myWardobe makes it quick and easy to trade up your closet for the styles you love. Shop and sell brand name and luxury clothing on the go.. and earn rewards while doing it
+                  <br />
+                  <a target="_blank" rel="noopener noreferrer" href="http://mywardrobeonline.org/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
+                </h2>
+            </div>
           </div>
         </div>
 

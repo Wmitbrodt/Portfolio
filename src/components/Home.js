@@ -14,7 +14,7 @@ class Home extends Component {
         <SlideNav />
         <div id="hero">
           <div id="hero__content">
-            <h1 className="banner banner--large">
+            <h1 className="banner">
               <span className="🐙">W</span>
               <span className="🐒">e</span>
               <span className="🏋🏿">b</span>
@@ -28,17 +28,15 @@ class Home extends Component {
               <span className="🍄">p</span>
               <span className="🌞">e</span>
               <span className="☄️">r</span>
-
-              {/* Web Developer */}
             </h1>
 
-              <h2>
-                ...with a love of art, design &amp; psychology.
-              </h2>
+            <h2>
+              ...with a love of art, design &amp; psychology.
+            </h2>
 
-              <Link to="/contact">
-                  <span className="button">Available for freelance work →</span>
-              </Link>
+            <Link to="/contact">
+                <span className="button">Available for freelance work →</span>
+            </Link>
           </div>
 
           <Particles params={{
@@ -224,40 +222,10 @@ class Home extends Component {
         </div>
 
           <div id="home__work">
-            <div>
-              <h2>
-                Recent Work/Projects
-              </h2>
-            </div>
 
-
-            {/* <Link to="/projects/green-eats">
-              <div className="work__item green-eats__hover">
-                 <h3>Green Eats →</h3>
-                 <p>
-                   App that enables users to search for the nearest farm or farmers market near them.
-                 </p>
-              </div>
-            </Link>
-
-            <Link to="/work/heritage-apartments">
-              <div className="work__item">
-                <h3>Victoria Heritage Apartments →</h3>
-                <p>
-                  App created for a 24-unit, 3 building real estate company located in Victoria, British Columbia.
-                </p>
-              </div>
-            </Link>
-
-            <Link to="/work/professor-tripp">
-              <div className="work__item">
-                <h3>Professor Tripp →</h3>
-                <p>
-                  App built using Ruby on Rails. Created for
-                  a full-time anthropology professor at Chaffey College in California.
-                </p>
-              </div>
-          </Link> */}
+            <h2>
+              Recent Work/Projects
+            </h2>
 
           <ol className='blog-list'>
           <li className='work__item'>
@@ -287,6 +255,17 @@ class Home extends Component {
                 <p>
                   App built using Ruby on Rails. Created for
                   a full-time anthropology professor at Chaffey College in California.
+                </p>
+              </div>
+            </Link>
+          </li>
+          <li className='work__item'>
+            <Link to="/work/my-wardrobe">
+              <div className="work__item--content">
+                <h3>MyWardrobe →</h3>
+                <p>
+                  myWardobe makes it quick and easy to trade up your closet for the styles you love.
+                  Shop and sell brand name and luxury clothing on the go.. and earn rewards while doing it.
                 </p>
               </div>
             </Link>
