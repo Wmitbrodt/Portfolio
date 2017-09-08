@@ -17,10 +17,13 @@ class About extends Component {
           <div className="col-left">
             <h3>I love tackling new problems in different ways, by combining my passion for art, code, psychology and technology.</h3>
 
-            <Link className="hover" target="_blank" to="https://s3-us-west-2.amazonaws.com/portfolio-will/documents/will_mitbrodt_cv.pdf">
+            <Link className="hover" target="_blank" to="https://s3-us-west-2.amazonaws.com/portfolio-will/documents/will_mitbrodt_resume.pdf">
                 <span className="span__underline hover">Download CV</span> <span className="arrow-right">→</span>
             </Link>
-           <br /><br /><br /><br />
+
+           <div id="me">
+           </div>
+
           </div>
 
           <div className="col-right">

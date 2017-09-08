@@ -15,7 +15,7 @@ class GreenEats extends Component {
 
           <div className="hero__header">
             <h1>Green Eats</h1>
-            <h2>Node JS</h2>
+            <h2>Node.js</h2>
           </div>
 
         </div>

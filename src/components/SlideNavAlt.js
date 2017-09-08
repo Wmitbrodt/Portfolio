@@ -43,9 +43,9 @@ class SlideNavAlt extends Component {
                   <Link className="nav__item" to="/projects"><li>Projects</li></Link>
                   <Link className="nav__item" to="/contact"><li>Get in touch</li></Link>
                   <div className="nav__icons">
+                    <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/WillMitbrodt"><FontAwesome name='linkedin' /></a>
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/Wmitbrodt"><FontAwesome name='github' /></a>
                     <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/WillMitbrodt"><FontAwesome name='twitter' /></a>
-                    <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/WillMitbrodt"><FontAwesome name='linkedin' /></a>
                   </div>
                 </div>
             </SlidingPane>

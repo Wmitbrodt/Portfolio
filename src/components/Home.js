@@ -196,8 +196,9 @@ class Home extends Component {
               </h2>
 
               <p>
-                I design in the browser with HTML(5), CSS(3) and a touch of JavaScript.
-                I love coding things from scratch, but I can work with front-end frameworks like Bootstrap too.
+                In the front-end I use HTML(5), CSS(3) and a touch of JavaScript. I also use JavaScript libraries
+                such as React.js for building interfaces.
+                In the backend I use frameworks like Ruby on Rails and Node.js.
               </p>
             </div>
 
