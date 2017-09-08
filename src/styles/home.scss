@@ -68,6 +68,7 @@
   animation: pulseBackground 30s infinite;
   overflow: hidden;
   height: 90vh;
+  text-align: center;
 }
 
 canvas {
@@ -180,7 +181,7 @@ canvas {
 #hero__content h2 {
   color: #fff;
   font-size: 1.8em;
-  text-align: left;
+  text-align: center;
   padding: 32px 0 22px 0;
   text-shadow: 3px 3px 0 rgba(0,0,0,0.15);
   font-family: 'Megrim', cursive;
