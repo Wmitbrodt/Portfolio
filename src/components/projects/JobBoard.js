@@ -25,12 +25,12 @@ class JobBoard extends Component {
             </div>
 
             <div className="box-2">
-              <h2>
-                  Ruby on Rails application that allows users to search for job positions based on several different categories.
-                  This was one of the first projects I did, and it really gave me a strong grasp of the M.V.C. architectural pattern.
-                  <br />
-                  <a target="_blank" rel="noopener noreferrer" href="https://wills-jobs-board.herokuapp.com/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
-                </h2>
+              <h3>
+                Ruby on Rails application that allows users to search for job positions based on several different categories.
+                This was one of the first projects I did, and it really gave me a strong grasp of the M.V.C. architectural pattern.
+                <br />
+                <a target="_blank" rel="noopener noreferrer" href="https://wills-jobs-board.herokuapp.com/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
+              </h3>
             </div>
           </div>
         </div>

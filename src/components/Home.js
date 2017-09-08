@@ -163,10 +163,10 @@ class Home extends Component {
           <div id="home__main">
             <div>
               <h2>
-                My Expertise
+                My Skills
               </h2>
               <h3>
-                I've got chops in all phases of the design process.
+                I've got chops in all phases of the development process.
               </h3>
             </div>
 
@@ -180,9 +180,8 @@ class Home extends Component {
             </h2>
 
             <p>
-              I sketch and wireframe interfaces focusing on content structure,
-              intuitive UI patterns and simple interactions.
-              I'm a minimalist who truly believes that less is more.
+              I collaborate with clients and peers to brainstorm and transform ideas into well thought out apps and websites.
+              After all, that's where the majority of amazing user experiences start.
             </p>
 
           </div>
@@ -197,9 +196,8 @@ class Home extends Component {
               </h2>
 
               <p>
-                I sketch and wireframe interfaces focusing on content structure,
-                intuitive UI patterns and simple interactions.
-                I'm a minimalist who truly believes that less is more.
+                I design in the browser with HTML(5), CSS(3) and a touch of JavaScript.
+                I love coding things from scratch, but I can work with front-end frameworks like Bootstrap too.
               </p>
             </div>
 
@@ -213,8 +211,8 @@ class Home extends Component {
               </h2>
 
               <p>
-                I sketch and wireframe interfaces focusing on content structure,
-                intuitive UI patterns and simple interactions.
+                I create unique experiences between the customer and the product.
+                My focus is on content structure, intuitive UI patterns and simple interactions.
                 I'm a minimalist who truly believes that less is more.
               </p>
             </div>

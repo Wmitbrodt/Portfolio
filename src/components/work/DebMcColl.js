@@ -26,13 +26,13 @@ class DebMcColl extends Component {
             </div>
 
             <div className="box-2">
-              <h2>
+              <h3>
                 Deborah McColl is a visual artist located in Victoria BC, Canada. Works include: Paintings, Printmaking, Drawings and Photography.
                 There's something about how gallery spaces are arranged that brings out the best in the pieces.
                 This project attempts to bring the physical gallery experience to a virtual space.
                 <br />
                 <a target="_blank" rel="noopener noreferrer" href="http://www.deborah-mccoll.ca/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
-              </h2>
+              </h3>
             </div>
           </div>
         </div>

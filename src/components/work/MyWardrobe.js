@@ -25,11 +25,11 @@ class MyWardrobe extends Component {
             </div>
 
             <div className="box-2">
-              <h2>
-                  myWardobe makes it quick and easy to trade up your closet for the styles you love. Shop and sell brand name and luxury clothing on the go.. and earn rewards while doing it
-                  <br />
-                  <a target="_blank" rel="noopener noreferrer" href="http://mywardrobeonline.org/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
-                </h2>
+              <h3>
+                My Wardobe makes it quick and easy to trade up your closet for the styles you love. Shop and sell brand name and luxury clothing on the go.. and earn rewards while doing it
+                <br />
+                <a target="_blank" rel="noopener noreferrer" href="http://mywardrobeonline.org/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
+              </h3>
             </div>
           </div>
         </div>
@@ -42,10 +42,10 @@ class MyWardrobe extends Component {
             </div>
 
             <div className="box-2">
-              <h2>
+              <h3>
                 For this project, the vast majority of my job was to transform the existing wire-frames into an interactive front-end.
                 Other contributions included setting up the server, creating the blog, and contact form.
-              </h2>
+              </h3>
             </div>
 
             <div className="box-3">

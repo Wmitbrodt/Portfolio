@@ -29,13 +29,13 @@ class GreenEats extends Component {
             </div>
 
             <div className="box-2">
-              <h2>
-                  Green Eats is a current project I’m working on. It enables users to search for the nearest farm or farmers market near them.
-                  This application has many features including: user authentication, database storage, Ajax REST API,
-                  file uploads, image resizing, sending emails, geocoding addresses, password reset, user accounts and much more.
-                  <br />
-                  <a target="_blank" rel="noopener noreferrer" href="https://wills-green-eats.herokuapp.com/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
-                </h2>
+              <h3>
+                Green Eats is a current project I’m working on. It enables users to search for the nearest farm or farmers market near them.
+                This application has many features including: user authentication, database storage, Ajax REST API,
+                file uploads, image resizing, sending emails, geocoding addresses, password reset, user accounts and much more.
+                <br />
+                <a target="_blank" rel="noopener noreferrer" href="https://wills-green-eats.herokuapp.com/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
+              </h3>
             </div>
           </div>
         </div>

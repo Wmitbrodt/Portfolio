@@ -91,12 +91,12 @@
   1st child
 *************/
 .slide-pane__content .nav__item:nth-child(1) li {
-  color: $main-color;
+  color: $fourth-color;
 }
 
 .slide-pane__content .nav__item:nth-child(1) li:hover {
   @include transition(all 0.2s);
-  background: $main-color-tint !important;
+  background: $fourth-color-tint !important;
 }
 
 /*********
@@ -127,24 +127,24 @@
   4th child
 *************/
 .slide-pane__content .nav__item:nth-child(4) li {
-  color: rgb(119,100,173);
+  color: $fifth-color;
 }
 
 .slide-pane__content .nav__item:nth-child(4) li:hover {
   @include transition(all 0.2s);
-  background: rgb(243,241,248);
+  background: $fifth-color-tint;
 }
 
 /*********
   5th child
 *************/
 .slide-pane__content .nav__item:nth-child(5) li {
-  color: $fourth-color;
+  color: $main-contact-color;
 }
 
 .slide-pane__content .nav__item:nth-child(5) li:hover {
   @include transition(all 0.2s);
-  background: $fourth-color-tint;
+  background: $main-color-tint;
 }
 
 

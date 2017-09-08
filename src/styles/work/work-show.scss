@@ -66,9 +66,13 @@
   z-index: 1;
 }
 
-.box-2 h2 {
+.box-2 h3 {
   margin: 0;
   font-size: 1.2em;
+  font-weight: 300 !important;
+  color: #fff;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  padding: 20px 20px 20px;
 }
 
 
@@ -165,7 +169,7 @@
     font-size: 1.8em;
     padding: 5% 0 5% 0;
   }
-  .box-2 > h2 {
+  .box-2 > h3 {
     font-size: 1em;
     padding: 5% 0 5% 0;
   }
@@ -192,7 +196,7 @@
   .hero__header h2 {
     font-size: 1.8em;
   }
-  .box-2 > h2 {
+  .box-2 > h3 {
     padding: 5% 0 5% 0;
   }
   .box-1 > h1 {

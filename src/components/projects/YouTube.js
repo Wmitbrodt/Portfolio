@@ -25,13 +25,13 @@ class YouTube extends Component {
             </div>
 
             <div className="box-2">
-              <h2>
-                  A mini react application that utilizes YouTube’s API to fetch videos.
-                  It is able to instantly search for any video on YouTube’s vast library and instantly play them.
-                  It was built using React, Node, and Bootstrap.
-                  <br />
-                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/Wmitbrodt/youtubeSearchAPI"><span>Check it out on Github</span></a> <FontAwesome name='long-arrow-right' />
-                </h2>
+              <h3>
+                A mini react application that utilizes YouTube’s API to fetch videos.
+                It is able to instantly search for any video on YouTube’s vast library and instantly play them.
+                It was built using React, Node, and Bootstrap.
+                <br />
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/Wmitbrodt/youtubeSearchAPI"><span>Check it out on Github</span></a> <FontAwesome name='long-arrow-right' />
+              </h3>
             </div>
           </div>
         </div>

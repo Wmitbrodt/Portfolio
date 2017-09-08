@@ -25,7 +25,7 @@ class ProfessorTripp extends Component {
             </div>
 
             <div className="box-2">
-              <h2>
+              <h3>
                   Professor Tripp is a web application I built using Ruby on Rails. It was created for
                   a full-time anthropology professor at Chaffey College in California. While conduction research for
                   this project, I immediately noticed that most professor website's are dull and dry.
@@ -34,7 +34,7 @@ class ProfessorTripp extends Component {
                   Grid, SEO, and much more.
                   <br />
                   <a target="_blank" rel="noopener noreferrer" href="http://www.professor-tripp.com/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
-              </h2>
+              </h3>
             </div>
           </div>
         </div>

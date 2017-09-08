@@ -26,14 +26,14 @@ class Slackr extends Component {
             </div>
 
             <div className="box-2">
-              <h2>
-                  I really wanted to challenge myself so I decided to create a slack clone that allows users to send
-                  and receive messages in real time. This application opens an interactive communication session between
-                  the user’s browser and the server using web sockets. Slackr was built using: Express, Node, React, Redux,
-                  Socket IO and MongoDB.
-                  <br />
-                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/Wmitbrodt/Slackr"><span>Check it out on Github</span></a> <FontAwesome name='long-arrow-right' />
-                </h2>
+              <h3>
+                I really wanted to challenge myself so I decided to create a slack clone that allows users to send
+                and receive messages in real time. This application opens an interactive communication session between
+                the user’s browser and the server using web sockets. Slackr was built using: Express, Node, React, Redux,
+                Socket IO and MongoDB.
+                <br />
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/Wmitbrodt/Slackr"><span>Check it out on Github</span></a> <FontAwesome name='long-arrow-right' />
+              </h3>
             </div>
           </div>
         </div>

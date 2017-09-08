@@ -25,14 +25,14 @@ class Recipes extends Component {
             </div>
 
             <div className="box-2">
-              <h2>
-                  My very first Ruby on Rails application.
-                  I decided to implement many of the things I had learnt into a working application.
-                  Users can upload files, and create recipes, and dynamically add and delete ingredients/directions.
-                  It also has user authentication and authorization with devise.
-                  <br />
-                  <a target="_blank" rel="noopener noreferrer" href="https://wills-recipes.herokuapp.com/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
-                </h2>
+              <h3>
+                My very first Ruby on Rails application.
+                I decided to implement many of the things I had learnt into a working application.
+                Users can upload files, and create recipes, and dynamically add and delete ingredients/directions.
+                It also has user authentication and authorization with devise.
+                <br />
+                <a target="_blank" rel="noopener noreferrer" href="https://wills-recipes.herokuapp.com/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
+              </h3>
             </div>
           </div>
         </div>

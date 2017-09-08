@@ -25,12 +25,12 @@ class HeritageApartments extends Component {
             </div>
 
             <div className="box-2">
-              <h2>
+              <h3>
                 Victoria Heritage Apartments is a 24-unit, 3 building real estate company located in Victoria, British Columbia. This application has many features
                 including: user authentication, user authorization, S3 file uploads, Google Maps and much more.
                   <br />
                   <a target="_blank" rel="noopener noreferrer" href="http://www.heritageapartments.ca/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
-              </h2>
+              </h3>
             </div>
           </div>
         </div>

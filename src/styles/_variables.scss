@@ -25,7 +25,9 @@ $slide-nav-text-color: rgb(32,185,160);
 $slide-nav-alt-color: #5c5c5c;
 
 
+
 /* HOME */
+$home-main-background-color: rgb(32,54,71);
 $main-color: rgb(32,185,160);
 $main-color-tint: rgb(223,249,245);
 
@@ -38,6 +40,9 @@ $third-color-tint: #e7f7ff;
 $fourth-color: rgb(255,153,16);
 $fourth-color-tint: rgb(255,245,232);
 
+$fifth-color: rgb(119,100,173);
+$fifth-color-tint: rgb(243,241,248);
+
 $header-text-dark-color: #5c5c5c;
 $supporting-text-dark-color: #787f8c;
 
@@ -46,11 +51,11 @@ $main-about-color: rgb(65,132,243);
 $about-text-color: #fff;
 /* WORK */
 $main-work-color: #fff;
-$work-text-color: rgb(32,185,160);
+$work-text-color: $secondary-color;
 
 /* PROJECTS */
-$main-project-color: #fff;
-$project-text-color: rgb(65,132,243);
+$main-project-color: $fifth-color-tint;
+$project-text-color: $fifth-color;
 
 /* CONTACT */
 $main-contact-color: rgb(32,185,160);

@@ -182,7 +182,8 @@ canvas {
   font-size: 1.8em;
   text-align: left;
   padding: 32px 0 22px 0;
-  text-shadow: 3px 3px 0 rgba(0,0,0,0.15) !important;
+  text-shadow: 3px 3px 0 rgba(0,0,0,0.15);
+  font-family: 'Megrim', cursive;
 }
 
 
@@ -232,11 +233,11 @@ canvas {
 
 #home__main h2:nth-child(1) {
   padding-top: 5%;
-  font-size: 2.2em;
+  font-size: 2em;
 }
 
 #home__main h2 {
-  font-size: 2em;
+  font-size: 1.8em;
 }
 
 
@@ -292,17 +293,11 @@ canvas {
   text-align: left;
   width: 100%;
   margin-bottom: 20px;
-  color: #333;
-  padding: 0 15% 0 15%;
-}
-
-#home__work h2 {
-  font-size: 2.2em;
-  margin-top: 36px;
-  margin-bottom: 2px;
+  margin-top: 3vh;
   color: $header-text-dark-color;
+  padding: 0 15% 0 15%;
+  font-size: 1.8em;
 }
-
 
 .work__item--content {
   padding: 1em 0 1em 0;
@@ -376,8 +371,6 @@ canvas {
   color: $supporting-text-dark-color;
   padding: 0 15% 0 15%;
 }
-
-
 
 #home__work .fa {
   font-size: .5em;
@@ -472,8 +465,7 @@ canvas {
      padding: 0 5% 5% 5%;
      margin-top: -2.6rem;
    }
-   .home__work > h2 {
-     padding: 0 5% 5% 5%;
-     background: blue;
+   #home__work > h2 {
+     padding: 0 5% 0 5%;
    }
 }

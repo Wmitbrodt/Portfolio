@@ -87,7 +87,6 @@ a {
   font-weight: normal;
   font-size: 18px;
   border-bottom: 1px solid;
-  // text-shadow: 3px 3px 0 rgba(0,0,0,0.15) !important;
   z-index: 99;
 }
 
@@ -95,15 +94,25 @@ h1 {
   font-family: 'Megrim', cursive;
 }
 
-h2, h3, h4, h5, p, li {
-  font-family: 'Encode Sans', sans-serif;
-  font-weight: 300;
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
   line-height: 1.7;
-  // text-shadow: 0 0 40px rgba(0,0,0, 0.2);
+}
+
+h3, h4, h5 {
+  
+}
+
+li {
+  font-family: "Avenir Next", "Avenir", sans-serif;
 }
 
 p {
   font-size: 1em !important;
+  font-weight: 300;
+  line-height: 1.7;
 }
 
 .fa {

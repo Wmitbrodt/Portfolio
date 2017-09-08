@@ -25,13 +25,13 @@ class RetroVideoGames extends Component {
             </div>
 
             <div className="box-2">
-              <h2>
-                  Retro Video Game Reviews is a Ruby on Rails application that has the ability to search with Elasticsearch,
-                  upload files, and create reviews with one to many associations. It also has user authentication and
-                  authorization with devise.
-                  <br />
-                  <a target="_blank" rel="noopener noreferrer" href="https://wills-videogames.herokuapp.com/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
-                </h2>
+              <h3>
+                Retro Video Game Reviews is a Ruby on Rails application that has the ability to search with Elasticsearch,
+                upload files, and create reviews with one to many associations. It also has user authentication and
+                authorization with devise.
+                <br />
+                <a target="_blank" rel="noopener noreferrer" href="https://wills-videogames.herokuapp.com/"><span>See it live</span></a> <FontAwesome name='long-arrow-right' />
+              </h3>
             </div>
           </div>
         </div>
