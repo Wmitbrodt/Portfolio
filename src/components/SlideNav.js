@@ -38,9 +38,6 @@ class SlideNav extends Component {
                 onRequestClose={ () => this.setState({ isPaneOpenRight: false }) }>
                   <div>
                     <Link className="nav__item" to="/"><li>Home</li></Link>
-                    <Link className="nav__item" to="/about"><li>About</li></Link>
-                    <Link className="nav__item" to="/work"><li>Work</li></Link>
-                    <Link className="nav__item" to="/projects"><li>Projects</li></Link>
                     <Link className="nav__item" to="/contact"><li>Get in touch</li></Link>
                     <div className="nav__icons">
                       <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/WillMitbrodt"><FontAwesome name='linkedin' /></a>
