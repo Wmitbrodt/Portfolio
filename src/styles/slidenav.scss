@@ -87,6 +87,13 @@
   padding-left: 40px;
 }
 
+@media screen and (min-width: 576px) {
+  #menuToggle, #logo, #logo-alt {
+    display: none;
+  }
+}
+
+
 /*********************
  li colors
 ***********************/

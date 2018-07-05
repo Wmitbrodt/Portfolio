@@ -64,8 +64,9 @@
   border-bottom: 2px solid rgba(255, 255, 255, 0.15);
   padding-bottom: 15%;
   position: relative;
-  -webkit-animation: pulseBackground 30s infinite;
-  animation: pulseBackground 30s infinite;
+  // -webkit-animation: pulseBackground 30s infinite;
+  // animation: pulseBackground 30s infinite;
+  background: #fff;
   overflow: hidden;
   height: 90vh;
   text-align: center;
@@ -86,14 +87,20 @@ canvas {
   z-index: 90;
 }
 #hero__content h1 {
-  color: #fff;
+  color: $home-main-background-color;
   font-size: 6em;
   text-align: left;
-  margin-top: 30vh;
-  text-shadow: 3px 3px 0 rgba(0,0,0,0.15) !important;
+  margin-top: 26vh;
+  text-shadow: 3px 3px 0 rgba(253,77,122, .3) !important;
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
   text-transform: uppercase;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 
 .banner {
@@ -115,6 +122,7 @@ canvas {
     transform: translateY(90%) rotate(-0.3deg);
     width: 102%;
     background: $main-color;
+    opacity: 0.4;
     left: -1%;
     z-index: -1;
     box-shadow: 0 0 10px rgba(0,0,0,0.4);
@@ -134,10 +142,10 @@ canvas {
 
 .button {
   display: inline-block;
-  font-size: 1.2em;
+  font-size: 1.1em;
   text-decoration: none;
   color: #fff;
-  font-family: 'settledown';
+  font-family: 'Open Sans', sans-serif;
   line-height: 1;
   position: relative;
   z-index: 10;
@@ -165,7 +173,7 @@ canvas {
 }
 
 .button:after {
-  background: $secondary-color;
+  background: $home-main-background-color;
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
   display: block;
@@ -179,18 +187,66 @@ canvas {
 }
 
 #hero__content h2 {
-  color: #fff;
+  color: $home-main-background-color;
   font-size: 1.8em;
   text-align: center;
   padding: 32px 0 22px 0;
-  text-shadow: 3px 3px 0 rgba(0,0,0,0.15);
   font-family: 'Megrim', cursive;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 
 
 #hero__content a {
   position: relative;
   z-index: 999;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+/****************** TINY BOARDS *****************/
+// span.🐙 {
+//   @include transition(all 0.2s);
+//   &:hover {
+//     color: red;
+//   }
+// }
+
+mark {
+  color: #203647;
+  position: relative;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+  text-shadow: 1px 1px 0 rgba(253,77,122, .3);
+  white-space: nowrap;
+  background: none;
+  @include transition(all 0.2s);
+  &:hover {
+    -webkit-transform: scale(1.1) rotate(1deg);
+    transform: scale(1.1) rotate(1deg);
+  }
+}
+
+mark:after {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 2px;
+    width: 105%;
+    margin-left: -2.5%;
+    background: $main-color;
+    opacity: 0.4;
+    -webkit-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+    content: '';
 }
 
 /****************** HOME MAIN *******************/
@@ -376,6 +432,8 @@ canvas {
 #home__work .fa {
   font-size: .5em;
 }
+
+
 
 
 /******************* MEDIA QUERIES *************/

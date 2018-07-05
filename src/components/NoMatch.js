@@ -10,12 +10,12 @@ class NoMatch extends Component {
         <h2>
           OOPS! <FontAwesome name='chain-broken' />
         </h2>
-        <h4>
-          LOOKS LIKE YOU LANDED ON A PAGE THAT DOESN'T EXIST (YET).
-        </h4>
+        <h3>
+          It appears you wound up on a page that doesn't exist...yet.
+        </h3>
         <h5>
           <Link to="/">
-            Want to <span>return home</span>?
+            You can always return <span>home</span>?
           </Link>
         </h5>
         <h1>

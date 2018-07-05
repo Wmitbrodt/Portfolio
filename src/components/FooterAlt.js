@@ -9,7 +9,7 @@ class FooterAlt extends Component {
     return (
       <div>
         <footer className="footer__container--alt">
-          <p>made by me <FontAwesome name='copyright' /> 2017.</p>
+          <p>made by me <FontAwesome name='copyright' /> 2018.</p>
 
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/Wmitbrodt"><FontAwesome name='github' /></a>
           <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/WillMitbrodt"><FontAwesome name='twitter' /></a>
