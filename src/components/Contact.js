@@ -25,6 +25,7 @@ class Contact extends Component {
             <Link className="hover" target="_blank" to="mailto:wmitbrodt@gmail.com">
                 <span className="span__underline hover">Send me an email</span> <span className="arrow-right">→</span>
             </Link>
+            <p className="tiny">&#40;click here if you hate filling out forms&#41;</p>
            <br /><br /><br /><br />
 
           </div>

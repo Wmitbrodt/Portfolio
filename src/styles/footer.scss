@@ -16,13 +16,13 @@
 }
 
 #footer__section {
-  background: #fff;
+  background: #000;
 }
 
 .footer__container > p {
   text-align: left;
   display: inline-block;
-  color: $supporting-text-dark-color;
+  color: #fff;
   float: left;
   margin: 0;
   padding-top: 10px;
@@ -47,7 +47,7 @@
 }
 
 .footer__container .fa {
-  color: $header-text-dark-color;
+  color: #fff;
 }
 
 

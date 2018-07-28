@@ -29,9 +29,9 @@ class Home extends Component {
               <span className="🌞">t</span>
             </h1>
 
-            <h2>
-              Software developer at <a target="_blank" rel="noopener noreferrer" href="http://tinyboards.co/"><mark>Tiny Boards.</mark></a>
-            </h2>
+            <h3>
+              Currently based in Victoria, BC, I'm a Software Developer at <a target="_blank" rel="noopener noreferrer" href="http://tinyboards.co/"><mark>Tiny Boards.</mark></a>
+            </h3>
 
             <Link to="/contact">
                 <span className="button">Get in touch →</span>
@@ -48,7 +48,7 @@ class Home extends Component {
       }
     },
     "color": {
-      "value": ["#20b9a0", "#fd4d7a", "#4184f3", "#7764ad"]
+      "value": ["#4f9aff", "#5c4fff", "#b44fff", "#4f9aff"]
     },
     "shape": {
       "type": "circle",
