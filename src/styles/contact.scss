@@ -17,9 +17,9 @@
 @keyframes pulseBackground {
   0% { background: #601ed7 }
 
-  25% { background: f }
+  25% { background: #bd1ed7 }
   //
-  75% { background: #1e39d7 }
+  75% { background: #bd1ed7 }
   //
   100% { background: #601ed7 }
   //
@@ -35,7 +35,8 @@
   // background: $main-contact-color;
   // -webkit-animation: pulseBackground 30s infinite;
   // animation: pulseBackground 30s infinite;
-  background: #000;
+  // background: #000;
+  background: linear-gradient(to right, rgb(96, 30, 215) 10%, rgba(96, 30, 215, 0.8) 100%);
 }
 
 #contact__container h1 {

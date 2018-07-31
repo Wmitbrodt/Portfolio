@@ -48,7 +48,7 @@ class Home extends Component {
       }
     },
     "color": {
-      "value": ["#4f9aff", "#5c4fff", "#b44fff", "#4f9aff"]
+      "value": ["#1e39d7", "#601ed7", "#bd1ed7", "#1ed760"]
     },
     "shape": {
       "type": "circle",
