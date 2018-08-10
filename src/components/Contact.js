@@ -42,7 +42,7 @@ class Contact extends Component {
             </div>
           </div>
         </div>
-      <FooterAlt />
+      {/* <FooterAlt /> */}
     </div>
     );
   }
