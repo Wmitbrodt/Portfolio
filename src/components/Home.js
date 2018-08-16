@@ -30,13 +30,17 @@ class Home extends Component {
             </h1>
 
             <h3>
-              Currently based in Victoria, BC, I'm a Software Developer at <a target="_blank" rel="noopener noreferrer" href="http://tinyboards.co/"><mark>Tiny Boards.</mark></a>
+              Currently based in Victoria, BC, I'm a Full-Stack Web Developer at <a target="_blank" rel="noopener noreferrer" href="http://tinyboards.co/"><mark>Tiny Boards.</mark></a>
             </h3>
 
             <Link to="/contact">
                 <span className="button">Get in touch →</span>
             </Link>
           </div>
+
+          <div id="footer__section">
+           <Footer />
+         </div>
 
           <Particles params={{
             "particles": {
@@ -157,11 +161,9 @@ class Home extends Component {
 
 
 
+
         </div>
 
-          {/* <div id="footer__section">
-            <Footer />
-          </div> */}
       </div>
 
     )

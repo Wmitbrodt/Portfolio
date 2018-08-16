@@ -38,12 +38,12 @@
 }
 
 #hero {
-  border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+  // border-bottom: 2px solid rgba(255, 255, 255, 0.15);
   padding-bottom: 15%;
   position: relative;
   background: $home-main-background-color;
   overflow: hidden;
-  height: 90vh;
+  height: 100vh;
   text-align: center;
 }
 
@@ -222,6 +222,35 @@ mark:after {
     -webkit-transform: rotate(-1deg);
     transform: rotate(-1deg);
     content: '';
+}
+
+#hero__content h3 mark {
+  color: #fff;
+  position: relative;
+  // text-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+  // text-shadow: 1px 1px 0 rgba(253,77,122, .3);
+  white-space: nowrap;
+  background: none;
+  @include transition(all 0.2s);
+  &:hover {
+    -webkit-transform: scale(1.1) rotate(1deg);
+    transform: scale(1.1) rotate(1deg);
+  }
+}
+
+#hero__content h3 mark:after {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  height: 2px;
+  width: 105%;
+  margin-left: -2.5%;
+  background: $main-color;
+  opacity: 1;
+  -webkit-transform: rotate(-1deg);
+  transform: rotate(-1deg);
+  content: '';
 }
 
 /****************** HOME MAIN *******************/
